@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CYUSB3014
+D SuperSpeed USB Controller
+F https://www.cypress.com/file/140296/download
+$ENDCMP
+#
+#End Doc Library

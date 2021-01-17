@@ -1,12 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CYUSB3014
-D SuperSpeed USB Controller
-F https://www.cypress.com/file/140296/download
-$ENDCMP
-#
 $CMP XA7Z020-1CLG400Q
 D Processors - Application Specialized XA7Z020-1CLG400Q
+K
 F http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf
 $ENDCMP
 #

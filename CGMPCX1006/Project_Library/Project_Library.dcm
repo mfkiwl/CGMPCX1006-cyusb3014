@@ -5,6 +5,15 @@ D SuperSpeed USB Controller
 F https://www.cypress.com/file/140296/download
 $ENDCMP
 #
+$CMP LTC1668CGPBF
+D DAC
+$ENDCMP
+#
+$CMP LTC2387CUH-18#PBF
+D LINEAR TECHNOLOGY - LTC2387CUH-18#PBF - ADC, 18BIT, 15MSPS, SERIAL, QFN-32
+F http://www.linear.com/docs/47054
+$ENDCMP
+#
 $CMP XA7Z020-1CLG400Q
 D Processors - Application Specialized XA7Z020-1CLG400Q
 F http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf

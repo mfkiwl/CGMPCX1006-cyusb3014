@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP5052ACPZ-R7
+D Quad Buck Regulators 200mA LDO LFCSP48EP Analog Devices, ADP5052ACPZ-R7 Switching Regulator 5-channel 1.2 A, 4 A, 200 mA Adj./Fixed
+K
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5052.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,4 @@
-19032493606972337
+19034104864264899
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59947,6 +59947,13 @@ BGA-1295
 0
 1295
 1295
+Package_BGA
+BGA96C80P9X16_750X1350X120
+96 BALL- FBGA+
+Integrated Circuit
+0
+96
+96
 Package_BGA
 BGA121C80P11X11_1000X1000X120
 121-ball BGA

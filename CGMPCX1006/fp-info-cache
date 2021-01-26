@@ -1,4 +1,4 @@
-19034104864264899
+19037327808485449
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -63413,12 +63413,26 @@ QFN NoLead
 103
 77
 Package_DFN_QFN
+QFN50P400X400X80-25N-D
+RTW (S-PWQFN-N24)_1
+Integrated Circuit
+0
+25
+25
+Package_DFN_QFN
 QFN50P500X500X80-33N-D
 UH (32-Lead QFN)
 Integrated Circuit
 0
 33
 33
+Package_DFN_QFN
+QFN50P700X700X80-49N-D
+CP-48-13 (LFCSP)
+Integrated Circuit
+0
+49
+49
 Package_DFN_QFN
 Qorvo_DFN-8-1EP_2x2mm_P0.5mm
 DFN 8 2x2mm, 0.5mm http://www.qorvo.com/products/d/da000896

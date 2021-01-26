@@ -20,6 +20,11 @@ D SuperSpeed USB Controller
 F https://www.cypress.com/file/140296/download
 $ENDCMP
 #
+$CMP DP83869HMRGZT
+D Extended temperature, high-immunity gigabit Ethernet PHY transceiver with copper & fiber interface
+F http://www.ti.com/lit/gpn/DP83869HM
+$ENDCMP
+#
 $CMP LTC1668CGPBF
 D DAC
 $ENDCMP

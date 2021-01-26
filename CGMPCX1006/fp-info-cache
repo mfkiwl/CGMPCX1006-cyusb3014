@@ -1,4 +1,4 @@
-19037327808485449
+19040558789755695
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -7873,7 +7873,7 @@ microSD_HC_Molex_104031-0811
 microSD SD molex
 0
 14
-11
+9
 Connector_Card
 microSD_HC_Wuerth_693072010801
 http://katalog.we-online.de/em/datasheet/693072010801.pdf
@@ -40614,6 +40614,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_Amphenol_RJMG2012211A0FR
+1 Port RJ45 Magjack Connector Board Edge, Through Hole 10/100/1000 Base-T, AutoMDIX
+Connector
+0
+18
+18
+Connector_RJ
 RJ45_BEL_SS74301-00x_Vertical
 https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-74301-001-ss-74301-002-ss-74301-005.pdf
 RJ45 Vertical Shield LED Green Yellow
@@ -63429,6 +63436,13 @@ Integrated Circuit
 Package_DFN_QFN
 QFN50P700X700X80-49N-D
 CP-48-13 (LFCSP)
+Integrated Circuit
+0
+49
+49
+Package_DFN_QFN
+QFN50P700X700X100-49N-D
+RGZ0048B_
 Integrated Circuit
 0
 49

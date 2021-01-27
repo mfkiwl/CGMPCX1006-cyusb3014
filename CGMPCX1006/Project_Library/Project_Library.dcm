@@ -25,6 +25,11 @@ D Extended temperature, high-immunity gigabit Ethernet PHY transceiver with copp
 F http://www.ti.com/lit/gpn/DP83869HM
 $ENDCMP
 #
+$CMP DS3231S#
+D Real Time Clock Serial Maxim DS3231S#, Real Time Clock Serial-I2C, 16-Pin SOIC
+F https://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+$ENDCMP
+#
 $CMP LTC1668CGPBF
 D DAC
 $ENDCMP

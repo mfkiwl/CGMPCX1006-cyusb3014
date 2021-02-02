@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TXS02612RTWR
-D SDIO Port Expander With Voltage-Level Translation
-K
-F http://www.ti.com/lit/gpn/txs02612
-$ENDCMP
-#
-#End Doc Library

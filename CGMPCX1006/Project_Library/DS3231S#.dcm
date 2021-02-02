@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DS3231S#
-D Real Time Clock Serial Maxim DS3231S#, Real Time Clock Serial-I2C, 16-Pin SOIC
-K
-F https://datasheets.maximintegrated.com/en/ds/DS3231.pdf
-$ENDCMP
-#
-#End Doc Library

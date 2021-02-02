@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DP83869HMRGZT
-D Extended temperature, high-immunity gigabit Ethernet PHY transceiver with copper & fiber interface
-K
-F http://www.ti.com/lit/gpn/DP83869HM
-$ENDCMP
-#
-#End Doc Library

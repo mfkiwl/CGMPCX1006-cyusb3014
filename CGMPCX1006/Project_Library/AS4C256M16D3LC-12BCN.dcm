@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AS4C256M16D3LC-12BCN
-D 256M x 16 bit DDR3L Synchronous DRAM (SDRAM)
-K
-F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/AllianceMemory_4G_DDR3L_AS4C256M16D3LC_March2020_Rev1.0.pdf
-$ENDCMP
-#
-#End Doc Library

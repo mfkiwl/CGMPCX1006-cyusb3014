@@ -80,7 +80,7 @@ F0 "RTC_FAN" 157
 F1 "RTC_FAN.sch" 157
 $EndSheet
 $Sheet
-S 17800 10100 2900 3500
+S 17000 3700 2900 3500
 U 601DF0A6
 F0 "Power_Supply" 157
 F1 "Power_Supply.sch" 157

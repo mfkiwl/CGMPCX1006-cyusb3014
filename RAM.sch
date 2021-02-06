@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GM_Memory_RAM:AS4C256M16D3LC-12BCN U?
+L GM_Memory_RAM:AS4C256M16D3LC-12BCN U2
 U 1 1 601BEFCE
 P 3100 800
-F 0 "U?" H 3650 965 50  0000 C CNN
+F 0 "U2" H 3650 965 50  0000 C CNN
 F 1 "AS4C256M16D3LC-12BCN" H 3650 874 50  0000 C CNN
 F 2 "BGA96C80P9X16_750X1350X120" H 5250 1000 50  0001 L CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/AllianceMemory_4G_DDR3L_AS4C256M16D3LC_March2020_Rev1.0.pdf" H 5250 900 50  0001 L CNN
@@ -25,10 +25,10 @@ F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/AllianceMemory_4
 	1    0    0    -1  
 $EndComp
 $Comp
-L GM_Memory_RAM:AS4C256M16D3LC-12BCN U?
+L GM_Memory_RAM:AS4C256M16D3LC-12BCN U3
 U 1 1 601E10B7
 P 7200 800
-F 0 "U?" H 7750 965 50  0000 C CNN
+F 0 "U3" H 7750 965 50  0000 C CNN
 F 1 "AS4C256M16D3LC-12BCN" H 7750 874 50  0000 C CNN
 F 2 "BGA96C80P9X16_750X1350X120" H 9350 1000 50  0001 L CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/AllianceMemory_4G_DDR3L_AS4C256M16D3LC_March2020_Rev1.0.pdf" H 9350 900 50  0001 L CNN

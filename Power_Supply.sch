@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GM_Voltage_Regulators:ADP5052ACPZ-R7 U5
+L Digital_Board-rescue:ADP5052ACPZ-R7-GM_Voltage_Regulators U5
 U 1 1 601DF1D0
 P 4500 900
+AR Path="/601DF1D0" Ref="U5"  Part="1" 
+AR Path="/601DF0A6/601DF1D0" Ref="U5"  Part="1" 
 F 0 "U5" H 5100 1065 50  0000 C CNN
 F 1 "ADP5052ACPZ-R7" H 5100 974 50  0000 C CNN
 F 2 "QFN50P700X700X80-49N-D" H 7050 2000 50  0001 L CNN

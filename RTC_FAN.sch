@@ -294,13 +294,9 @@ Text Notes 4750 1300 2    50   ~ 0
 tR = 300 : 1000 nS\ncB = 400 pF\n\nR = tR/cB
 Text Label 2500 3600 0    50   ~ 0
 RTC_RST
-Wire Wire Line
-	4300 3500 5050 3500
-Wire Wire Line
-	5050 3500 5050 3650
 Text Label 4500 3100 0    50   ~ 0
 RTC_SQW
-Text Label 4550 3300 0    50   ~ 0
+Text Label 4500 3300 0    50   ~ 0
 RTC_OSC_OUT
 Text GLabel 2250 3300 0    50   Input ~ 0
 RTC_SCL
@@ -396,15 +392,33 @@ Wire Wire Line
 $Comp
 L power:GNDD #PWR?
 U 1 1 6025F3F3
-P 5050 3900
+P 4600 3900
 AR Path="/601DF0A6/6025F3F3" Ref="#PWR?"  Part="1" 
 AR Path="/601E7C5A/6025F3F3" Ref="#PWR?"  Part="1" 
 AR Path="/601E7CC8/6025F3F3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5050 3650 50  0001 C CNN
-F 1 "GNDD" H 5054 3745 50  0000 C CNN
-F 2 "" H 5050 3900 50  0001 C CNN
-F 3 "" H 5050 3900 50  0001 C CNN
-	1    5050 3900
+F 0 "#PWR?" H 4600 3650 50  0001 C CNN
+F 1 "GNDD" H 4604 3745 50  0000 C CNN
+F 2 "" H 4600 3900 50  0001 C CNN
+F 3 "" H 4600 3900 50  0001 C CNN
+	1    4600 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L GM_Battery_Holders_n_Contacts:BU2032SM-HD-G U?
+U 1 1 6022F346
+P 4800 3600
+F 0 "U?" H 5328 3496 50  0000 L CNN
+F 1 "BU2032SM-HD-G" H 5328 3405 50  0000 L CNN
+F 2 "BU2032SM-HD-G" H 5450 3700 50  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BU2032SM-HD-G-datasheet.pdf" H 5450 3600 50  0001 L CNN
+F 4 "BU2032SM-HD-G" H 5800 3600 50  0001 C CNN "MPN"
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3500 4600 3700
+Wire Wire Line
+	4600 3800 4600 3900
+Wire Wire Line
+	4600 3500 4300 3500
 $EndSCHEMATC

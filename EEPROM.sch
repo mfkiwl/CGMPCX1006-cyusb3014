@@ -61,29 +61,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 3900 2500 3900
 $Comp
-L Device:C_Small C1
-U 1 1 601D8FE6
-P 1250 1500
-F 0 "C1" H 1342 1546 50  0000 L CNN
-F 1 "C_Small" H 1342 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1250 1500 50  0001 C CNN
-F 3 "~" H 1250 1500 50  0001 C CNN
-F 4 "" H 1250 1500 50  0000 C CNN "Voltage"
-	1    1250 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R1
-U 1 1 601D9F52
-P 1950 1500
-F 0 "R1" H 2018 1546 50  0000 L CNN
-F 1 "R_Small_US" H 2018 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1950 1500 50  0001 C CNN
-F 3 "~" H 1950 1500 50  0001 C CNN
-	1    1950 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C2
 U 1 1 601DC16C
 P 3100 3050
@@ -247,4 +224,27 @@ Wire Wire Line
 	7500 2750 7700 2750
 Wire Wire Line
 	7900 2750 7900 3050
+$Comp
+L Device:R_Small_US R1
+U 1 1 601D9F52
+P 1950 1500
+F 0 "R1" H 2018 1546 50  0000 L CNN
+F 1 "R_Small_US" H 2018 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1950 1500 50  0001 C CNN
+F 3 "~" H 1950 1500 50  0001 C CNN
+	1    1950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 601D8FE6
+P 1250 1500
+F 0 "C1" H 1342 1546 50  0000 L CNN
+F 1 "C_Small" H 1342 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1250 1500 50  0001 C CNN
+F 3 "~" H 1250 1500 50  0001 C CNN
+F 4 "" H 1250 1500 50  0000 C CNN "Voltage"
+	1    1250 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

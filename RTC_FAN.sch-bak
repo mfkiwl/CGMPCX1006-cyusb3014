@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 12 14
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -296,7 +296,7 @@ Text Label 2500 3600 0    50   ~ 0
 RTC_RST
 Text Label 4500 3100 0    50   ~ 0
 RTC_SQW
-Text Label 4550 3300 0    50   ~ 0
+Text Label 4500 3300 0    50   ~ 0
 RTC_OSC_OUT
 Text GLabel 2250 3300 0    50   Input ~ 0
 RTC_SCL

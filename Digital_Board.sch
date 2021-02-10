@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -84,5 +84,11 @@ S 17000 3700 2900 3500
 U 601DF0A6
 F0 "Power_Supply" 157
 F1 "Power_Supply.sch" 157
+$EndSheet
+$Sheet
+S 13950 6300 2450 2750
+U 60256C5F
+F0 "48V_12V_Buck" 157
+F1 "48V_12V_Buck.sch" 157
 $EndSheet
 $EndSCHEMATC

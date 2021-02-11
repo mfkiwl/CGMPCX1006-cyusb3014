@@ -298,16 +298,6 @@ Text Label 4500 3100 0    50   ~ 0
 RTC_SQW
 Text Label 4500 3300 0    50   ~ 0
 RTC_OSC_OUT
-Text GLabel 2250 3300 0    50   Input ~ 0
-RTC_SCL
-Text GLabel 2250 3400 0    50   Input ~ 0
-RTC_SDA
-Text GLabel 2250 3600 0    50   Input ~ 0
-RTC_RST
-Text GLabel 5150 3100 2    50   Input ~ 0
-RTC_SQW
-Text GLabel 5150 3300 2    50   Input ~ 0
-RTC_OSC_OUT
 Wire Wire Line
 	6450 1650 5800 1650
 Wire Wire Line
@@ -421,4 +411,202 @@ Wire Wire Line
 	4600 3800 4600 3900
 Wire Wire Line
 	4600 3500 4300 3500
+$Comp
+L GM_MOSFET:MCH3481-TL-W Q?
+U 1 1 602539F0
+P 8250 3700
+F 0 "Q?" H 8438 3746 50  0000 L CNN
+F 1 "MCH3481-TL-W" H 8438 3655 50  0000 L CNN
+F 2 "GM_SOT:SOT65P270X085-3N" H 9250 3900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MCH3481-D.PDF" H 8250 4000 50  0001 C CNN
+F 4 "MCH3481-TL-W" H 9050 4000 50  0001 C CNN "MPN"
+	1    8250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60254F0F
+P 7650 3800
+AR Path="/601E7C5A/60254F0F" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60254F0F" Ref="R?"  Part="1" 
+F 0 "R?" H 7718 3846 50  0000 L CNN
+F 1 "10K" H 7718 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7650 3800 50  0001 C CNN
+F 3 "~" H 7650 3800 50  0001 C CNN
+	1    7650 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60254F16
+P 7900 4050
+AR Path="/601E7C5A/60254F16" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/60254F16" Ref="C?"  Part="1" 
+F 0 "C?" H 7992 4096 50  0000 L CNN
+F 1 "100nF" H 7992 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7900 4050 50  0001 C CNN
+F 3 "~" H 7900 4050 50  0001 C CNN
+F 4 "25V" H 8050 3900 50  0000 C CNN "Voltage"
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3800 7900 3800
+Wire Wire Line
+	7900 3950 7900 3800
+Connection ~ 7900 3800
+Wire Wire Line
+	7900 3800 8050 3800
+$Comp
+L power:GNDD #PWR?
+U 1 1 6025D5E9
+P 7900 4300
+AR Path="/601DF0A6/6025D5E9" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/6025D5E9" Ref="#PWR?"  Part="1" 
+AR Path="/601E7CC8/6025D5E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 4050 50  0001 C CNN
+F 1 "GNDD" H 7904 4145 50  0000 C CNN
+F 2 "" H 7900 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+	1    7900 4300
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 3300 0    50   BiDi ~ 0
+RTC_SCL
+Text HLabel 2250 3400 0    50   BiDi ~ 0
+RTC_SDA
+Text HLabel 2250 3600 0    50   BiDi ~ 0
+RTC_RST
+Text HLabel 5150 3300 2    50   BiDi ~ 0
+RTC_OSC_OUT
+Text HLabel 5150 3100 2    50   BiDi ~ 0
+RTC_SQW
+Text HLabel 7400 3800 0    50   Input ~ 0
+FAN_CTRL_PWM
+$Comp
+L power:GNDD #PWR?
+U 1 1 60263673
+P 8350 4300
+AR Path="/601DF0A6/60263673" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/60263673" Ref="#PWR?"  Part="1" 
+AR Path="/601E7CC8/60263673" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 4050 50  0001 C CNN
+F 1 "GNDD" H 8354 4145 50  0000 C CNN
+F 2 "" H 8350 4300 50  0001 C CNN
+F 3 "" H 8350 4300 50  0001 C CNN
+	1    8350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized_Small C?
+U 1 1 60266E7E
+P 1050 650
+F 0 "C?" H 1138 696 50  0000 L CNN
+F 1 "C_Polarized_Small" H 1138 605 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H 1050 650 50  0001 C CNN
+F 3 "~" H 1050 650 50  0001 C CNN
+F 4 "" H 1050 650 50  0000 C CNN "Voltage"
+	1    1050 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized_Small C?
+U 1 1 60269FC6
+P 9250 3750
+F 0 "C?" H 9338 3841 50  0000 L CNN
+F 1 "1uF" H 9338 3750 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H 9250 3750 50  0001 C CNN
+F 3 "~" H 9250 3750 50  0001 C CNN
+F 4 "25V" H 9338 3659 50  0000 L CNN "Voltage"
+	1    9250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60278B21
+P 9800 3250
+F 0 "J?" H 9880 3242 50  0000 L CNN
+F 1 "Conn_01x02" H 9880 3151 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 9800 3250 50  0001 C CNN
+F 3 "~" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3500 8350 3350
+Wire Wire Line
+	8350 3350 9250 3350
+Wire Wire Line
+	9250 3650 9250 3350
+Connection ~ 9250 3350
+Wire Wire Line
+	9250 3350 9600 3350
+$Comp
+L power:GNDD #PWR?
+U 1 1 6028129F
+P 9250 4300
+AR Path="/601DF0A6/6028129F" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/6028129F" Ref="#PWR?"  Part="1" 
+AR Path="/601E7CC8/6028129F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9250 4050 50  0001 C CNN
+F 1 "GNDD" H 9254 4145 50  0000 C CNN
+F 2 "" H 9250 4300 50  0001 C CNN
+F 3 "" H 9250 4300 50  0001 C CNN
+	1    9250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4300 9250 3850
+Wire Wire Line
+	8350 4300 8350 3900
+Wire Wire Line
+	7900 4300 7900 4150
+Wire Wire Line
+	7550 3800 7400 3800
+$Comp
+L GM_Diodes:B0520LW-7-F D?
+U 1 1 6029EC80
+P 8750 3250
+F 0 "D?" H 8750 3045 50  0000 C CNN
+F 1 "B0520LW-7-F" H 8750 3136 50  0000 C CNN
+F 2 "SOD3716X145N" H 9250 3250 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30051.pdf" H 9200 3150 50  0001 L CNN
+F 4 "B0520LW-7-F" H 9450 3150 50  0001 C CNN "MPN"
+	1    8750 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 3250 9250 3250
+Wire Wire Line
+	8550 3250 8350 3250
+Wire Wire Line
+	8350 3250 8350 3350
+Connection ~ 8350 3350
+Text GLabel 8650 2800 0    50   Input ~ 0
+VCC
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 602A4D12
+P 8850 2800
+AR Path="/601E7C5A/602A4D12" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/602A4D12" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 8850 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8850 2973 50  0000 C CNN
+F 2 "" H 8850 2800 50  0001 C CNN
+F 3 "~" H 8850 2800 50  0001 C CNN
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 2800
+Wire Wire Line
+	8650 2800 8850 2800
+Wire Wire Line
+	9250 2800 9250 3250
+Wire Wire Line
+	8850 2800 9250 2800
+Connection ~ 9250 3250
+Wire Wire Line
+	9250 3250 9600 3250
+Text Notes 7400 2350 0    118  ~ 24
+Add the proper power net
 $EndSCHEMATC

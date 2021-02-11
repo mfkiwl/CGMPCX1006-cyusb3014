@@ -36,18 +36,6 @@ F 3 "~" H 2650 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 602653E8
-P 7600 1700
-F 0 "C?" H 7692 1746 50  0000 L CNN
-F 1 "47uF" H 7692 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 7600 1700 50  0001 C CNN
-F 3 "~" H 7600 1700 50  0001 C CNN
-F 4 "25SVPF47M" H 7600 1700 50  0001 C CNN "MPN"
-	1    7600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L_Ferrite_Small L?
 U 1 1 602665A9
 P 3400 850
@@ -103,6 +91,18 @@ F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 10350 2325 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd18540q5b" V 10150 2400 50  0001 L CNN
 F 4 "CSD18540Q5B" H 10150 2400 50  0001 C CNN "MPN"
 	1    10150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized_Small_US C?
+U 1 1 60271F7C
+P 7600 1250
+F 0 "C?" H 7691 1296 50  0000 L CNN
+F 1 "C_Polarized_Small_US" H 7691 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 7600 1250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/CP/PDF/OS-CON/S_OS-CON_SVPF_e.pdf" H 7600 1250 50  0001 C CNN
+F 4 "25SVPF47M" H 7600 1250 50  0001 C CNN "MPN"
+	1    7600 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

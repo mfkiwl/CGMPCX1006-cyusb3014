@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 17
-Title "CGMPCX1006"
-Date "2021-02-03"
-Rev "V1"
-Comp "Glowmagik Innovations"
+Title ""
+Date ""
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""

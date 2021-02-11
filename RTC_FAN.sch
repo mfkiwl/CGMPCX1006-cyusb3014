@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 12 15
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -23,67 +23,6 @@ F 2 "SOIC127P1032X265-16N" H 4850 2700 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 4850 2600 50  0001 L CNN
 F 4 "DS3231S#" H 3400 3000 50  0001 C CNN "MPN"
 	1    3400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6022D309
-P 1450 900
-AR Path="/601E7C5A/6022D309" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6022D309" Ref="R?"  Part="1" 
-F 0 "R?" H 1518 946 50  0000 L CNN
-F 1 "R_Small_US" H 1518 855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1450 900 50  0001 C CNN
-F 3 "~" H 1450 900 50  0001 C CNN
-	1    1450 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6022D310
-P 750 900
-AR Path="/601E7C5A/6022D310" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/6022D310" Ref="C?"  Part="1" 
-F 0 "C?" H 842 946 50  0000 L CNN
-F 1 "C_Small" H 842 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 750 900 50  0001 C CNN
-F 3 "~" H 750 900 50  0001 C CNN
-F 4 "" H 750 900 50  0000 C CNN "Voltage"
-	1    750  900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 950  1500 0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 6022D9C5
-P 1150 1500
-AR Path="/601E7C5A/6022D9C5" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/6022D9C5" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 1150 1575 50  0001 C CNN
-F 1 "PWR_FLAG" H 1150 1673 50  0000 C CNN
-F 2 "" H 1150 1500 50  0001 C CNN
-F 3 "~" H 1150 1500 50  0001 C CNN
-	1    1150 1500
-	1    0    0    -1  
-$EndComp
-Connection ~ 1150 1500
-Wire Wire Line
-	1150 1500 1350 1500
-Wire Wire Line
-	950  1500 1150 1500
-$Comp
-L power:GNDD #PWR?
-U 1 1 6022DF01
-P 1850 1250
-AR Path="/601DF0A6/6022DF01" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/6022DF01" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/6022DF01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 1000 50  0001 C CNN
-F 1 "GNDD" H 1854 1095 50  0000 C CNN
-F 2 "" H 1850 1250 50  0001 C CNN
-F 3 "" H 1850 1250 50  0001 C CNN
-	1    1850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -495,18 +434,6 @@ F 1 "GNDD" H 8354 4145 50  0000 C CNN
 F 2 "" H 8350 4300 50  0001 C CNN
 F 3 "" H 8350 4300 50  0001 C CNN
 	1    8350 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 60266E7E
-P 1050 650
-F 0 "C?" H 1138 696 50  0000 L CNN
-F 1 "C_Polarized_Small" H 1138 605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H 1050 650 50  0001 C CNN
-F 3 "~" H 1050 650 50  0001 C CNN
-F 4 "" H 1050 650 50  0000 C CNN "Voltage"
-	1    1050 650 
 	1    0    0    -1  
 $EndComp
 $Comp

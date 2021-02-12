@@ -325,11 +325,12 @@ Wire Wire Line
 	8850 6200 8450 6200
 Wire Wire Line
 	8850 5800 8850 5700
+Connection ~ 8850 5700
+Wire Wire Line
+	8850 5700 8650 5700
+NoConn ~ 4150 6850
 Wire Bus Line
 	3850 1200 3850 2950
 Wire Bus Line
 	6100 1050 6100 2950
-Connection ~ 8850 5700
-Wire Wire Line
-	8850 5700 8650 5700
 $EndSCHEMATC

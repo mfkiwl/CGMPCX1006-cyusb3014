@@ -301,4 +301,144 @@ Wire Wire Line
 Wire Wire Line
 	5300 1050 5500 1050
 Connection ~ 5500 1050
+$Comp
+L Device:C_Small C?
+U 1 1 602B094C
+P 6400 1250
+AR Path="/601E7C5A/602B094C" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/602B094C" Ref="C?"  Part="1" 
+AR Path="/601E7C92/602B094C" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B094C" Ref="C?"  Part="1" 
+AR Path="/601E7B38/602B094C" Ref="C?"  Part="1" 
+F 0 "C?" H 6492 1296 50  0000 L CNN
+F 1 "1uF" H 6492 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6400 1250 50  0001 C CNN
+F 3 "~" H 6400 1250 50  0001 C CNN
+F 4 "25V" H 6550 1100 50  0000 C BNN "Voltage"
+	1    6400 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1050 6400 1050
+Wire Wire Line
+	6400 1050 6400 1150
+Connection ~ 6000 1050
+$Comp
+L Device:C_Small C?
+U 1 1 602B289C
+P 6700 1250
+AR Path="/601E7C5A/602B289C" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/602B289C" Ref="C?"  Part="1" 
+AR Path="/601E7C92/602B289C" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B289C" Ref="C?"  Part="1" 
+AR Path="/601E7B38/602B289C" Ref="C?"  Part="1" 
+F 0 "C?" H 6792 1296 50  0000 L CNN
+F 1 "1uF" H 6792 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6700 1250 50  0001 C CNN
+F 3 "~" H 6700 1250 50  0001 C CNN
+F 4 "25V" H 6850 1100 50  0000 C BNN "Voltage"
+	1    6700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602B2CC2
+P 7000 1250
+AR Path="/601E7C5A/602B2CC2" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/602B2CC2" Ref="C?"  Part="1" 
+AR Path="/601E7C92/602B2CC2" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B2CC2" Ref="C?"  Part="1" 
+AR Path="/601E7B38/602B2CC2" Ref="C?"  Part="1" 
+F 0 "C?" H 7092 1296 50  0000 L CNN
+F 1 "1uF" H 7092 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7000 1250 50  0001 C CNN
+F 3 "~" H 7000 1250 50  0001 C CNN
+F 4 "25V" H 7150 1100 50  0000 C BNN "Voltage"
+	1    7000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602B2FF9
+P 7300 1250
+AR Path="/601E7C5A/602B2FF9" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/602B2FF9" Ref="C?"  Part="1" 
+AR Path="/601E7C92/602B2FF9" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B2FF9" Ref="C?"  Part="1" 
+AR Path="/601E7B38/602B2FF9" Ref="C?"  Part="1" 
+F 0 "C?" H 7392 1296 50  0000 L CNN
+F 1 "1uF" H 7392 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7300 1250 50  0001 C CNN
+F 3 "~" H 7300 1250 50  0001 C CNN
+F 4 "25V" H 7450 1100 50  0000 C BNN "Voltage"
+	1    7300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602B337F
+P 7600 1250
+AR Path="/601E7C5A/602B337F" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/602B337F" Ref="C?"  Part="1" 
+AR Path="/601E7C92/602B337F" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B337F" Ref="C?"  Part="1" 
+AR Path="/601E7B38/602B337F" Ref="C?"  Part="1" 
+F 0 "C?" H 7692 1296 50  0000 L CNN
+F 1 "1uF" H 7692 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7600 1250 50  0001 C CNN
+F 3 "~" H 7600 1250 50  0001 C CNN
+F 4 "25V" H 7750 1100 50  0000 C BNN "Voltage"
+	1    7600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1150 6700 1050
+Wire Wire Line
+	6700 1050 6400 1050
+Connection ~ 6400 1050
+Wire Wire Line
+	7000 1150 7000 1050
+Wire Wire Line
+	7000 1050 6700 1050
+Connection ~ 6700 1050
+Wire Wire Line
+	7300 1150 7300 1050
+Wire Wire Line
+	7300 1050 7000 1050
+Connection ~ 7000 1050
+Wire Wire Line
+	7600 1150 7600 1050
+Wire Wire Line
+	7600 1050 7300 1050
+Connection ~ 7300 1050
+Wire Wire Line
+	7600 1350 7300 1350
+Connection ~ 6700 1350
+Wire Wire Line
+	6700 1350 6400 1350
+Connection ~ 7000 1350
+Wire Wire Line
+	7000 1350 6700 1350
+Connection ~ 7300 1350
+Wire Wire Line
+	7300 1350 7000 1350
+$Comp
+L power:GNDD #PWR?
+U 1 1 602B6B9B
+P 7000 1500
+AR Path="/601DF0A6/602B6B9B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/602B6B9B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7CC8/602B6B9B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C92/602B6B9B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C92/60257FE5/602B6B9B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7B38/602B6B9B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7000 1250 50  0001 C CNN
+F 1 "GNDD" H 7004 1345 50  0000 C CNN
+F 2 "" H 7000 1500 50  0001 C CNN
+F 3 "" H 7000 1500 50  0001 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1500 7000 1350
 $EndSCHEMATC

@@ -284,8 +284,8 @@ AR Path="/601E7C5A/6026D99A" Ref="R?"  Part="1"
 AR Path="/601E7CC8/6026D99A" Ref="R?"  Part="1" 
 AR Path="/601E7C92/6026D99A" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/6026D99A" Ref="R35"  Part="1" 
-F 0 "R35" H 4918 4746 50  0000 L CNN
-F 1 "R_Small_US" H 4918 4655 50  0000 L CNN
+F 0 "R35" V 4950 4700 50  0000 L CNN
+F 1 "11K" V 4950 4500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4850 4700 50  0001 C CNN
 F 3 "~" H 4850 4700 50  0001 C CNN
 	1    4850 4700
@@ -665,75 +665,75 @@ F 3 "~" H 9050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 5900 10000 5900
+	9000 5800 9800 5800
 Wire Wire Line
-	9200 6100 10000 6100
+	9000 6000 9800 6000
 Wire Wire Line
-	9200 6300 10000 6300
-Text Label 9350 5900 0    50   ~ 0
+	9000 6200 9800 6200
+Text Label 9150 5800 0    50   ~ 0
 LED_0
-Text Label 9350 6100 0    50   ~ 0
+Text Label 9150 6000 0    50   ~ 0
 LED_1
-Text Label 9350 6300 0    50   ~ 0
+Text Label 9150 6200 0    50   ~ 0
 LED_2
 Wire Wire Line
-	11000 5900 10200 5900
+	10800 5800 10000 5800
 Wire Wire Line
-	11000 6100 10200 6100
+	10800 6000 10000 6000
 Wire Wire Line
-	11000 6300 10200 6300
-Text Label 10850 5900 2    50   ~ 0
+	10800 6200 10000 6200
+Text Label 10650 5800 2    50   ~ 0
 LED_P_0
-Text Label 10850 6100 2    50   ~ 0
+Text Label 10650 6000 2    50   ~ 0
 LED_P_1
-Text Label 10850 6300 2    50   ~ 0
+Text Label 10650 6200 2    50   ~ 0
 LED_P_2
 $Comp
 L Device:R_Small_US R?
 U 1 1 602AD488
-P 10100 5900
+P 9900 5800
 AR Path="/601E7C5A/602AD488" Ref="R?"  Part="1" 
 AR Path="/601E7CC8/602AD488" Ref="R?"  Part="1" 
 AR Path="/601E7C92/602AD488" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/602AD488" Ref="R?"  Part="1" 
-F 0 "R?" H 10168 5946 50  0000 L CNN
-F 1 "0" H 10168 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10100 5900 50  0001 C CNN
-F 3 "~" H 10100 5900 50  0001 C CNN
-F 4 "DNP" H 10250 5750 50  0000 C CNN "DNP"
-	1    10100 5900
+F 0 "R?" H 9968 5846 50  0000 L CNN
+F 1 "0" H 9968 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9900 5800 50  0001 C CNN
+F 3 "~" H 9900 5800 50  0001 C CNN
+F 4 "DNP" H 10050 5650 50  0000 C CNN "DNP"
+	1    9900 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 602CAD74
-P 10100 6100
+P 9900 6000
 AR Path="/601E7C5A/602CAD74" Ref="R?"  Part="1" 
 AR Path="/601E7CC8/602CAD74" Ref="R?"  Part="1" 
 AR Path="/601E7C92/602CAD74" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/602CAD74" Ref="R?"  Part="1" 
-F 0 "R?" H 10168 6146 50  0000 L CNN
-F 1 "0" H 10168 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10100 6100 50  0001 C CNN
-F 3 "~" H 10100 6100 50  0001 C CNN
-F 4 "DNP" H 10250 5950 50  0000 C CNN "DNP"
-	1    10100 6100
+F 0 "R?" H 9968 6046 50  0000 L CNN
+F 1 "0" H 9968 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9900 6000 50  0001 C CNN
+F 3 "~" H 9900 6000 50  0001 C CNN
+F 4 "DNP" H 10050 5850 50  0000 C CNN "DNP"
+	1    9900 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 602D1234
-P 10100 6300
+P 9900 6200
 AR Path="/601E7C5A/602D1234" Ref="R?"  Part="1" 
 AR Path="/601E7CC8/602D1234" Ref="R?"  Part="1" 
 AR Path="/601E7C92/602D1234" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/602D1234" Ref="R?"  Part="1" 
-F 0 "R?" H 10168 6346 50  0000 L CNN
-F 1 "0" H 10168 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10100 6300 50  0001 C CNN
-F 3 "~" H 10100 6300 50  0001 C CNN
-F 4 "DNP" H 10250 6150 50  0000 C CNN "DNP"
-	1    10100 6300
+F 0 "R?" H 9968 6246 50  0000 L CNN
+F 1 "0" H 9968 6155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9900 6200 50  0001 C CNN
+F 3 "~" H 9900 6200 50  0001 C CNN
+F 4 "DNP" H 10050 6050 50  0000 C CNN "DNP"
+	1    9900 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -777,8 +777,6 @@ Wire Wire Line
 	10900 4100 10900 4200
 Wire Wire Line
 	10900 4400 10900 4550
-Text Notes 10800 4800 0    50   ~ 10
-LED\nSML-P13PTT86R
 $Comp
 L GM_Protection:TPD4E05U06QDQARQ1 IC?
 U 1 1 60305A47
@@ -964,22 +962,6 @@ F 4 "25V" H 8600 2150 50  0000 C CNN "Voltage"
 	1    8450 2300
 	0    1    -1   0   
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60416C50
-P 8450 2800
-AR Path="/601E7C5A/60416C50" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/60416C50" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60416C50" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60416C50" Ref="C?"  Part="1" 
-F 0 "C?" H 8542 2846 50  0000 L CNN
-F 1 "0.1uF" H 8542 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8450 2800 50  0001 C CNN
-F 3 "~" H 8450 2800 50  0001 C CNN
-F 4 "25V" H 8600 2650 50  0000 C CNN "Voltage"
-	1    8450 2800
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	9250 1300 8550 1300
 Wire Wire Line
@@ -1043,21 +1025,21 @@ Wire Wire Line
 	10450 2100 10900 2100
 Wire Wire Line
 	10450 2900 10900 2900
-Text Label 7300 3200 0    50   ~ 0
+Text Label 7650 2900 0    50   ~ 0
 ETH_A_P
-Text Label 7300 3100 0    50   ~ 0
+Text Label 7650 2800 0    50   ~ 0
 ETH_A_N
-Text Label 7300 2950 0    50   ~ 0
+Text Label 7650 2650 0    50   ~ 0
 ETH_B_P
-Text Label 7300 2850 0    50   ~ 0
+Text Label 7650 2550 0    50   ~ 0
 ETH_B_N
-Text Label 7300 2700 0    50   ~ 0
+Text Label 7650 2400 0    50   ~ 0
 ETH_C_P
-Text Label 7300 2600 0    50   ~ 0
+Text Label 7650 2300 0    50   ~ 0
 ETH_C_N
-Text Label 7300 2450 0    50   ~ 0
+Text Label 7650 2150 0    50   ~ 0
 ETH_D_P
-Text Label 7300 2350 0    50   ~ 0
+Text Label 7650 2050 0    50   ~ 0
 ETH_D_N
 Text GLabel 10800 1600 2    50   Input ~ 0
 VCC5V
@@ -1156,30 +1138,7 @@ LED_P_1
 Wire Wire Line
 	10450 1300 10550 1300
 Wire Wire Line
-	10550 1300 10550 1250
-Wire Wire Line
 	10550 1200 10450 1200
-Wire Wire Line
-	10550 1250 10600 1250
-Connection ~ 10550 1250
-Wire Wire Line
-	10550 1250 10550 1200
-$Comp
-L power:GNDD #PWR?
-U 1 1 604C465C
-P 10600 1250
-AR Path="/601DF0A6/604C465C" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/604C465C" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/604C465C" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/604C465C" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/604C465C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10600 1000 50  0001 C CNN
-F 1 "GNDD" V 10604 1149 50  0000 R CNN
-F 2 "" H 10600 1250 50  0001 C CNN
-F 3 "" H 10600 1250 50  0001 C CNN
-	1    10600 1250
-	0    -1   -1   0   
-$EndComp
 Text GLabel 1050 750  0    50   Input ~ 0
 ETH_1V8
 Text GLabel 1050 2150 0    50   Input ~ 0
@@ -1778,6 +1737,97 @@ Wire Wire Line
 	5900 5600 5700 5600
 Text GLabel 5900 5600 2    50   Input ~ 0
 ETH_1V8
+$Comp
+L Device:LED D?
+U 1 1 602A865B
+P 10900 4700
+F 0 "D?" V 10847 4780 50  0000 L CNN
+F 1 "GREEN" V 10938 4780 50  0000 L CNN
+F 2 "GM_LEDs:LEDC1006X25N" H 10900 4700 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/opto/led/chip_mono/sml-p1-e.pdf" H 10900 4700 50  0001 C CNN
+F 4 "SML-P13PTT86R" V 10900 4700 50  0001 C CNN "MPN"
+	1    10900 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603371CF
+P 1100 750
+AR Path="/601E7C5A/603371CF" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/603371CF" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/603371CF" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603371CF" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 1100 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 923 50  0000 C CNN
+F 2 "" H 1100 750 50  0001 C CNN
+F 3 "~" H 1100 750 50  0001 C CNN
+	1    1100 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6034986B
+P 1100 1400
+AR Path="/601E7C5A/6034986B" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/6034986B" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/6034986B" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6034986B" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 1100 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 1573 50  0000 C CNN
+F 2 "" H 1100 1400 50  0001 C CNN
+F 3 "~" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6035C012
+P 1100 2150
+AR Path="/601E7C5A/6035C012" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/6035C012" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/6035C012" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6035C012" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 1100 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 2323 50  0000 C CNN
+F 2 "" H 1100 2150 50  0001 C CNN
+F 3 "~" H 1100 2150 50  0001 C CNN
+	1    1100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60416C50
+P 8450 2800
+AR Path="/601E7C5A/60416C50" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/60416C50" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60416C50" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60416C50" Ref="C?"  Part="1" 
+F 0 "C?" H 8542 2846 50  0000 L CNN
+F 1 "0.1uF" H 8542 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8450 2800 50  0001 C CNN
+F 3 "~" H 8450 2800 50  0001 C CNN
+F 4 "25V" H 8600 2650 50  0000 C CNN "Voltage"
+	1    8450 2800
+	0    1    -1   0   
+$EndComp
+Connection ~ 10550 1250
+Wire Wire Line
+	10550 1250 10550 1200
+Wire Wire Line
+	10550 1300 10550 1250
+Wire Wire Line
+	10550 1250 10600 1250
+$Comp
+L GM_Power:GND_ES #PWR?
+U 1 1 606C09C9
+P 10600 1250
+F 0 "#PWR?" H 10600 1050 50  0001 C CNN
+F 1 "GND_ES" V 10605 1141 50  0000 R CNN
+F 2 "" H 10600 1200 50  0001 C CNN
+F 3 "" H 10600 1200 50  0001 C CNN
+	1    10600 1250
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	1750 5400 1750 5700
 Wire Bus Line

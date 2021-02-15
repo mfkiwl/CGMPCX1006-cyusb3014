@@ -1656,4 +1656,125 @@ $EndComp
 Connection ~ 4650 7100
 Wire Wire Line
 	4650 7100 4700 7100
+Text HLabel 1650 1000 0    157  Input ~ 0
+12VIN
+Wire Wire Line
+	1900 1000 1650 1000
+Connection ~ 1900 1000
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 602F5542
+P 1900 1000
+F 0 "#FLG?" H 1900 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1173 50  0000 C CNN
+F 2 "" H 1900 1000 50  0001 C CNN
+F 3 "~" H 1900 1000 50  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 603121C7
+P -1350 800
+AR Path="/601E7C5A/603121C7" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/603121C7" Ref="R?"  Part="1" 
+AR Path="/601E7C92/603121C7" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603121C7" Ref="R?"  Part="1" 
+AR Path="/601E7B38/603121C7" Ref="R?"  Part="1" 
+AR Path="/601DF0A6/603121C7" Ref="R?"  Part="1" 
+F 0 "R?" H -1282 846 50  0000 L CNN
+F 1 "R_Small_US" H -1282 755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -1350 800 50  0001 C CNN
+F 3 "~" H -1350 800 50  0001 C CNN
+	1    -1350 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 603121CE
+P -2050 800
+AR Path="/601E7C5A/603121CE" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/603121CE" Ref="C?"  Part="1" 
+AR Path="/601E7C92/603121CE" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603121CE" Ref="C?"  Part="1" 
+AR Path="/601E7B38/603121CE" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/603121CE" Ref="C?"  Part="1" 
+F 0 "C?" H -1958 846 50  0000 L CNN
+F 1 "C_Small" H -1958 755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -2050 800 50  0001 C CNN
+F 3 "~" H -2050 800 50  0001 C CNN
+F 4 "" H -2050 800 50  0000 C CNN "Voltage"
+	1    -2050 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel -1850 1400 0    50   Input ~ 0
+VCC3V3
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603121D5
+P -1650 1400
+AR Path="/601E7C5A/603121D5" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/603121D5" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/603121D5" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603121D5" Ref="#FLG?"  Part="1" 
+AR Path="/601E7B38/603121D5" Ref="#FLG?"  Part="1" 
+AR Path="/601DF0A6/603121D5" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H -1650 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H -1650 1573 50  0000 C CNN
+F 2 "" H -1650 1400 50  0001 C CNN
+F 3 "~" H -1650 1400 50  0001 C CNN
+	1    -1650 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ -1650 1400
+Wire Wire Line
+	-1650 1400 -1450 1400
+Wire Wire Line
+	-1850 1400 -1650 1400
+$Comp
+L power:GNDD #PWR?
+U 1 1 603121DE
+P -1150 1050
+AR Path="/601DF0A6/603121DE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/603121DE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7CC8/603121DE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C92/603121DE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603121DE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7B38/603121DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1150 800 50  0001 C CNN
+F 1 "GNDD" H -1146 895 50  0000 C CNN
+F 2 "" H -1150 1050 50  0001 C CNN
+F 3 "" H -1150 1050 50  0001 C CNN
+	1    -1150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized_Small C?
+U 1 1 603121E5
+P -1750 550
+AR Path="/601E7C92/603121E5" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603121E5" Ref="C?"  Part="1" 
+AR Path="/601E7B38/603121E5" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/603121E5" Ref="C?"  Part="1" 
+F 0 "C?" H -1662 596 50  0000 L CNN
+F 1 "C_Polarized_Small" H -1662 505 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1750 550 50  0001 C CNN
+F 3 "~" H -1750 550 50  0001 C CNN
+F 4 "" H -1750 550 50  0000 C CNN "Voltage"
+	1    -1750 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 603121EB
+P -550 600
+AR Path="/601E7B38/603121EB" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/603121EB" Ref="C?"  Part="1" 
+F 0 "C?" V -779 600 50  0000 C CNN
+F 1 "C_Small" V -688 600 50  0000 C CNN
+F 2 "" H -550 600 50  0001 C CNN
+F 3 "~" H -550 600 50  0001 C CNN
+	1    -550 600 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -844,4 +844,60 @@ F 3 "" H 6250 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 4550 6250 4550
+$Comp
+L Device:C_Small C?
+U 1 1 603DD899
+P 1600 3550
+AR Path="/601E7C5A/603DD899" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/603DD899" Ref="C?"  Part="1" 
+AR Path="/601E7C92/603DD899" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603DD899" Ref="C?"  Part="1" 
+AR Path="/601E7B38/603DD899" Ref="C?"  Part="1" 
+AR Path="/60256C5F/603DD899" Ref="C?"  Part="1" 
+F 0 "C?" H 1692 3596 50  0000 L CNN
+F 1 "2.2uF" H 1692 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1600 3550 50  0001 C CNN
+F 3 "~" H 1600 3550 50  0001 C CNN
+F 4 "" H 1600 3550 50  0000 C CNN "Voltage"
+	1    1600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2300 1600 3450
+Wire Wire Line
+	1600 3650 1600 4950
+$Comp
+L Device:C_Small C?
+U 1 1 603E0974
+P 1200 3550
+AR Path="/601E7C5A/603E0974" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/603E0974" Ref="C?"  Part="1" 
+AR Path="/601E7C92/603E0974" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603E0974" Ref="C?"  Part="1" 
+AR Path="/601E7B38/603E0974" Ref="C?"  Part="1" 
+AR Path="/60256C5F/603E0974" Ref="C?"  Part="1" 
+F 0 "C?" H 1292 3596 50  0000 L CNN
+F 1 "100nF" H 1292 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1200 3550 50  0001 C CNN
+F 3 "~" H 1200 3550 50  0001 C CNN
+F 4 "" H 1200 3550 50  0000 C CNN "Voltage"
+	1    1200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2300 1200 3450
+Wire Wire Line
+	1200 3650 1200 4950
+Wire Wire Line
+	1200 2300 1600 2300
+Connection ~ 2000 2300
+Connection ~ 1600 2300
+Wire Wire Line
+	1600 2300 2000 2300
+Wire Wire Line
+	1200 4950 1600 4950
+Connection ~ 2000 4950
+Connection ~ 1600 4950
+Wire Wire Line
+	1600 4950 2000 4950
 $EndSCHEMATC

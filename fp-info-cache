@@ -1,22 +1,50 @@
-4838857033895
-GM_Crystals_Oscilators_n_Resonators
-DSC1121CE50333333
-DSC1121CE5-033.3333
-Crystal or Oscillator
+11287262283885
+GM_QFN
+QFN50P300X400X80-21N
+RVC (R-PWQFN-N20)
+Integrated Circuit
 0
-6
-6
-GM_Crystals_Oscilators_n_Resonators
-OSCCC320X250X60N
-
-
+21
+21
+GM_QFN
+QFN50P400X400X80-25N-D
+RTW (S-PWQFN-N24)_1
+Integrated Circuit
 0
-4
-4
-GM_Crystals_Oscilators_n_Resonators
-XRCGE25M000FBA1AR0
-25MHz ±15ppm Crystal 6pF 100 Ohms 4-SMD
-
+25
+25
+GM_QFN
+QFN50P500X500X80-33N-D
+UH (32-Lead QFN)
+Integrated Circuit
 0
-4
-4
+33
+33
+GM_QFN
+QFN50P500X500X100-33N-D
+32-LEAD QFN
+Integrated Circuit
+0
+33
+33
+GM_QFN
+QFN50P700X700X80-49N-D
+CP-48-13 (LFCSP)
+Integrated Circuit
+0
+49
+49
+GM_QFN
+QFN50P700X700X100-49N-D
+RGZ0048B_
+Integrated Circuit
+0
+49
+49
+GM_QFN
+QFP50P1400X1400X120-81N
+SV-80-1(TQFP)
+Integrated Circuit
+0
+81
+81

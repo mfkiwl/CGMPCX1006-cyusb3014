@@ -1021,21 +1021,21 @@ Wire Wire Line
 	10450 2100 10900 2100
 Wire Wire Line
 	10450 2900 10900 2900
-Text Label 7650 2900 0    50   ~ 0
+Text Label 8750 1200 0    50   ~ 0
 ETH_A_P
-Text Label 7650 2800 0    50   ~ 0
+Text Label 8750 1400 0    50   ~ 0
 ETH_A_N
-Text Label 7650 2650 0    50   ~ 0
+Text Label 8750 1700 0    50   ~ 0
 ETH_B_P
-Text Label 7650 2550 0    50   ~ 0
+Text Label 8750 1900 0    50   ~ 0
 ETH_B_N
-Text Label 7650 2400 0    50   ~ 0
+Text Label 8750 2200 0    50   ~ 0
 ETH_C_P
-Text Label 7650 2300 0    50   ~ 0
+Text Label 8750 2400 0    50   ~ 0
 ETH_C_N
-Text Label 7650 2150 0    50   ~ 0
+Text Label 8750 2700 0    50   ~ 0
 ETH_D_P
-Text Label 7650 2050 0    50   ~ 0
+Text Label 8750 2900 0    50   ~ 0
 ETH_D_N
 Text GLabel 10800 1600 2    50   Input ~ 0
 VCC5V

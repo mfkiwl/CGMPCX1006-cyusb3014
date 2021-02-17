@@ -13,4 +13,76 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GM_Interface_IC:USB3320C-EZK IC?
+U 1 1 602DDF35
+P 2850 2400
+F 0 "IC?" H 3300 2565 50  0000 C CNN
+F 1 "USB3320C-EZK" H 3300 2474 50  0000 C CNN
+F 2 "GM_QFN:QFN50P500X500X100-33N-D" H 4400 2100 50  0001 L CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/00001792E.pdf" H 4400 2000 50  0001 L CNN
+F 4 "USB3320C-EZK" H 4750 2200 50  0001 C CNN "MPN"
+	1    2850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_PMIC-Power-Distribution-Switches-Load-Drivers:TPS2051BDBVR U?
+U 1 1 602E0070
+P 6200 4000
+F 0 "U?" H 6200 4287 60  0000 C CNN
+F 1 "TPS2051BDBVR" H 6200 4181 60  0000 C CNN
+F 2 "digikey-footprints:SOT-753" H 6400 4200 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b" H 6400 4300 60  0001 L CNN
+F 4 "296-21265-1-ND" H 6400 4400 60  0001 L CNN "Digi-Key_PN"
+F 5 "TPS2051BDBVR" H 6400 4500 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6400 4600 60  0001 L CNN "Category"
+F 7 "PMIC - Power Distribution Switches, Load Drivers" H 6400 4700 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b" H 6400 4800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TPS2051BDBVR/296-21265-1-ND/1219985" H 6400 4900 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC PWR DIST SWITCH SNGL SOT23-5" H 6400 5000 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6400 5100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6400 5200 60  0001 L CNN "Status"
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:0475890001 J?
+U 1 1 602E0AAF
+P 8350 2900
+F 0 "J?" H 8413 3625 50  0000 C CNN
+F 1 "0475890001" H 8413 3534 50  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_AB_Female_0475890001" H 8550 3100 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/475890001_sd.pdf" H 8550 3200 60  0001 L CNN
+F 4 "WM17143CT-ND" H 8550 3300 60  0001 L CNN "Digi-Key_PN"
+F 5 "0475890001" H 8550 3400 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8550 3500 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 8550 3600 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/475890001_sd.pdf" H 8550 3700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0475890001/WM17143CT-ND/1832255" H 8550 3800 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT MICRO USB AB 5P SMD RA" H 8550 3900 60  0001 L CNN "Description"
+F 11 "Molex" H 8550 4000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8550 4100 60  0001 L CNN "Status"
+	1    8350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:UE27AC54100 J?
+U 1 1 602E160D
+P 8350 4850
+F 0 "J?" H 8470 5362 60  0000 C CNN
+F 1 "UE27AC54100" H 8470 5256 60  0000 C CNN
+F 2 "digikey-footprints:USB_A_Female_UE27AC54100" H 8550 5050 60  0001 L CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 8550 5150 60  0001 L CNN
+F 4 "UE27AC54100-ND" H 8550 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "UE27AC54100" H 8550 5350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8550 5450 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 8550 5550 60  0001 L CNN "Family"
+F 8 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 8550 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253" H 8550 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 TYPEA 4POS R/A" H 8550 5850 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (Commercial Products)" H 8550 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8550 6050 60  0001 L CNN "Status"
+	1    8350 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

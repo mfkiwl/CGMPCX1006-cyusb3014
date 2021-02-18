@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 16 18
 Title ""
 Date ""
 Rev ""
@@ -1777,4 +1777,6 @@ F 3 "~" H -550 600 50  0001 C CNN
 	1    -550 600 
 	0    1    1    0   
 $EndComp
+Text Notes 8500 1250 0    157  ~ 0
+Add 5V regulator !!!!
 $EndSCHEMATC

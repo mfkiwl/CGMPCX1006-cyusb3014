@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 19
+Sheet 1 18
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -108,11 +108,5 @@ S 2550 5850 2750 1550
 U 60318A5B
 F0 "BNC_trigger" 157
 F1 "BNC_Trigger.sch" 157
-$EndSheet
-$Sheet
-S 15000 9100 4650 3000
-U 6032C848
-F0 "Sheet6032C847" 50
-F1 "file6032C847.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-20151861951216507
+20155089554327994
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51989,6 +51989,13 @@ BoardEdge_of_HSEC8-140-01-L-PV-4-1
 84
 84
 GM_Connectors
+GSB3211311WEU
+
+
+0
+0
+0
+GM_Connectors
 HSEC8-140-01-L-PV-4-1
 
 
@@ -52067,6 +52074,13 @@ EMI Filter
 4
 GM_Inductors
 IHLP6767GZER3R3M01
+
+
+0
+2
+2
+GM_Inductors
+L_Coilcraft_XxL7070
 
 
 0

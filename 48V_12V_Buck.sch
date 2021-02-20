@@ -1955,7 +1955,7 @@ Wire Wire Line
 	1800 10075 2200 10075
 Text Notes 9050 8525 0    50   ~ 0
 5V 10A
-Text GLabel 9550 8675 2    50   Input ~ 0
+Text GLabel 9550 8675 2    50   UnSpc ~ 0
 VCC5V0
 $Comp
 L power:PWR_FLAG #FLG?

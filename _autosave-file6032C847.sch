@@ -1,29 +1,23 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 7 19
-Title "CGMPCX1006"
-Date "2021-02-03"
-Rev "V1"
-Comp "Glowmagik Innovations"
+Sheet 19 21
+Title ""
+Date ""
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 750  5700 1450 1600
+S 850  5800 1600 1000
 U 60277424
 F0 "USB3_Power" 157
-F1 "USB3_Power.sch" 157
-$EndSheet
-$Sheet
-S 7650 1600 1750 2600
-U 603A73D8
-F0 "USB3_SRAM" 157
-F1 "USB3_SRAM.sch" 157
+F1 "../../CGMPCX1006/USB3_Power.sch" 157
 $EndSheet
 $Comp
 L GM_Microcontrollers:CYUSB3014-BZXI U?
@@ -194,12 +188,12 @@ Wire Wire Line
 Wire Wire Line
 	5850 2950 6000 2950
 Wire Bus Line
-	3850 1200 3600 1200
+	3850 1200 3100 1200
 Wire Bus Line
-	6100 1050 6450 1050
-Text HLabel 3600 1200 0    100  BiDi ~ 0
+	6100 1050 6650 1050
+Text HLabel 3100 1200 0    100  BiDi ~ 0
 DQ[0:15]
-Text HLabel 6450 1050 2    100  BiDi ~ 0
+Text HLabel 6650 1050 2    100  BiDi ~ 0
 DQ[16:31]
 $Comp
 L GM_Memory_EEPROM:M24M02-DRMN6TP IC?
@@ -309,7 +303,7 @@ Wire Wire Line
 	8500 5700 8150 5700
 $Comp
 L Device:R_Small_US R?
-U 1 1 603FAEC1
+U 1 1 603E3C81
 P 8850 5900
 F 0 "R?" H 8918 5946 50  0000 L CNN
 F 1 "2K" H 8918 5855 50  0000 L CNN
@@ -329,8 +323,38 @@ Connection ~ 8850 5700
 Wire Wire Line
 	8850 5700 8650 5700
 NoConn ~ 4150 6850
+Text Label 6100 1050 0    50   ~ 0
+DQ[16:31]
+Text Label 3300 1200 0    50   ~ 0
+DQ[0:15]
 Wire Bus Line
-	3850 1200 3850 2950
+	7650 2250 7150 2250
+Wire Bus Line
+	7650 1950 7150 1950
+Text Label 7200 1950 0    50   ~ 0
+DQ[0:15]
+Text Label 7200 2250 0    50   ~ 0
+DQ[16:31]
+Text Notes 1350 4900 0    157  ~ 0
+5VUSB3\nV3P3\nV1P2
+$Sheet
+S 7650 1600 1400 2400
+U 603E3C7E
+F0 "USB3_SRAM" 157
+F1 "../../CGMPCX1006/USB3_SRAM.sch" 157
+F2 "DQ[0:15]" B L 7650 1950 98 
+F3 "DQ[16:31]" B L 7650 2250 98 
+F4 "CTL0" I L 7650 2450 50 
+F5 "CTL1" I L 7650 2550 50 
+F6 "CTL2" I L 7650 2650 50 
+F7 "CTL5" I L 7650 2850 50 
+F8 "CTL6" I L 7650 2950 50 
+F9 "CTL7" I L 7650 3050 50 
+F10 "CTL8" I L 7650 3150 50 
+F11 "CTL9" I L 7650 3250 50 
+$EndSheet
 Wire Bus Line
 	6100 1050 6100 2950
+Wire Bus Line
+	3850 1200 3850 2950
 $EndSCHEMATC

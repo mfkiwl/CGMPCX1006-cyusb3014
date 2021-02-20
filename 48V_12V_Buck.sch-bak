@@ -1922,4 +1922,6 @@ Wire Wire Line
 	1750 10325 2150 10325
 Text Notes 9000 8775 0    50   ~ 0
 12V 10A
+Text Notes 4350 7500 0    157  ~ 0
+Change the resisters and inductor!!!!
 $EndSCHEMATC

@@ -65,13 +65,13 @@ $EndComp
 $Comp
 L GM_Microcontrollers:CYUSB3014-BZXI U?
 U 4 1 603E2786
-P 4500 5950
-F 0 "U?" H 5078 5396 50  0000 L CNN
-F 1 "CYUSB3014-BZXI" H 5078 5305 50  0000 L CNN
-F 2 "Package_BGA:BGA121C80P11X11_1000X1000X120" H 4800 6150 50  0001 C CNN
-F 3 "https://www.cypress.com/file/140296/download" H 4800 6150 50  0001 C CNN
-F 4 "CYUSB3014-BZXI" H 4500 5950 50  0001 C CNN "MPN"
-	4    4500 5950
+P 5900 5950
+F 0 "U?" H 5900 6100 50  0000 L CNN
+F 1 "CYUSB3014-BZXI" H 5900 6000 50  0000 L CNN
+F 2 "Package_BGA:BGA121C80P11X11_1000X1000X120" H 6200 6150 50  0001 C CNN
+F 3 "https://www.cypress.com/file/140296/download" H 6200 6150 50  0001 C CNN
+F 4 "CYUSB3014-BZXI" H 5900 5950 50  0001 C CNN "MPN"
+	4    5900 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1322,11 +1322,203 @@ Wire Wire Line
 	10850 2400 10850 2800
 Wire Wire Line
 	10600 2800 10850 2800
+Connection ~ 10850 2800
+Wire Wire Line
+	10850 2800 10850 2900
+$Comp
+L Device:R_Small_US R?
+U 1 1 60337DA9
+P 4800 6050
+AR Path="/601E7C5A/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601DF0A6/60337DA9" Ref="R?"  Part="1" 
+AR Path="/601E7BBE/60337DA9" Ref="R?"  Part="1" 
+F 0 "R?" V 4750 6150 50  0000 C CNN
+F 1 "10K" V 4750 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4800 6050 50  0001 C CNN
+F 3 "~" H 4800 6050 50  0001 C CNN
+	1    4800 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 6050 4900 6050
+Wire Wire Line
+	5700 6250 5700 6150
+Connection ~ 5700 6050
+Connection ~ 5700 6150
+Wire Wire Line
+	5700 6150 5700 6050
+$Comp
+L power:GNDD #PWR?
+U 1 1 6034D051
+P 4350 6100
+AR Path="/601E7BBE/60277424/6034D051" Ref="#PWR?"  Part="1" 
+AR Path="/601E7BBE/6034D051" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4350 5850 50  0001 C CNN
+F 1 "GNDD" H 4354 5945 50  0000 C CNN
+F 2 "" H 4350 6100 50  0001 C CNN
+F 3 "" H 4350 6100 50  0001 C CNN
+	1    4350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6100 4350 6050
+Wire Wire Line
+	4350 6050 4700 6050
+$Comp
+L Device:Crystal_GND24_Small Y?
+U 1 1 6035B9D1
+P 4700 6550
+F 0 "Y?" V 4419 6550 50  0000 C CNN
+F 1 "19.2Mhz" V 4510 6550 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm" H 4700 6550 50  0001 C CNN
+F 3 "~" H 4700 6550 50  0001 C CNN
+F 4 "NX2520SG-19.2M-STD-CTX-1" V 4700 6550 50  0001 C CNN "MPN"
+	1    4700 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6035CB90
+P 5150 6800
+AR Path="/601E7C5A/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601E7C92/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601E7B38/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/6035CB90" Ref="C?"  Part="1" 
+AR Path="/601E7BBE/6035CB90" Ref="C?"  Part="1" 
+F 0 "C?" H 5242 6891 50  0000 L CNN
+F 1 "7pF" H 5242 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5150 6800 50  0001 C CNN
+F 3 "~" H 5150 6800 50  0001 C CNN
+F 4 "50V" H 5242 6709 50  0000 L CNN "Voltage"
+	1    5150 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6450 5000 6450
+Wire Wire Line
+	5700 6550 5600 6550
+Wire Wire Line
+	5600 6550 5600 6650
+Wire Wire Line
+	5600 6650 5150 6650
+Wire Wire Line
+	5000 6900 5000 6450
+Connection ~ 5000 6450
+Wire Wire Line
+	5000 6450 5700 6450
+Wire Wire Line
+	5150 6700 5150 6650
+Connection ~ 5150 6650
+Wire Wire Line
+	5150 6650 4700 6650
+$Comp
+L power:GNDD #PWR?
+U 1 1 6038C3EE
+P 5150 7600
+AR Path="/601E7BBE/60277424/6038C3EE" Ref="#PWR?"  Part="1" 
+AR Path="/601E7BBE/6038C3EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 7350 50  0001 C CNN
+F 1 "GNDD" H 5154 7445 50  0000 C CNN
+F 2 "" H 5150 7600 50  0001 C CNN
+F 3 "" H 5150 7600 50  0001 C CNN
+	1    5150 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 7600 5150 7100
+Connection ~ 5150 7100
+Wire Wire Line
+	5150 7100 5150 6900
+Wire Wire Line
+	5000 7100 5150 7100
+Text Label 5250 6450 0    50   ~ 0
+XTALIN
+Text Label 5250 6650 0    50   ~ 0
+XTALOUT
+$Comp
+L Device:C_Small C?
+U 1 1 603CE099
+P 5000 7000
+AR Path="/601E7C5A/603CE099" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/603CE099" Ref="C?"  Part="1" 
+AR Path="/601E7C92/603CE099" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/603CE099" Ref="C?"  Part="1" 
+AR Path="/601E7B38/603CE099" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/603CE099" Ref="C?"  Part="1" 
+AR Path="/601E7BBE/603CE099" Ref="C?"  Part="1" 
+F 0 "C?" H 4908 7091 50  0000 R CNN
+F 1 "7pF" H 4908 7000 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5000 7000 50  0001 C CNN
+F 3 "~" H 5000 7000 50  0001 C CNN
+F 4 "50V" H 4908 6909 50  0000 R CNN "Voltage"
+	1    5000 7000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5700 6750
+NoConn ~ 5700 6850
+Text Label 5400 7050 0    50   ~ 0
+RESET_IN
+Wire Wire Line
+	5350 7050 5700 7050
+$Comp
+L Device:R_Small_US R?
+U 1 1 60408CBC
+P 5500 7300
+AR Path="/601E7C5A/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601DF0A6/60408CBC" Ref="R?"  Part="1" 
+AR Path="/601E7BBE/60408CBC" Ref="R?"  Part="1" 
+F 0 "R?" V 5295 7300 50  0000 C CNN
+F 1 "100K" V 5386 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5500 7300 50  0001 C CNN
+F 3 "~" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	0    1    1    0   
+$EndComp
+Text GLabel 5700 7300 2    50   Input ~ 0
+V3P3
+$Comp
+L Device:C_Small C?
+U 1 1 6040A2B1
+P 5350 7500
+AR Path="/601E7C5A/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601E7CC8/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601E7C92/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601E7B38/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601DF0A6/6040A2B1" Ref="C?"  Part="1" 
+AR Path="/601E7BBE/6040A2B1" Ref="C?"  Part="1" 
+F 0 "C?" H 5442 7591 50  0000 L CNN
+F 1 "100nF" H 5442 7500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5350 7500 50  0001 C CNN
+F 3 "~" H 5350 7500 50  0001 C CNN
+F 4 "25V" H 5442 7409 50  0000 L CNN "Voltage"
+	1    5350 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 7600 5150 7600
+Connection ~ 5150 7600
+Wire Wire Line
+	5350 7400 5350 7300
+Wire Wire Line
+	5400 7300 5350 7300
+Connection ~ 5350 7300
+Wire Wire Line
+	5350 7300 5350 7050
+Wire Wire Line
+	5600 7300 5700 7300
 Wire Bus Line
 	3850 1200 3850 2750
 Wire Bus Line
 	6100 1050 6100 2950
-Connection ~ 10850 2800
-Wire Wire Line
-	10850 2800 10850 2900
 $EndSCHEMATC

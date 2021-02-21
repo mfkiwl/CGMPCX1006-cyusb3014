@@ -1618,7 +1618,7 @@ Wire Wire Line
 Text GLabel 2450 7100 1    50   Input ~ 0
 VCC3V3
 Text GLabel 4700 7100 2    50   Input ~ 0
-XADC2V5
+XADC1V25
 Wire Wire Line
 	3950 7100 4100 7100
 Wire Wire Line

@@ -247,4 +247,6 @@ F 4 "" H 1250 1500 50  0000 C CNN "Voltage"
 	1    1250 1500
 	1    0    0    -1  
 $EndComp
+Text Notes 1450 2000 0    197  ~ 0
+Remove this part. EEPROM will be installed in analog board
 $EndSCHEMATC

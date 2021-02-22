@@ -2587,4 +2587,31 @@ Wire Wire Line
 Connection ~ 3800 4750
 Wire Wire Line
 	3800 4750 4200 4750
+Text GLabel 4700 7250 0    50   Input ~ 0
+VCCPLL
+Wire Wire Line
+	2900 5300 3300 5300
+Wire Wire Line
+	3300 5300 3300 5500
+Wire Wire Line
+	4950 7250 4700 7250
+Connection ~ 4950 7250
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 608E2792
+P 4950 7250
+AR Path="/601E7C5A/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601E7B38/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601DF0A6/608E2792" Ref="#FLG?"  Part="1" 
+AR Path="/601E7A84/608E2792" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 4950 7325 50  0001 C CNN
+F 1 "PWR_FLAG" H 4950 7423 50  0000 C CNN
+F 2 "" H 4950 7250 50  0001 C CNN
+F 3 "~" H 4950 7250 50  0001 C CNN
+	1    4950 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

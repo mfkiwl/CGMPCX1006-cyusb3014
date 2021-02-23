@@ -1039,24 +1039,4 @@ Wire Wire Line
 Connection ~ 6800 4850
 Text GLabel 9350 3300 0    50   Input ~ 0
 VCC3V3
-$Comp
-L dk_Specialized-ICs:ATSHA204A-STUCZ-T U?
-U 1 1 60664A56
-P 9350 5550
-F 0 "U?" H 9478 5603 60  0000 L CNN
-F 1 "ATSHA204A-STUCZ-T" H 9478 5497 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 9550 5750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590027" H 9550 5850 60  0001 L CNN
-F 4 "ATSHA204A-STUCZ-TCT-ND" H 9550 5950 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATSHA204A-STUCZ-T" H 9550 6050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9550 6150 60  0001 L CNN "Category"
-F 7 "Specialized ICs" H 9550 6250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590027" H 9550 6350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATSHA204A-STUCZ-T/ATSHA204A-STUCZ-TCT-ND/4814557" H 9550 6450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC AUTHENTICATION CHIP SOT23-3" H 9550 6550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9550 6650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9550 6750 60  0001 L CNN "Status"
-	1    9350 5550
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

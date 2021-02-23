@@ -1,6 +1,95 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 74xx_74HC04
+#
+DEF 74xx_74HC04 U 0 20 Y Y 7 L N
+F0 "U" 0 50 50 H V C CNN
+F1 "74xx_74HC04" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS 74HC04 74HCT04 74AHC04 74AHCT04
+$FPLIST
+ DIP*W7.62mm*
+ SSOP?14*
+ TSSOP?14*
+$ENDFPLIST
+DRAW
+S -200 300 200 -300 7 1 10 f
+P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 2 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 4 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 5 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 6 0 10 -150 150 -150 -150 150 0 -150 150 f
+X ~ 1 -300 0 150 R 50 50 1 0 I
+X ~ 2 300 0 150 L 50 50 1 0 O I
+X ~ 3 -300 0 150 R 50 50 2 0 I
+X ~ 4 300 0 150 L 50 50 2 0 O I
+X ~ 5 -300 0 150 R 50 50 3 0 I
+X ~ 6 300 0 150 L 50 50 3 0 O I
+X ~ 8 300 0 150 L 50 50 4 0 O I
+X ~ 9 -300 0 150 R 50 50 4 0 I
+X ~ 10 300 0 150 L 50 50 5 0 O I
+X ~ 11 -300 0 150 R 50 50 5 0 I
+X ~ 12 300 0 150 L 50 50 6 0 O I
+X ~ 13 -300 0 150 R 50 50 6 0 I
+X VCC 14 0 500 200 D 50 50 7 0 W
+X GND 7 0 -500 200 U 50 50 7 0 W
+ENDDRAW
+ENDDEF
+#
+# Comparator_AD8561
+#
+DEF Comparator_AD8561 U 0 5 Y Y 1 F N
+F0 "U" 150 250 50 H V C CNN
+F1 "Comparator_AD8561" 150 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ TSSOP*4.4x3mm*P0.65mm*
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 200 150 200 -150 N
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V+ 1 -100 300 150 D 50 50 1 1 W
+X + 2 -300 100 100 R 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X LATCH 5 100 300 250 D 50 20 1 1 I
+X GND 6 0 -300 200 U 50 50 1 1 W
+X Q 7 300 -100 100 L 50 50 1 1 O
+X ~Q 8 300 100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_Coaxial
+#
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -2498,30 +2587,6 @@ X OUT 4 400 -100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dk_Specialized-ICs_ATSHA204A-STUCZ-T
-#
-DEF dk_Specialized-ICs_ATSHA204A-STUCZ-T U 0 20 Y Y 1 F N
-F0 "U" -150 250 60 H V C CNN
-F1 "dk_Specialized-ICs_ATSHA204A-STUCZ-T" -50 350 60 H V R CNN
-F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590027" 200 300 60 H I L CNN
-F4 "ATSHA204A-STUCZ-TCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "ATSHA204A-STUCZ-T" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Specialized ICs" 200 700 60 H I L CNN "Family"
-F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590027" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/microchip-technology/ATSHA204A-STUCZ-T/ATSHA204A-STUCZ-TCT-ND/4814557" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC AUTHENTICATION CHIP SOT23-3" 200 1000 60 H I L CNN "Description"
-F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 200 100 -200 1 1 0 f
-X SDA 1 -300 0 100 R 50 50 1 1 B
-X VCC 2 0 300 100 D 50 50 1 1 W
-X GND 3 0 -300 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # dk_Tactile-Switches_TL3315NF160Q
 #
 DEF dk_Tactile-Switches_TL3315NF160Q S 0 40 Y Y 1 F N
@@ -2592,6 +2657,32 @@ P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
 X G 1 -300 -100 100 R 50 50 1 1 B
 X S 2 0 -200 100 U 50 50 1 1 B
 X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_Trimmer-Potentiometers_TC33X-2-103E
+#
+DEF dk_Trimmer-Potentiometers_TC33X-2-103E POT 0 0 Y Y 1 F N
+F0 "POT" -210 170 60 H V C CNN
+F1 "dk_Trimmer-Potentiometers_TC33X-2-103E" 10 -110 60 H V C CNN
+F2 "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" 200 200 60 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 300 60 H I L CNN
+F4 "TC33X-103ETR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TC33X-2-103E" 200 500 60 H I L CNN "MPN"
+F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
+F7 "Trimmer Potentiometers" 200 700 60 H I L CNN "Family"
+F8 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRIMMER 10K OHM 0.1W J LEAD TOP" 200 1000 60 H I L CNN "Description"
+F11 "Bourns Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 200 0 125 N
+P 4 0 1 0 -25 125 25 125 0 75 -25 125 F
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X CCW 1 -200 0 100 R 50 40 1 1 P
+X Wiper 2 0 300 100 D 50 40 1 1 P
+X CW 3 200 0 100 L 50 40 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 18
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -778,7 +778,7 @@ Wire Notes Line
 Text Notes 6700 4100 0    50   ~ 0
 Depends on the input voltage 
 Text HLabel 9250 4750 2    50   Output ~ 0
-AN0_P
+AN1_P
 Text HLabel 9250 5150 2    50   Output ~ 0
-AN0_N
+AN1_N
 $EndSCHEMATC

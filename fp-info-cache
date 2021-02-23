@@ -1,4 +1,4 @@
-20155089554327994
+20156703644870339
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51993,8 +51993,8 @@ GSB3211311WEU
 
 
 0
-0
-0
+9
+9
 GM_Connectors
 HSEC8-140-01-L-PV-4-1
 
@@ -52184,6 +52184,13 @@ Integrated Circuit
 0
 10
 10
+GM_SOP
+SOP65P425X315X130-8N
+
+
+0
+8
+8
 GM_SOP
 SOP65P490X110-8N
 8_ MSOP

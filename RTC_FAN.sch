@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 19
+Sheet 11 20
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -509,8 +509,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 3250 8350 3350
 Connection ~ 8350 3350
-Text GLabel 8650 2800 0    50   Input ~ 0
-VCC
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 602A4D12
@@ -536,4 +534,6 @@ Wire Wire Line
 	9250 3250 9600 3250
 Text Notes 7400 2350 0    118  ~ 24
 Add the proper power net
+Text HLabel 8650 2800 0    157  Input ~ 0
+12VIN
 $EndSCHEMATC

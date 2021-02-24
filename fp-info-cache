@@ -1,4 +1,4 @@
-20156703644870339
+20157430919893464
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52247,13 +52247,6 @@ Integrated Circuit
 0
 6
 6
-GM_TDFN
-TDFN-8-2x2mm_P0.5mm
-TDFN, 8 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0168.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-TDFN NoLead
-0
-8
-8
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35

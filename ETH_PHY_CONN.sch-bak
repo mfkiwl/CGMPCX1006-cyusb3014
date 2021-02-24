@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 10 20
 Title ""
 Date ""
 Rev ""
@@ -37,89 +37,6 @@ F 1 "DP83869HMRGZT" H 2650 3474 50  0000 C CNN
 F 2 "QFN50P700X700X100-49N-D" H 5450 2500 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/DP83869HM" H 5450 2400 50  0001 L CNN
 	1    1900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6026D90E
-P -800 1500
-AR Path="/601E7C5A/6026D90E" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6026D90E" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6026D90E" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6026D90E" Ref="R33"  Part="1" 
-F 0 "R33" H -732 1546 50  0000 L CNN
-F 1 "R_Small_US" H -732 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -800 1500 50  0001 C CNN
-F 3 "~" H -800 1500 50  0001 C CNN
-	1    -800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6026D915
-P -1500 1500
-AR Path="/601E7C5A/6026D915" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/6026D915" Ref="C?"  Part="1" 
-AR Path="/601E7C92/6026D915" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6026D915" Ref="C40"  Part="1" 
-F 0 "C40" H -1408 1546 50  0000 L CNN
-F 1 "C_Small" H -1408 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -1500 1500 50  0001 C CNN
-F 3 "~" H -1500 1500 50  0001 C CNN
-F 4 "" H -1500 1500 50  0000 C CNN "Voltage"
-	1    -1500 1500
-	1    0    0    -1  
-$EndComp
-Text GLabel -1300 2100 0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 6026D91C
-P -1100 2100
-AR Path="/601E7C5A/6026D91C" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/6026D91C" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/6026D91C" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6026D91C" Ref="#FLG011"  Part="1" 
-F 0 "#FLG011" H -1100 2175 50  0001 C CNN
-F 1 "PWR_FLAG" H -1100 2273 50  0000 C CNN
-F 2 "" H -1100 2100 50  0001 C CNN
-F 3 "~" H -1100 2100 50  0001 C CNN
-	1    -1100 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ -1100 2100
-Wire Wire Line
-	-1100 2100 -900 2100
-Wire Wire Line
-	-1300 2100 -1100 2100
-$Comp
-L power:GNDD #PWR?
-U 1 1 6026D925
-P -600 1750
-AR Path="/601DF0A6/6026D925" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/6026D925" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/6026D925" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/6026D925" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6026D925" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H -600 1500 50  0001 C CNN
-F 1 "GNDD" H -596 1595 50  0000 C CNN
-F 2 "" H -600 1750 50  0001 C CNN
-F 3 "" H -600 1750 50  0001 C CNN
-	1    -600 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 6026D92C
-P -1200 1250
-AR Path="/601E7C92/6026D92C" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6026D92C" Ref="C41"  Part="1" 
-F 0 "C41" H -1112 1296 50  0000 L CNN
-F 1 "C_Polarized_Small" H -1112 1205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1200 1250 50  0001 C CNN
-F 3 "~" H -1200 1250 50  0001 C CNN
-F 4 "" H -1200 1250 50  0000 C CNN "Voltage"
-	1    -1200 1250
 	1    0    0    -1  
 $EndComp
 Text GLabel 1100 3500 0    50   Input ~ 0
@@ -225,7 +142,7 @@ Entry Wire Line
 Text HLabel 1100 5450 0    50   Input ~ 0
 ETH_TX_[0..3]
 Text Label 750  5700 0    50   ~ 0
-TX_[0..3]
+TX_D[0..3]
 Text HLabel 1200 5900 0    50   Input ~ 0
 ETH_RX_CLK
 Text HLabel 1200 6000 0    50   Input ~ 0
@@ -249,7 +166,7 @@ Entry Wire Line
 Text HLabel 1100 6450 0    50   Input ~ 0
 ETH_RX_[0..3]
 Text Label 750  6700 0    50   ~ 0
-RX_[0..3]
+RX_D[0..3]
 NoConn ~ 1700 6900
 NoConn ~ 1700 7000
 NoConn ~ 1700 7100

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 19
+Sheet 4 20
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -89,12 +89,8 @@ Text Label 1500 4950 0    50   ~ 0
 DDR3_BA1
 Text Label 1500 5050 0    50   ~ 0
 DDR3_BA2
-Text HLabel 1350 4850 0    50   Input ~ 0
-DDR3_BA0
-Text HLabel 1350 4950 0    50   Input ~ 0
-DDR3_BA1
-Text HLabel 1350 5050 0    50   Input ~ 0
-DDR3_BA2
+Text HLabel 1150 5050 0    50   Input ~ 0
+DDR3_BA[0..2]
 Wire Wire Line
 	1350 4450 2150 4450
 Wire Wire Line
@@ -107,202 +103,56 @@ Text Label 1500 4550 0    50   ~ 0
 DDR3_A1
 Text Label 1500 4650 0    50   ~ 0
 DDR3_A0
-Text HLabel 1350 4450 0    50   Input ~ 0
-DDR3_A2
-Text HLabel 1350 4550 0    50   Input ~ 0
-DDR3_A1
-Text HLabel 1350 4650 0    50   Input ~ 0
-DDR3_A0
+Text HLabel 1100 3400 0    50   Input ~ 0
+DDR3_A[0..14]
 Wire Wire Line
 	1350 4350 2150 4350
-Text HLabel 1350 4350 0    50   Input ~ 0
-DDR3_A3
 Wire Wire Line
 	1350 4250 2150 4250
-Text HLabel 1350 4250 0    50   Input ~ 0
-DDR3_A4
 Text Label 1500 4350 0    50   ~ 0
 DDR3_A3
 Text Label 1500 4250 0    50   ~ 0
 DDR3_A4
 Wire Wire Line
 	1350 4150 2150 4150
-Text HLabel 1350 4150 0    50   Input ~ 0
-DDR3_A5
 Wire Wire Line
 	1350 4050 2150 4050
-Text HLabel 1350 4050 0    50   Input ~ 0
-DDR3_A6
 Text Label 1500 4150 0    50   ~ 0
 DDR3_A5
 Text Label 1500 4050 0    50   ~ 0
 DDR3_A6
 Wire Wire Line
 	1350 3950 2150 3950
-Text HLabel 1350 3950 0    50   Input ~ 0
-DDR3_A7
 Wire Wire Line
 	1350 3850 2150 3850
-Text HLabel 1350 3850 0    50   Input ~ 0
-DDR3_A8
 Text Label 1500 3950 0    50   ~ 0
 DDR3_A7
 Wire Wire Line
 	1350 3750 2150 3750
-Text HLabel 1350 3750 0    50   Input ~ 0
-DDR3_A9
 Wire Wire Line
 	1350 3650 2150 3650
-Text HLabel 1350 3650 0    50   Input ~ 0
-DDR3_A10
 Text Label 1500 3750 0    50   ~ 0
 DDR3_A9
 Text Label 1500 3650 0    50   ~ 0
 DDR3_A10
 Wire Wire Line
 	1350 3550 2150 3550
-Text HLabel 1350 3550 0    50   Input ~ 0
-DDR3_A11
 Wire Wire Line
 	1350 3450 2150 3450
-Text HLabel 1350 3450 0    50   Input ~ 0
-DDR3_A12
 Text Label 1500 3550 0    50   ~ 0
 DDR3_A11
 Text Label 1500 3450 0    50   ~ 0
 DDR3_A12
 Wire Wire Line
 	1350 3350 2150 3350
-Text HLabel 1350 3350 0    50   Input ~ 0
-DDR3_A13
 Wire Wire Line
 	1350 3250 2150 3250
-Text HLabel 1350 3250 0    50   Input ~ 0
-DDR3_A14
 Text Label 1500 3350 0    50   ~ 0
 DDR3_A13
 Text Label 1500 3250 0    50   ~ 0
 DDR3_A14
 Text Label 1500 3850 0    50   ~ 0
 DDR3_A8
-$Comp
-L Device:R_Small_US R?
-U 1 1 60361ED2
-P -900 800
-AR Path="/601E7C5A/60361ED2" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60361ED2" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60361ED2" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361ED2" Ref="R?"  Part="1" 
-AR Path="/601E7AEB/60361ED2" Ref="R?"  Part="1" 
-F 0 "R?" H -832 846 50  0000 L CNN
-F 1 "R_Small_US" H -832 755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -900 800 50  0001 C CNN
-F 3 "~" H -900 800 50  0001 C CNN
-	1    -900 800 
-	1    0    0    -1  
-$EndComp
-Text GLabel -1400 1400 0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 60361ED9
-P -1200 1400
-AR Path="/601E7C5A/60361ED9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/60361ED9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60361ED9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361ED9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7AEB/60361ED9" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H -1200 1475 50  0001 C CNN
-F 1 "PWR_FLAG" H -1200 1573 50  0000 C CNN
-F 2 "" H -1200 1400 50  0001 C CNN
-F 3 "~" H -1200 1400 50  0001 C CNN
-	1    -1200 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ -1200 1400
-Wire Wire Line
-	-1200 1400 -1000 1400
-Wire Wire Line
-	-1400 1400 -1200 1400
-$Comp
-L power:GNDD #PWR?
-U 1 1 60361EE2
-P -700 1050
-AR Path="/601DF0A6/60361EE2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/60361EE2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/60361EE2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60361EE2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361EE2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7AEB/60361EE2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -700 800 50  0001 C CNN
-F 1 "GNDD" H -696 895 50  0000 C CNN
-F 2 "" H -700 1050 50  0001 C CNN
-F 3 "" H -700 1050 50  0001 C CNN
-	1    -700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 60361EE9
-P -1300 550
-AR Path="/601E7C92/60361EE9" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361EE9" Ref="C?"  Part="1" 
-AR Path="/601E7AEB/60361EE9" Ref="C?"  Part="1" 
-F 0 "C?" H -1212 596 50  0000 L CNN
-F 1 "C_Polarized_Small" H -1212 505 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1300 550 50  0001 C CNN
-F 3 "~" H -1300 550 50  0001 C CNN
-F 4 "" H -1300 550 50  0000 C CNN "Voltage"
-	1    -1300 550 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 60361EEF
-P -750 1400
-AR Path="/601DF0A6/60361EEF" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/60361EEF" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/60361EEF" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60361EEF" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361EEF" Ref="#PWR?"  Part="1" 
-AR Path="/601E7AEB/60361EEF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -750 1150 50  0001 C CNN
-F 1 "GNDD" V -746 1299 50  0000 R CNN
-F 2 "" H -750 1400 50  0001 C CNN
-F 3 "" H -750 1400 50  0001 C CNN
-	1    -750 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60361EF5
-P -900 1900
-AR Path="/601E7C92/60361EF5" Ref="TP?"  Part="1" 
-AR Path="/601E7AEB/60361EF5" Ref="TP?"  Part="1" 
-F 0 "TP?" V -900 2150 50  0000 C CNN
-F 1 "TestPoint" V -950 2250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H -700 1900 50  0001 C CNN
-F 3 "~" H -700 1900 50  0001 C CNN
-	1    -900 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60361EFC
-P -1600 800
-AR Path="/601E7C5A/60361EFC" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/60361EFC" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60361EFC" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60361EFC" Ref="C?"  Part="1" 
-AR Path="/601E7AEB/60361EFC" Ref="C?"  Part="1" 
-F 0 "C?" H -1508 846 50  0000 L CNN
-F 1 "C_Small" H -1508 755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -1600 800 50  0001 C CNN
-F 3 "~" H -1600 800 50  0001 C CNN
-F 4 "25V" H -1500 650 50  0000 L CNN "Voltage"
-	1    -1600 800 
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 603630EE
@@ -748,32 +598,22 @@ Text Label 9550 2550 0    50   ~ 0
 DDR3_DQS3_P
 Wire Wire Line
 	4450 2350 3650 2350
-Text HLabel 4450 2350 2    50   BiDi ~ 0
-DDR3_D0
 Text Label 3900 2350 0    50   ~ 0
 DDR3_D0
 Wire Wire Line
 	4450 2250 3650 2250
-Text HLabel 4450 2250 2    50   BiDi ~ 0
-DDR3_D1
 Text Label 3900 2250 0    50   ~ 0
 DDR3_D1
 Wire Wire Line
 	4450 2150 3650 2150
-Text HLabel 4450 2150 2    50   BiDi ~ 0
-DDR3_D2
 Text Label 3900 2150 0    50   ~ 0
 DDR3_D2
 Wire Wire Line
 	4450 2050 3650 2050
-Text HLabel 4450 2050 2    50   BiDi ~ 0
-DDR3_D3
 Text Label 3900 2050 0    50   ~ 0
 DDR3_D3
 Wire Wire Line
 	4450 1950 3650 1950
-Text HLabel 4450 1950 2    50   BiDi ~ 0
-DDR3_D4
 Text Label 3900 1950 0    50   ~ 0
 DDR3_D4
 Wire Wire Line
@@ -782,12 +622,6 @@ Wire Wire Line
 	4450 1750 3650 1750
 Wire Wire Line
 	4450 1650 3650 1650
-Text HLabel 4450 1850 2    50   BiDi ~ 0
-DDR3_D5
-Text HLabel 4450 1750 2    50   BiDi ~ 0
-DDR3_D6
-Text HLabel 4450 1650 2    50   BiDi ~ 0
-DDR3_D7
 Text Label 3900 1850 0    50   ~ 0
 DDR3_D5
 Text Label 3900 1750 0    50   ~ 0
@@ -796,8 +630,6 @@ Text Label 3900 1650 0    50   ~ 0
 DDR3_D7
 Wire Wire Line
 	4450 1550 3650 1550
-Text HLabel 4450 1550 2    50   BiDi ~ 0
-DDR3_D8
 Text Label 3900 1550 0    50   ~ 0
 DDR3_D8
 Wire Wire Line
@@ -806,12 +638,6 @@ Wire Wire Line
 	4450 1350 3650 1350
 Wire Wire Line
 	4450 1250 3650 1250
-Text HLabel 4450 1450 2    50   BiDi ~ 0
-DDR3_D9
-Text HLabel 4450 1350 2    50   BiDi ~ 0
-DDR3_D10
-Text HLabel 4450 1250 2    50   BiDi ~ 0
-DDR3_D11
 Text Label 3900 1450 0    50   ~ 0
 DDR3_D9
 Text Label 3900 1350 0    50   ~ 0
@@ -820,8 +646,6 @@ Text Label 3900 1250 0    50   ~ 0
 DDR3_D11
 Wire Wire Line
 	4450 1150 3650 1150
-Text HLabel 4450 1150 2    50   BiDi ~ 0
-DDR3_D12
 Text Label 3900 1150 0    50   ~ 0
 DDR3_D12
 Wire Wire Line
@@ -830,12 +654,8 @@ Wire Wire Line
 	4450 950  3650 950 
 Wire Wire Line
 	4450 850  3650 850 
-Text HLabel 4450 1050 2    50   BiDi ~ 0
-DDR3_D13
-Text HLabel 4450 950  2    50   BiDi ~ 0
-DDR3_D14
-Text HLabel 4450 850  2    50   BiDi ~ 0
-DDR3_D15
+Text HLabel 4700 950  2    50   BiDi ~ 0
+DDR3_D[0..15]
 Text Label 3900 1050 0    50   ~ 0
 DDR3_D13
 Text Label 3900 950  0    50   ~ 0
@@ -844,8 +664,6 @@ Text Label 3900 850  0    50   ~ 0
 DDR3_D15
 Wire Wire Line
 	10100 1950 9300 1950
-Text HLabel 10100 1950 2    50   BiDi ~ 0
-DDR3_D20
 Text Label 9550 1950 0    50   ~ 0
 DDR3_D20
 Wire Wire Line
@@ -854,12 +672,6 @@ Wire Wire Line
 	10100 1750 9300 1750
 Wire Wire Line
 	10100 1650 9300 1650
-Text HLabel 10100 1850 2    50   BiDi ~ 0
-DDR3_D21
-Text HLabel 10100 1750 2    50   BiDi ~ 0
-DDR3_D22
-Text HLabel 10100 1650 2    50   BiDi ~ 0
-DDR3_D23
 Text Label 9550 1850 0    50   ~ 0
 DDR3_D21
 Text Label 9550 1750 0    50   ~ 0
@@ -868,8 +680,6 @@ Text Label 9550 1650 0    50   ~ 0
 DDR3_D23
 Wire Wire Line
 	10100 1550 9300 1550
-Text HLabel 10100 1550 2    50   BiDi ~ 0
-DDR3_D24
 Text Label 9550 1550 0    50   ~ 0
 DDR3_D24
 Wire Wire Line
@@ -878,12 +688,6 @@ Wire Wire Line
 	10100 1350 9300 1350
 Wire Wire Line
 	10100 1250 9300 1250
-Text HLabel 10100 1450 2    50   BiDi ~ 0
-DDR3_D25
-Text HLabel 10100 1350 2    50   BiDi ~ 0
-DDR3_D26
-Text HLabel 10100 1250 2    50   BiDi ~ 0
-DDR3_D27
 Text Label 9550 1450 0    50   ~ 0
 DDR3_D25
 Text Label 9550 1350 0    50   ~ 0
@@ -892,8 +696,6 @@ Text Label 9550 1250 0    50   ~ 0
 DDR3_D27
 Wire Wire Line
 	10100 1150 9300 1150
-Text HLabel 10100 1150 2    50   BiDi ~ 0
-DDR3_D28
 Text Label 9550 1150 0    50   ~ 0
 DDR3_D28
 Wire Wire Line
@@ -902,12 +704,6 @@ Wire Wire Line
 	10100 950  9300 950 
 Wire Wire Line
 	10100 850  9300 850 
-Text HLabel 10100 1050 2    50   BiDi ~ 0
-DDR3_D29
-Text HLabel 10100 950  2    50   BiDi ~ 0
-DDR3_D30
-Text HLabel 10100 850  2    50   BiDi ~ 0
-DDR3_D31
 Text Label 9550 1050 0    50   ~ 0
 DDR3_D29
 Text Label 9550 950  0    50   ~ 0
@@ -916,8 +712,6 @@ Text Label 9550 850  0    50   ~ 0
 DDR3_D31
 Wire Wire Line
 	10100 2350 9300 2350
-Text HLabel 10100 2350 2    50   BiDi ~ 0
-DDR3_D16
 Text Label 9550 2350 0    50   ~ 0
 DDR3_D16
 Wire Wire Line
@@ -926,12 +720,6 @@ Wire Wire Line
 	10100 2150 9300 2150
 Wire Wire Line
 	10100 2050 9300 2050
-Text HLabel 10100 2250 2    50   BiDi ~ 0
-DDR3_D17
-Text HLabel 10100 2150 2    50   BiDi ~ 0
-DDR3_D18
-Text HLabel 10100 2050 2    50   BiDi ~ 0
-DDR3_D19
 Text Label 9550 2250 0    50   ~ 0
 DDR3_D17
 Text Label 9550 2150 0    50   ~ 0
@@ -1170,12 +958,6 @@ Text Label 7150 4950 0    50   ~ 0
 DDR3_BA1
 Text Label 7150 5050 0    50   ~ 0
 DDR3_BA2
-Text HLabel 7000 4850 0    50   Input ~ 0
-DDR3_BA0
-Text HLabel 7000 4950 0    50   Input ~ 0
-DDR3_BA1
-Text HLabel 7000 5050 0    50   Input ~ 0
-DDR3_BA2
 Wire Wire Line
 	7000 4450 7800 4450
 Wire Wire Line
@@ -1188,78 +970,48 @@ Text Label 7150 4550 0    50   ~ 0
 DDR3_A1
 Text Label 7150 4650 0    50   ~ 0
 DDR3_A0
-Text HLabel 7000 4450 0    50   Input ~ 0
-DDR3_A2
-Text HLabel 7000 4550 0    50   Input ~ 0
-DDR3_A1
-Text HLabel 7000 4650 0    50   Input ~ 0
-DDR3_A0
 Wire Wire Line
 	7000 4350 7800 4350
-Text HLabel 7000 4350 0    50   Input ~ 0
-DDR3_A3
 Wire Wire Line
 	7000 4250 7800 4250
-Text HLabel 7000 4250 0    50   Input ~ 0
-DDR3_A4
 Text Label 7150 4350 0    50   ~ 0
 DDR3_A3
 Text Label 7150 4250 0    50   ~ 0
 DDR3_A4
 Wire Wire Line
 	7000 4150 7800 4150
-Text HLabel 7000 4150 0    50   Input ~ 0
-DDR3_A5
 Wire Wire Line
 	7000 4050 7800 4050
-Text HLabel 7000 4050 0    50   Input ~ 0
-DDR3_A6
 Text Label 7150 4150 0    50   ~ 0
 DDR3_A5
 Text Label 7150 4050 0    50   ~ 0
 DDR3_A6
 Wire Wire Line
 	7000 3950 7800 3950
-Text HLabel 7000 3950 0    50   Input ~ 0
-DDR3_A7
 Wire Wire Line
 	7000 3850 7800 3850
-Text HLabel 7000 3850 0    50   Input ~ 0
-DDR3_A8
 Text Label 7150 3950 0    50   ~ 0
 DDR3_A7
 Wire Wire Line
 	7000 3750 7800 3750
-Text HLabel 7000 3750 0    50   Input ~ 0
-DDR3_A9
 Wire Wire Line
 	7000 3650 7800 3650
-Text HLabel 7000 3650 0    50   Input ~ 0
-DDR3_A10
 Text Label 7150 3750 0    50   ~ 0
 DDR3_A9
 Text Label 7150 3650 0    50   ~ 0
 DDR3_A10
 Wire Wire Line
 	7000 3550 7800 3550
-Text HLabel 7000 3550 0    50   Input ~ 0
-DDR3_A11
 Wire Wire Line
 	7000 3450 7800 3450
-Text HLabel 7000 3450 0    50   Input ~ 0
-DDR3_A12
 Text Label 7150 3550 0    50   ~ 0
 DDR3_A11
 Text Label 7150 3450 0    50   ~ 0
 DDR3_A12
 Wire Wire Line
 	7000 3350 7800 3350
-Text HLabel 7000 3350 0    50   Input ~ 0
-DDR3_A13
 Wire Wire Line
 	7000 3250 7800 3250
-Text HLabel 7000 3250 0    50   Input ~ 0
-DDR3_A14
 Text Label 7150 3350 0    50   ~ 0
 DDR3_A13
 Text Label 7150 3250 0    50   ~ 0
@@ -2682,4 +2434,162 @@ Text GLabel 1300 850  0    50   Input ~ 0
 VCC1V35
 Text GLabel 6950 850  0    50   Input ~ 0
 VCC1V35
+Entry Wire Line
+	1250 3150 1350 3250
+Entry Wire Line
+	1250 3250 1350 3350
+Entry Wire Line
+	1250 3350 1350 3450
+Entry Wire Line
+	1250 3450 1350 3550
+Entry Wire Line
+	1250 3550 1350 3650
+Entry Wire Line
+	1250 3650 1350 3750
+Entry Wire Line
+	1250 3750 1350 3850
+Entry Wire Line
+	1250 3850 1350 3950
+Entry Wire Line
+	1250 3950 1350 4050
+Entry Wire Line
+	1250 4050 1350 4150
+Entry Wire Line
+	1250 4150 1350 4250
+Entry Wire Line
+	1250 4250 1350 4350
+Entry Wire Line
+	1250 4350 1350 4450
+Entry Wire Line
+	1250 4450 1350 4550
+Entry Wire Line
+	1250 4550 1350 4650
+Wire Bus Line
+	1250 3100 550  3100
+Wire Bus Line
+	550  3250 1150 3250
+Wire Bus Line
+	1150 3400 1100 3400
+Wire Bus Line
+	550  3100 550  3250
+Wire Bus Line
+	1150 3250 1150 3400
+Text Label 600  3100 0    50   ~ 0
+DDR3_A[0..14]
+Text Label 600  4700 0    50   ~ 0
+DDR3_BA[0..2]
+Entry Wire Line
+	1250 4950 1350 5050
+Entry Wire Line
+	1250 4850 1350 4950
+Entry Wire Line
+	1250 4750 1350 4850
+Wire Bus Line
+	1250 4700 550  4700
+Wire Bus Line
+	550  4700 550  4850
+Wire Bus Line
+	550  4850 1200 4850
+Wire Bus Line
+	1200 4850 1200 5050
+Wire Bus Line
+	1200 5050 1150 5050
+Entry Wire Line
+	4450 2350 4550 2250
+Entry Wire Line
+	4450 2250 4550 2150
+Entry Wire Line
+	4450 2150 4550 2050
+Entry Wire Line
+	4450 2050 4550 1950
+Entry Wire Line
+	4450 1950 4550 1850
+Entry Wire Line
+	4450 1850 4550 1750
+Entry Wire Line
+	4450 1750 4550 1650
+Entry Wire Line
+	4450 1650 4550 1550
+Entry Wire Line
+	4450 1550 4550 1450
+Entry Wire Line
+	4450 1450 4550 1350
+Entry Wire Line
+	4450 1350 4550 1250
+Entry Wire Line
+	4450 1250 4550 1150
+Entry Wire Line
+	4450 1150 4550 1050
+Entry Wire Line
+	4450 1050 4550 950 
+Entry Wire Line
+	4450 950  4550 850 
+Entry Wire Line
+	4450 850  4550 750 
+Text Label 4650 750  0    50   ~ 0
+DDR3_D[0..15]
+Wire Bus Line
+	4550 750  5300 750 
+Wire Bus Line
+	5300 750  5300 850 
+Wire Bus Line
+	5300 850  4650 850 
+Wire Bus Line
+	4650 850  4650 950 
+Wire Bus Line
+	4650 950  4700 950 
+Text HLabel 10350 950  2    50   BiDi ~ 0
+DDR3_D[16..31]
+Entry Wire Line
+	10100 2350 10200 2250
+Entry Wire Line
+	10100 2250 10200 2150
+Entry Wire Line
+	10100 2150 10200 2050
+Entry Wire Line
+	10100 2050 10200 1950
+Entry Wire Line
+	10100 1950 10200 1850
+Entry Wire Line
+	10100 1850 10200 1750
+Entry Wire Line
+	10100 1750 10200 1650
+Entry Wire Line
+	10100 1650 10200 1550
+Entry Wire Line
+	10100 1550 10200 1450
+Entry Wire Line
+	10100 1450 10200 1350
+Entry Wire Line
+	10100 1350 10200 1250
+Entry Wire Line
+	10100 1250 10200 1150
+Entry Wire Line
+	10100 1150 10200 1050
+Entry Wire Line
+	10100 1050 10200 950 
+Entry Wire Line
+	10100 950  10200 850 
+Entry Wire Line
+	10100 850  10200 750 
+Text Label 10300 750  0    50   ~ 0
+DDR3_D[16..31]
+Wire Bus Line
+	10200 750  10950 750 
+Wire Bus Line
+	10950 750  10950 850 
+Wire Bus Line
+	10950 850  10300 850 
+Wire Bus Line
+	10300 850  10300 950 
+Wire Bus Line
+	10300 950  10350 950 
+Wire Bus Line
+	1250 4700 1250 4950
+Wire Bus Line
+	1250 3100 1250 4550
+Wire Bus Line
+	4550 750  4550 2250
+Wire Bus Line
+	10200 750  10200 2250
 $EndSCHEMATC

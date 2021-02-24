@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 8 20
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -54,73 +54,6 @@ F 2 "GM_BGA:BGA49C80P7X7_625X625X242" H 10450 3100 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ltm8078.pdf" H 10450 3000 50  0001 L CNN
 F 4 "LTM8078IY#PBF" H 10700 3000 50  0001 C CNN "MPN"
 	2    8700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 602D5C42
-P -900 350
-AR Path="/601E7C5A/602D5C42" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/602D5C42" Ref="R?"  Part="1" 
-AR Path="/601E7C92/602D5C42" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602D5C42" Ref="R?"  Part="1" 
-F 0 "R?" H -832 396 50  0000 L CNN
-F 1 "R_Small_US" H -832 305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -900 350 50  0001 C CNN
-F 3 "~" H -900 350 50  0001 C CNN
-	1    -900 350 
-	1    0    0    -1  
-$EndComp
-Text GLabel -1400 950  0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 602D5C50
-P -1200 950
-AR Path="/601E7C5A/602D5C50" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/602D5C50" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/602D5C50" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602D5C50" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H -1200 1025 50  0001 C CNN
-F 1 "PWR_FLAG" H -1200 1123 50  0000 C CNN
-F 2 "" H -1200 950 50  0001 C CNN
-F 3 "~" H -1200 950 50  0001 C CNN
-	1    -1200 950 
-	1    0    0    -1  
-$EndComp
-Connection ~ -1200 950 
-Wire Wire Line
-	-1200 950  -1000 950 
-Wire Wire Line
-	-1400 950  -1200 950 
-$Comp
-L power:GNDD #PWR?
-U 1 1 602D5C59
-P -700 600
-AR Path="/601DF0A6/602D5C59" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/602D5C59" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/602D5C59" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/602D5C59" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602D5C59" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -700 350 50  0001 C CNN
-F 1 "GNDD" H -696 445 50  0000 C CNN
-F 2 "" H -700 600 50  0001 C CNN
-F 3 "" H -700 600 50  0001 C CNN
-	1    -700 600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 602D5C60
-P -1300 100
-AR Path="/601E7C92/602D5C60" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602D5C60" Ref="C?"  Part="1" 
-F 0 "C?" H -1212 146 50  0000 L CNN
-F 1 "C_Polarized_Small" H -1212 55  50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1300 100 50  0001 C CNN
-F 3 "~" H -1300 100 50  0001 C CNN
-F 4 "" H -1300 100 50  0000 C CNN "Voltage"
-	1    -1300 100 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -197,22 +130,6 @@ Wire Wire Line
 	2850 2700 2550 2700
 Wire Wire Line
 	2550 2700 2550 2600
-$Comp
-L power:GNDD #PWR?
-U 1 1 602DE80F
-P -750 950
-AR Path="/601DF0A6/602DE80F" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/602DE80F" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/602DE80F" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/602DE80F" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602DE80F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -750 700 50  0001 C CNN
-F 1 "GNDD" V -746 849 50  0000 R CNN
-F 2 "" H -750 950 50  0001 C CNN
-F 3 "" H -750 950 50  0001 C CNN
-	1    -750 950 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 602DEE4A
@@ -387,17 +304,6 @@ F 3 "~" H 3300 4350 50  0001 C CNN
 	1    3100 4350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 6031807D
-P -900 1450
-F 0 "TP?" V -900 1700 50  0000 C CNN
-F 1 "TestPoint" V -950 1800 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H -700 1450 50  0001 C CNN
-F 3 "~" H -700 1450 50  0001 C CNN
-	1    -900 1450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3100 4250 3300 4250
 Wire Wire Line
@@ -538,22 +444,6 @@ $EndComp
 Connection ~ 5000 2650
 Wire Wire Line
 	5000 2650 5050 2650
-$Comp
-L Device:C_Small C?
-U 1 1 602D5C49
-P -1600 350
-AR Path="/601E7C5A/602D5C49" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/602D5C49" Ref="C?"  Part="1" 
-AR Path="/601E7C92/602D5C49" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/602D5C49" Ref="C?"  Part="1" 
-F 0 "C?" H -1508 396 50  0000 L CNN
-F 1 "C_Small" H -1508 305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -1600 350 50  0001 C CNN
-F 3 "~" H -1600 350 50  0001 C CNN
-F 4 "25V" H -1500 200 50  0000 L CNN "Voltage"
-	1    -1600 350 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60377DCB

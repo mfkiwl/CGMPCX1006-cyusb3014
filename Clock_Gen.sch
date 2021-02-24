@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 19
+Sheet 5 20
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -13,105 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R_Small_US R?
-U 1 1 6028FC9B
-P -1250 1050
-AR Path="/601E7C5A/6028FC9B" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6028FC9B" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6028FC9B" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6028FC9B" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6028FC9B" Ref="R?"  Part="1" 
-F 0 "R?" H -1182 1096 50  0000 L CNN
-F 1 "R_Small_US" H -1182 1005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -1250 1050 50  0001 C CNN
-F 3 "~" H -1250 1050 50  0001 C CNN
-	1    -1250 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6028FCA2
-P -1950 1050
-AR Path="/601E7C5A/6028FCA2" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/6028FCA2" Ref="C?"  Part="1" 
-AR Path="/601E7C92/6028FCA2" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6028FCA2" Ref="C?"  Part="1" 
-AR Path="/601E7B38/6028FCA2" Ref="C?"  Part="1" 
-F 0 "C?" H -1858 1096 50  0000 L CNN
-F 1 "C_Small" H -1858 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -1950 1050 50  0001 C CNN
-F 3 "~" H -1950 1050 50  0001 C CNN
-F 4 "" H -1950 1050 50  0000 C CNN "Voltage"
-	1    -1950 1050
-	1    0    0    -1  
-$EndComp
-Text GLabel -1750 1650 0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 6028FCA9
-P -1550 1650
-AR Path="/601E7C5A/6028FCA9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/6028FCA9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/6028FCA9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6028FCA9" Ref="#FLG?"  Part="1" 
-AR Path="/601E7B38/6028FCA9" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H -1550 1725 50  0001 C CNN
-F 1 "PWR_FLAG" H -1550 1823 50  0000 C CNN
-F 2 "" H -1550 1650 50  0001 C CNN
-F 3 "~" H -1550 1650 50  0001 C CNN
-	1    -1550 1650
-	1    0    0    -1  
-$EndComp
-Connection ~ -1550 1650
-Wire Wire Line
-	-1550 1650 -1350 1650
-Wire Wire Line
-	-1750 1650 -1550 1650
-$Comp
-L power:GNDD #PWR?
-U 1 1 6028FCB2
-P -1050 1300
-AR Path="/601DF0A6/6028FCB2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/6028FCB2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/6028FCB2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/6028FCB2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6028FCB2" Ref="#PWR?"  Part="1" 
-AR Path="/601E7B38/6028FCB2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -1050 1050 50  0001 C CNN
-F 1 "GNDD" H -1046 1145 50  0000 C CNN
-F 2 "" H -1050 1300 50  0001 C CNN
-F 3 "" H -1050 1300 50  0001 C CNN
-	1    -1050 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 6028FCB9
-P -1650 800
-AR Path="/601E7C92/6028FCB9" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6028FCB9" Ref="C?"  Part="1" 
-AR Path="/601E7B38/6028FCB9" Ref="C?"  Part="1" 
-F 0 "C?" H -1562 846 50  0000 L CNN
-F 1 "C_Polarized_Small" H -1562 755 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1650 800 50  0001 C CNN
-F 3 "~" H -1650 800 50  0001 C CNN
-F 4 "" H -1650 800 50  0000 C CNN "Voltage"
-	1    -1650 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60291703
-P -450 850
-F 0 "C?" V -679 850 50  0000 C CNN
-F 1 "C_Small" V -588 850 50  0000 C CNN
-F 2 "" H -450 850 50  0001 C CNN
-F 3 "~" H -450 850 50  0001 C CNN
-	1    -450 850 
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60F6C893
@@ -489,21 +390,21 @@ F 3 "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataShee
 	1    7350 3850
 	1    0    0    -1  
 $EndComp
-Text HLabel 9950 2550 2    50   Input ~ 0
+Text HLabel 9950 2550 2    50   Output ~ 0
 CLK_OUT0_N
-Text HLabel 9950 2450 2    50   Input ~ 0
+Text HLabel 9950 2450 2    50   Output ~ 0
 CLK_OUT0_P
-Text HLabel 9950 2850 2    50   Input ~ 0
+Text HLabel 9950 2850 2    50   Output ~ 0
 CLK_OUT1_N
-Text HLabel 9950 2750 2    50   Input ~ 0
+Text HLabel 9950 2750 2    50   Output ~ 0
 CLK_OUT1_P
-Text HLabel 9950 3150 2    50   Input ~ 0
+Text HLabel 9950 3150 2    50   Output ~ 0
 CLK_OUT2_N
-Text HLabel 9950 3050 2    50   Input ~ 0
+Text HLabel 9950 3050 2    50   Output ~ 0
 CLK_OUT2_P
-Text HLabel 9950 3450 2    50   Input ~ 0
+Text HLabel 9950 3450 2    50   Output ~ 0
 CLK_OUT3_N
-Text HLabel 9950 3350 2    50   Input ~ 0
+Text HLabel 9950 3350 2    50   Output ~ 0
 CLK_OUT3_P
 Wire Wire Line
 	9950 2450 8850 2450

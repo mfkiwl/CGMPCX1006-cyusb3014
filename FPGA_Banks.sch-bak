@@ -1,0 +1,1460 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 21 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 2 1 60492962
+P 1000 1100
+F 0 "U?" H 1608 1265 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 1608 1174 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 3850 1200 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 3850 1100 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 1000 1100 50  0001 C CNN "MPN"
+	2    1000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 3 1 60499A24
+P 4250 1100
+F 0 "U?" H 4958 1265 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 4958 1174 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 7100 1200 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 7100 1100 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 4250 1100 50  0001 C CNN "MPN"
+	3    4250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 4 1 604A2214
+P 8200 1100
+F 0 "U?" H 8958 1265 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 8958 1174 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 11050 1200 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 11050 1100 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 8200 1100 50  0001 C CNN "MPN"
+	4    8200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 6 1 604B00A9
+P 6400 8450
+F 0 "U?" H 6908 8615 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 6908 8524 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 9250 8550 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 9250 8450 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 6400 8450 50  0001 C CNN "MPN"
+	6    6400 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 7 1 604BC2A9
+P 1000 6100
+F 0 "U?" H 1558 6265 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 1558 6174 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 3850 6200 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 3850 6100 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 1000 6100 50  0001 C CNN "MPN"
+	7    1000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 605791DE
+P 10450 -800
+AR Path="/601E7C5A/605791DE" Ref="C?"  Part="1" 
+AR Path="/60391560/605791DE" Ref="C?"  Part="1" 
+AR Path="/6041EB92/605791DE" Ref="C?"  Part="1" 
+F 0 "C?" H 10358 -891 50  0000 R CNN
+F 1 "aaaa" H 10358 -800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10450 -800 50  0001 C CNN
+F 3 "~" H 10450 -800 50  0001 C CNN
+F 4 "25V" H 10358 -709 50  0000 R CNN "Voltage"
+	1    10450 -800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 605791E4
+P 10400 -600
+AR Path="/601DF0A6/605791E4" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/605791E4" Ref="#PWR?"  Part="1" 
+AR Path="/60391560/605791E4" Ref="#PWR?"  Part="1" 
+AR Path="/6041EB92/605791E4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10400 -850 50  0001 C CNN
+F 1 "GNDD" H 10404 -755 50  0000 C CNN
+F 2 "" H 10400 -600 50  0001 C CNN
+F 3 "" H 10400 -600 50  0001 C CNN
+	1    10400 -600
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 -1350 0    50   Input ~ 0
+VCC3V3
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 605791EB
+P 10350 -1350
+AR Path="/601E7C5A/605791EB" Ref="#FLG?"  Part="1" 
+AR Path="/60391560/605791EB" Ref="#FLG?"  Part="1" 
+AR Path="/6041EB92/605791EB" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 10350 -1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 10350 -1177 50  0000 C CNN
+F 2 "" H 10350 -1350 50  0001 C CNN
+F 3 "~" H 10350 -1350 50  0001 C CNN
+	1    10350 -1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10350 -1350
+Wire Wire Line
+	10350 -1350 10550 -1350
+Wire Wire Line
+	10150 -1350 10350 -1350
+$Comp
+L Device:R_Small_US R?
+U 1 1 605791F4
+P 10800 -1150
+AR Path="/601E7C5A/605791F4" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/605791F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/605791F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/605791F4" Ref="R?"  Part="1" 
+AR Path="/601E7B38/605791F4" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/605791F4" Ref="R?"  Part="1" 
+AR Path="/60391560/605791F4" Ref="R?"  Part="1" 
+AR Path="/6041EB92/605791F4" Ref="R?"  Part="1" 
+F 0 "R?" H 10868 -1104 50  0000 L CNN
+F 1 "AAA" H 10868 -1195 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10800 -1150 50  0001 C CNN
+F 3 "~" H 10800 -1150 50  0001 C CNN
+	1    10800 -1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 605791FA
+P 10600 -500
+AR Path="/60391560/605791FA" Ref="#PWR?"  Part="1" 
+AR Path="/6041EB92/605791FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10600 -750 50  0001 C CNN
+F 1 "GNDD" V 10604 -610 50  0000 R CNN
+F 2 "" H 10600 -500 50  0001 C CNN
+F 3 "" H 10600 -500 50  0001 C CNN
+	1    10600 -500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057AE2D
+P 12000 1800
+AR Path="/601E7C5A/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/60391560/6057AE2D" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057AE2D" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 1850 50  0000 L CNN
+F 1 "10" V 12050 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 1800 50  0001 C CNN
+F 3 "~" H 12000 1800 50  0001 C CNN
+	1    12000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057F85B
+P 12000 1900
+AR Path="/601E7C5A/6057F85B" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057F85B" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057F85B" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057F85B" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057F85B" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057F85B" Ref="R?"  Part="1" 
+AR Path="/60391560/6057F85B" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057F85B" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 1950 50  0000 L CNN
+F 1 "10" V 12050 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 1900 50  0001 C CNN
+F 3 "~" H 12000 1900 50  0001 C CNN
+	1    12000 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057F966
+P 12000 2000
+AR Path="/601E7C5A/6057F966" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057F966" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057F966" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057F966" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057F966" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057F966" Ref="R?"  Part="1" 
+AR Path="/60391560/6057F966" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057F966" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2050 50  0000 L CNN
+F 1 "10" V 12050 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2000 50  0001 C CNN
+F 3 "~" H 12000 2000 50  0001 C CNN
+	1    12000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057FA7E
+P 12000 2100
+AR Path="/601E7C5A/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/60391560/6057FA7E" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057FA7E" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2150 50  0000 L CNN
+F 1 "10" V 12050 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2100 50  0001 C CNN
+F 3 "~" H 12000 2100 50  0001 C CNN
+	1    12000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057FBD1
+P 12000 2200
+AR Path="/601E7C5A/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/60391560/6057FBD1" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057FBD1" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2250 50  0000 L CNN
+F 1 "10" V 12050 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2200 50  0001 C CNN
+F 3 "~" H 12000 2200 50  0001 C CNN
+	1    12000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057FC79
+P 12000 2300
+AR Path="/601E7C5A/6057FC79" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057FC79" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057FC79" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057FC79" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057FC79" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057FC79" Ref="R?"  Part="1" 
+AR Path="/60391560/6057FC79" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057FC79" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2350 50  0000 L CNN
+F 1 "10" V 12050 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2300 50  0001 C CNN
+F 3 "~" H 12000 2300 50  0001 C CNN
+	1    12000 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6057FF2C
+P 12000 2400
+AR Path="/601E7C5A/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/60391560/6057FF2C" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6057FF2C" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2450 50  0000 L CNN
+F 1 "10" V 12050 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2400 50  0001 C CNN
+F 3 "~" H 12000 2400 50  0001 C CNN
+	1    12000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580273
+P 12000 2500
+AR Path="/601E7C5A/60580273" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580273" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580273" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580273" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580273" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580273" Ref="R?"  Part="1" 
+AR Path="/60391560/60580273" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580273" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2550 50  0000 L CNN
+F 1 "10" V 12050 2300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2500 50  0001 C CNN
+F 3 "~" H 12000 2500 50  0001 C CNN
+	1    12000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580795
+P 12000 2600
+AR Path="/601E7C5A/60580795" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580795" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580795" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580795" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580795" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580795" Ref="R?"  Part="1" 
+AR Path="/60391560/60580795" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580795" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2650 50  0000 L CNN
+F 1 "10" V 12050 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2600 50  0001 C CNN
+F 3 "~" H 12000 2600 50  0001 C CNN
+	1    12000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580842
+P 12000 2700
+AR Path="/601E7C5A/60580842" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580842" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580842" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580842" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580842" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580842" Ref="R?"  Part="1" 
+AR Path="/60391560/60580842" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580842" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2750 50  0000 L CNN
+F 1 "10" V 12050 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2700 50  0001 C CNN
+F 3 "~" H 12000 2700 50  0001 C CNN
+	1    12000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580A05
+P 12000 2800
+AR Path="/601E7C5A/60580A05" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580A05" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580A05" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580A05" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580A05" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580A05" Ref="R?"  Part="1" 
+AR Path="/60391560/60580A05" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580A05" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2850 50  0000 L CNN
+F 1 "10" V 12050 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2800 50  0001 C CNN
+F 3 "~" H 12000 2800 50  0001 C CNN
+	1    12000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580D4C
+P 12000 2900
+AR Path="/601E7C5A/60580D4C" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580D4C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580D4C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580D4C" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580D4C" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580D4C" Ref="R?"  Part="1" 
+AR Path="/60391560/60580D4C" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580D4C" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2950 50  0000 L CNN
+F 1 "10" V 12050 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2900 50  0001 C CNN
+F 3 "~" H 12000 2900 50  0001 C CNN
+	1    12000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580E6C
+P 12000 3000
+AR Path="/601E7C5A/60580E6C" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580E6C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580E6C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580E6C" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580E6C" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580E6C" Ref="R?"  Part="1" 
+AR Path="/60391560/60580E6C" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580E6C" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3050 50  0000 L CNN
+F 1 "10" V 12050 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3000 50  0001 C CNN
+F 3 "~" H 12000 3000 50  0001 C CNN
+	1    12000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60580FB1
+P 12000 3100
+AR Path="/601E7C5A/60580FB1" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60580FB1" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60580FB1" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60580FB1" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60580FB1" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60580FB1" Ref="R?"  Part="1" 
+AR Path="/60391560/60580FB1" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60580FB1" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3150 50  0000 L CNN
+F 1 "10" V 12050 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3100 50  0001 C CNN
+F 3 "~" H 12000 3100 50  0001 C CNN
+	1    12000 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60581141
+P 12000 3200
+AR Path="/601E7C5A/60581141" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60581141" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60581141" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60581141" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60581141" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60581141" Ref="R?"  Part="1" 
+AR Path="/60391560/60581141" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60581141" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3250 50  0000 L CNN
+F 1 "10" V 12050 3000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3200 50  0001 C CNN
+F 3 "~" H 12000 3200 50  0001 C CNN
+	1    12000 3200
+	0    -1   -1   0   
+$EndComp
+Text Label 11350 3000 0    50   ~ 0
+DDR3_A2
+Text Label 11350 3100 0    50   ~ 0
+DDR3_A1
+Text Label 11350 3200 0    50   ~ 0
+DDR3_A0
+Text HLabel 11050 1950 0    50   Output ~ 0
+DDR3_A[0..14]
+Text Label 11350 2900 0    50   ~ 0
+DDR3_A3
+Text Label 11350 2800 0    50   ~ 0
+DDR3_A4
+Text Label 11350 2700 0    50   ~ 0
+DDR3_A5
+Text Label 11350 2600 0    50   ~ 0
+DDR3_A6
+Text Label 11350 2500 0    50   ~ 0
+DDR3_A7
+Text Label 11350 2300 0    50   ~ 0
+DDR3_A9
+Text Label 11350 2200 0    50   ~ 0
+DDR3_A10
+Text Label 11350 2100 0    50   ~ 0
+DDR3_A11
+Text Label 11350 2000 0    50   ~ 0
+DDR3_A12
+Text Label 11350 1900 0    50   ~ 0
+DDR3_A13
+Text Label 11350 1800 0    50   ~ 0
+DDR3_A14
+Text Label 11350 2400 0    50   ~ 0
+DDR3_A8
+Entry Wire Line
+	11200 1700 11300 1800
+Entry Wire Line
+	11200 1800 11300 1900
+Entry Wire Line
+	11200 1900 11300 2000
+Entry Wire Line
+	11200 2000 11300 2100
+Entry Wire Line
+	11200 2100 11300 2200
+Entry Wire Line
+	11200 2200 11300 2300
+Entry Wire Line
+	11200 2300 11300 2400
+Entry Wire Line
+	11200 2400 11300 2500
+Entry Wire Line
+	11200 2500 11300 2600
+Entry Wire Line
+	11200 2600 11300 2700
+Entry Wire Line
+	11200 2700 11300 2800
+Entry Wire Line
+	11200 2800 11300 2900
+Entry Wire Line
+	11200 2900 11300 3000
+Entry Wire Line
+	11200 3000 11300 3100
+Entry Wire Line
+	11200 3100 11300 3200
+Wire Bus Line
+	11200 1650 10500 1650
+Wire Bus Line
+	10500 1800 11100 1800
+Wire Bus Line
+	11100 1950 11050 1950
+Wire Bus Line
+	11100 1800 11100 1950
+Text Label 10550 1650 0    50   ~ 0
+DDR3_A[0..14]
+Wire Wire Line
+	12100 1800 12250 1800
+Wire Wire Line
+	12100 1900 12250 1900
+Wire Wire Line
+	12100 2000 12250 2000
+Wire Wire Line
+	12100 2100 12250 2100
+Wire Wire Line
+	12100 2200 12250 2200
+Wire Wire Line
+	12100 2300 12250 2300
+Wire Wire Line
+	12100 2400 12250 2400
+Wire Wire Line
+	12100 2500 12250 2500
+Wire Wire Line
+	12100 2600 12250 2600
+Wire Wire Line
+	12100 2700 12250 2700
+Wire Wire Line
+	12100 2800 12250 2800
+Wire Wire Line
+	12100 3200 12250 3200
+Wire Wire Line
+	12250 3100 12100 3100
+Wire Wire Line
+	12100 3000 12250 3000
+Wire Wire Line
+	12250 2900 12100 2900
+Wire Wire Line
+	11300 1800 11900 1800
+Wire Wire Line
+	11300 1900 11900 1900
+Wire Wire Line
+	11300 2000 11900 2000
+Wire Wire Line
+	11300 2100 11900 2100
+Wire Wire Line
+	11300 2200 11900 2200
+Wire Wire Line
+	11300 2300 11900 2300
+Wire Wire Line
+	11300 2400 11900 2400
+Wire Wire Line
+	11300 2500 11900 2500
+Wire Wire Line
+	11300 2600 11900 2600
+Wire Wire Line
+	11300 2700 11900 2700
+Wire Wire Line
+	11300 2800 11900 2800
+Wire Wire Line
+	11300 2900 11900 2900
+Wire Wire Line
+	11300 3000 11900 3000
+Wire Wire Line
+	11300 3100 11900 3100
+Wire Wire Line
+	11300 3200 11900 3200
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068CAEF
+P 12000 3500
+AR Path="/601E7C5A/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/60391560/6068CAEF" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068CAEF" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3550 50  0000 L CNN
+F 1 "10" V 12050 3300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3500 50  0001 C CNN
+F 3 "~" H 12000 3500 50  0001 C CNN
+	1    12000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068CAF5
+P 12000 3600
+AR Path="/601E7C5A/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/60391560/6068CAF5" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068CAF5" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3650 50  0000 L CNN
+F 1 "10" V 12050 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3600 50  0001 C CNN
+F 3 "~" H 12000 3600 50  0001 C CNN
+	1    12000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068CAFB
+P 12000 3700
+AR Path="/601E7C5A/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/60391560/6068CAFB" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068CAFB" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3750 50  0000 L CNN
+F 1 "10" V 12050 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3700 50  0001 C CNN
+F 3 "~" H 12000 3700 50  0001 C CNN
+	1    12000 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 3700 12250 3700
+Wire Wire Line
+	12250 3600 12100 3600
+Wire Wire Line
+	12100 3500 12250 3500
+Wire Wire Line
+	11300 3500 11900 3500
+Wire Wire Line
+	11300 3600 11900 3600
+Wire Wire Line
+	11300 3700 11900 3700
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068EDF8
+P 12000 4100
+AR Path="/601E7C5A/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/60391560/6068EDF8" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068EDF8" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 4150 50  0000 L CNN
+F 1 "10" V 12050 3900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4100 50  0001 C CNN
+F 3 "~" H 12000 4100 50  0001 C CNN
+	1    12000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068EDFE
+P 12000 4200
+AR Path="/601E7C5A/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/60391560/6068EDFE" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068EDFE" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 4250 50  0000 L CNN
+F 1 "10" V 12050 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4200 50  0001 C CNN
+F 3 "~" H 12000 4200 50  0001 C CNN
+	1    12000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068EE04
+P 12000 4300
+AR Path="/601E7C5A/6068EE04" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068EE04" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068EE04" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068EE04" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068EE04" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068EE04" Ref="R?"  Part="1" 
+AR Path="/60391560/6068EE04" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068EE04" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 4350 50  0000 L CNN
+F 1 "10" V 12050 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4300 50  0001 C CNN
+F 3 "~" H 12000 4300 50  0001 C CNN
+	1    12000 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6068EE0A
+P 12000 4400
+AR Path="/601E7C5A/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/60391560/6068EE0A" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6068EE0A" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 4450 50  0000 L CNN
+F 1 "10" V 12050 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4400 50  0001 C CNN
+F 3 "~" H 12000 4400 50  0001 C CNN
+	1    12000 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 4400 12250 4400
+Wire Wire Line
+	12250 4300 12100 4300
+Wire Wire Line
+	12100 4200 12250 4200
+Wire Wire Line
+	12250 4100 12100 4100
+Wire Wire Line
+	11300 4100 11900 4100
+Wire Wire Line
+	11300 4200 11900 4200
+Wire Wire Line
+	11300 4300 11900 4300
+Wire Wire Line
+	11300 4400 11900 4400
+Wire Wire Line
+	11300 4000 12250 4000
+Wire Bus Line
+	10500 1650 10500 1800
+Text Label 11350 3700 0    50   ~ 0
+DDR3_BA0
+Text Label 11350 3600 0    50   ~ 0
+DDR3_BA1
+Text Label 11350 3500 0    50   ~ 0
+DDR3_BA2
+Text HLabel 11100 3700 0    50   Output ~ 0
+DDR3_BA[0..2]
+Text Label 10550 3350 0    50   ~ 0
+DDR3_BA[0..2]
+Entry Wire Line
+	11200 3600 11300 3700
+Entry Wire Line
+	11200 3500 11300 3600
+Entry Wire Line
+	11200 3400 11300 3500
+Wire Bus Line
+	11200 3350 10500 3350
+Wire Bus Line
+	10500 3350 10500 3500
+Wire Bus Line
+	10500 3500 11150 3500
+Wire Bus Line
+	11150 3500 11150 3700
+Wire Bus Line
+	11150 3700 11100 3700
+Text Label 11350 4000 0    50   ~ 0
+DDR3_RESET
+Text Label 11350 4100 0    50   ~ 0
+DDR3_RAS
+Text Label 11350 4200 0    50   ~ 0
+DDR3_CAS
+Text Label 11350 4400 0    50   ~ 0
+DDR3_WE
+Text Label 11350 4300 0    50   ~ 0
+DDR3_CS
+Text HLabel 11300 4000 0    50   Output ~ 0
+DDR3_RESET
+Text HLabel 11300 4100 0    50   Output ~ 0
+DDR3_RAS
+Text HLabel 11300 4200 0    50   Output ~ 0
+DDR3_CAS
+Text HLabel 11300 4300 0    50   Output ~ 0
+DDR3_CS
+Text HLabel 11300 4400 0    50   Output ~ 0
+DDR3_WE
+Text Label 11350 4800 0    50   ~ 0
+DDR3_CK_P
+Text Label 11350 4900 0    50   ~ 0
+DDR3_CK_N
+Text Label 11350 4700 0    50   ~ 0
+DDR3_CKE0
+Text HLabel 11300 4800 0    50   BiDi ~ 0
+DDR3_CK_P
+Text HLabel 11300 4900 0    50   BiDi ~ 0
+DDR3_CK_N
+Text HLabel 11300 4700 0    50   BiDi ~ 0
+DDR3_CKE0
+$Comp
+L Device:R_Small_US R?
+U 1 1 608F6025
+P 12000 4700
+AR Path="/601E7C5A/608F6025" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/608F6025" Ref="R?"  Part="1" 
+AR Path="/601E7C92/608F6025" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/608F6025" Ref="R?"  Part="1" 
+AR Path="/601E7B38/608F6025" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/608F6025" Ref="R?"  Part="1" 
+AR Path="/60391560/608F6025" Ref="R?"  Part="1" 
+AR Path="/6041EB92/608F6025" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 4750 50  0000 L CNN
+F 1 "10" V 12050 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 4700 50  0001 C CNN
+F 3 "~" H 12000 4700 50  0001 C CNN
+	1    12000 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 4700 12250 4700
+Wire Wire Line
+	11900 4700 11300 4700
+$Comp
+L GM_FPGA:XA7Z020-1CLG400Q U?
+U 5 1 604AA06D
+P 12450 1000
+F 0 "U?" H 13300 1165 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 13300 1074 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 15300 1100 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 15300 1000 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 12450 1000 50  0001 C CNN "MPN"
+	5    12450 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 4800 11800 4800
+Wire Wire Line
+	11300 4900 12200 4900
+$Comp
+L Device:R_Small_US R?
+U 1 1 6091E995
+P 12000 5050
+AR Path="/601E7C5A/6091E995" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6091E995" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6091E995" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6091E995" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6091E995" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6091E995" Ref="R?"  Part="1" 
+AR Path="/60391560/6091E995" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6091E995" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 5100 50  0000 L CNN
+F 1 "80.6" V 12050 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 5050 50  0001 C CNN
+F 3 "~" H 12000 5050 50  0001 C CNN
+	1    12000 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 5050 12200 5050
+Wire Wire Line
+	12200 5050 12200 4900
+Connection ~ 12200 4900
+Wire Wire Line
+	12200 4900 12250 4900
+Wire Wire Line
+	11900 5050 11800 5050
+Wire Wire Line
+	11800 5050 11800 4800
+Connection ~ 11800 4800
+Wire Wire Line
+	11800 4800 12250 4800
+Text HLabel 11300 5200 0    50   BiDi ~ 0
+DDR3_ODT0
+Text Label 11350 5200 0    50   ~ 0
+DDR3_ODT0
+Wire Wire Line
+	15150 5100 14350 5100
+Text HLabel 15150 5100 2    50   BiDi ~ 0
+DDR3_DM1
+Text Label 14600 5100 0    50   ~ 0
+DDR3_DM1
+Wire Wire Line
+	15150 5000 14350 5000
+Text HLabel 15150 5000 2    50   BiDi ~ 0
+DDR3_DM0
+Text Label 14600 5000 0    50   ~ 0
+DDR3_DM0
+Wire Wire Line
+	15150 5900 14350 5900
+Text HLabel 15150 5900 2    50   BiDi ~ 0
+DDR3_DQS0_N
+Text Label 14600 5900 0    50   ~ 0
+DDR3_DQS0_N
+Wire Wire Line
+	15150 5800 14350 5800
+Text HLabel 15150 5800 2    50   BiDi ~ 0
+DDR3_DQS0_P
+Text Label 14600 5800 0    50   ~ 0
+DDR3_DQS0_P
+Wire Wire Line
+	15150 6100 14350 6100
+Text HLabel 15150 6100 2    50   BiDi ~ 0
+DDR3_DQS1_N
+Text Label 14600 6100 0    50   ~ 0
+DDR3_DQS1_N
+Wire Wire Line
+	15150 6000 14350 6000
+Text HLabel 15150 6000 2    50   BiDi ~ 0
+DDR3_DQS1_P
+Text Label 14600 6000 0    50   ~ 0
+DDR3_DQS1_P
+$Comp
+L Device:R_Small_US R?
+U 1 1 6093F31D
+P 12000 5200
+AR Path="/601E7C5A/6093F31D" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6093F31D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6093F31D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6093F31D" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6093F31D" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6093F31D" Ref="R?"  Part="1" 
+AR Path="/60391560/6093F31D" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6093F31D" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 5250 50  0000 L CNN
+F 1 "10" V 12050 5000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 5200 50  0001 C CNN
+F 3 "~" H 12000 5200 50  0001 C CNN
+	1    12000 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 5200 12250 5200
+Wire Wire Line
+	11300 5200 11900 5200
+$Comp
+L Device:R_Small_US R?
+U 1 1 60949365
+P 11600 5750
+AR Path="/601E7C5A/60949365" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60949365" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60949365" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60949365" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60949365" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60949365" Ref="R?"  Part="1" 
+AR Path="/60391560/60949365" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60949365" Ref="R?"  Part="1" 
+F 0 "R?" H 11668 5796 50  0000 L CNN
+F 1 "80.6" H 11668 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11600 5750 50  0001 C CNN
+F 3 "~" H 11600 5750 50  0001 C CNN
+	1    11600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6094B8E4
+P 11950 5750
+AR Path="/601E7C5A/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/60391560/6094B8E4" Ref="R?"  Part="1" 
+AR Path="/6041EB92/6094B8E4" Ref="R?"  Part="1" 
+F 0 "R?" H 12018 5796 50  0000 L CNN
+F 1 "80.6" H 12018 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11950 5750 50  0001 C CNN
+F 3 "~" H 11950 5750 50  0001 C CNN
+	1    11950 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 5650 11950 5600
+Wire Wire Line
+	11950 5600 12250 5600
+Wire Wire Line
+	12250 5500 11600 5500
+Wire Wire Line
+	11600 5500 11600 5650
+Wire Wire Line
+	15150 4800 14350 4800
+Text HLabel 15150 4800 2    50   BiDi ~ 0
+DDR3_DM3
+Text Label 14600 4800 0    50   ~ 0
+DDR3_DM3
+Wire Wire Line
+	15150 4900 14350 4900
+Text HLabel 15150 4900 2    50   BiDi ~ 0
+DDR3_DM2
+Text Label 14600 4900 0    50   ~ 0
+DDR3_DM2
+Wire Wire Line
+	15150 5700 14350 5700
+Text HLabel 15150 5700 2    50   BiDi ~ 0
+DDR3_DQS2_N
+Text Label 14600 5700 0    50   ~ 0
+DDR3_DQS2_N
+Wire Wire Line
+	15150 5600 14350 5600
+Text HLabel 15150 5600 2    50   BiDi ~ 0
+DDR3_DQS2_P
+Text Label 14600 5600 0    50   ~ 0
+DDR3_DQS2_P
+Wire Wire Line
+	15150 5500 14350 5500
+Text HLabel 15150 5500 2    50   BiDi ~ 0
+DDR3_DQS3_N
+Text Label 14600 5500 0    50   ~ 0
+DDR3_DQS3_N
+Wire Wire Line
+	15150 5400 14350 5400
+Text HLabel 15150 5400 2    50   BiDi ~ 0
+DDR3_DQS3_P
+Text Label 14600 5400 0    50   ~ 0
+DDR3_DQS3_P
+Wire Wire Line
+	15050 9300 14250 9300
+Text Label 14500 9300 0    50   ~ 0
+DDR3_D20
+Wire Wire Line
+	15050 9200 14250 9200
+Wire Wire Line
+	15050 9100 14250 9100
+Wire Wire Line
+	15050 9000 14250 9000
+Text Label 14500 9200 0    50   ~ 0
+DDR3_D21
+Text Label 14500 9100 0    50   ~ 0
+DDR3_D22
+Text Label 14500 9000 0    50   ~ 0
+DDR3_D23
+Wire Wire Line
+	15050 8900 14250 8900
+Text Label 14500 8900 0    50   ~ 0
+DDR3_D24
+Wire Wire Line
+	15050 8800 14250 8800
+Wire Wire Line
+	15050 8700 14250 8700
+Wire Wire Line
+	15050 8600 14250 8600
+Text Label 14500 8800 0    50   ~ 0
+DDR3_D25
+Text Label 14500 8700 0    50   ~ 0
+DDR3_D26
+Text Label 14500 8600 0    50   ~ 0
+DDR3_D27
+Wire Wire Line
+	15050 8500 14250 8500
+Text Label 14500 8500 0    50   ~ 0
+DDR3_D28
+Wire Wire Line
+	15050 8400 14250 8400
+Wire Wire Line
+	15050 8300 14250 8300
+Wire Wire Line
+	15050 8200 14250 8200
+Text Label 14500 8400 0    50   ~ 0
+DDR3_D29
+Text Label 14500 8300 0    50   ~ 0
+DDR3_D30
+Text Label 14500 8200 0    50   ~ 0
+DDR3_D31
+Wire Wire Line
+	15050 9700 14250 9700
+Text Label 14500 9700 0    50   ~ 0
+DDR3_D16
+Wire Wire Line
+	15050 9600 14250 9600
+Wire Wire Line
+	15050 9500 14250 9500
+Wire Wire Line
+	15050 9400 14250 9400
+Text Label 14500 9600 0    50   ~ 0
+DDR3_D17
+Text Label 14500 9500 0    50   ~ 0
+DDR3_D18
+Text Label 14500 9400 0    50   ~ 0
+DDR3_D19
+Text HLabel 15300 8300 2    50   BiDi ~ 0
+DDR3_D[16..31]
+Entry Wire Line
+	15050 9700 15150 9600
+Entry Wire Line
+	15050 9600 15150 9500
+Entry Wire Line
+	15050 9500 15150 9400
+Entry Wire Line
+	15050 9400 15150 9300
+Entry Wire Line
+	15050 9300 15150 9200
+Entry Wire Line
+	15050 9200 15150 9100
+Entry Wire Line
+	15050 9100 15150 9000
+Entry Wire Line
+	15050 9000 15150 8900
+Entry Wire Line
+	15050 8900 15150 8800
+Entry Wire Line
+	15050 8800 15150 8700
+Entry Wire Line
+	15050 8700 15150 8600
+Entry Wire Line
+	15050 8600 15150 8500
+Entry Wire Line
+	15050 8500 15150 8400
+Entry Wire Line
+	15050 8400 15150 8300
+Entry Wire Line
+	15050 8300 15150 8200
+Entry Wire Line
+	15050 8200 15150 8100
+Text Label 15250 8100 0    50   ~ 0
+DDR3_D[16..31]
+Wire Bus Line
+	15150 8100 15900 8100
+Wire Bus Line
+	15900 8100 15900 8200
+Wire Bus Line
+	15900 8200 15250 8200
+Wire Bus Line
+	15250 8200 15250 8300
+Wire Bus Line
+	15250 8300 15300 8300
+Wire Wire Line
+	13200 9700 12400 9700
+Text Label 12650 9700 0    50   ~ 0
+DDR3_D0
+Wire Wire Line
+	13200 9600 12400 9600
+Text Label 12650 9600 0    50   ~ 0
+DDR3_D1
+Wire Wire Line
+	13200 9500 12400 9500
+Text Label 12650 9500 0    50   ~ 0
+DDR3_D2
+Wire Wire Line
+	13200 9400 12400 9400
+Text Label 12650 9400 0    50   ~ 0
+DDR3_D3
+Wire Wire Line
+	13200 9300 12400 9300
+Text Label 12650 9300 0    50   ~ 0
+DDR3_D4
+Wire Wire Line
+	13200 9200 12400 9200
+Wire Wire Line
+	13200 9100 12400 9100
+Wire Wire Line
+	13200 9000 12400 9000
+Text Label 12650 9200 0    50   ~ 0
+DDR3_D5
+Text Label 12650 9100 0    50   ~ 0
+DDR3_D6
+Text Label 12650 9000 0    50   ~ 0
+DDR3_D7
+Wire Wire Line
+	13200 8900 12400 8900
+Text Label 12650 8900 0    50   ~ 0
+DDR3_D8
+Wire Wire Line
+	13200 8800 12400 8800
+Wire Wire Line
+	13200 8700 12400 8700
+Wire Wire Line
+	13200 8600 12400 8600
+Text Label 12650 8800 0    50   ~ 0
+DDR3_D9
+Text Label 12650 8700 0    50   ~ 0
+DDR3_D10
+Text Label 12650 8600 0    50   ~ 0
+DDR3_D11
+Wire Wire Line
+	13200 8500 12400 8500
+Text Label 12650 8500 0    50   ~ 0
+DDR3_D12
+Wire Wire Line
+	13200 8400 12400 8400
+Wire Wire Line
+	13200 8300 12400 8300
+Wire Wire Line
+	13200 8200 12400 8200
+Text HLabel 13450 8300 2    50   BiDi ~ 0
+DDR3_D[0..15]
+Text Label 12650 8400 0    50   ~ 0
+DDR3_D13
+Text Label 12650 8300 0    50   ~ 0
+DDR3_D14
+Text Label 12650 8200 0    50   ~ 0
+DDR3_D15
+Entry Wire Line
+	13200 9700 13300 9600
+Entry Wire Line
+	13200 9600 13300 9500
+Entry Wire Line
+	13200 9500 13300 9400
+Entry Wire Line
+	13200 9400 13300 9300
+Entry Wire Line
+	13200 9300 13300 9200
+Entry Wire Line
+	13200 9200 13300 9100
+Entry Wire Line
+	13200 9100 13300 9000
+Entry Wire Line
+	13200 9000 13300 8900
+Entry Wire Line
+	13200 8900 13300 8800
+Entry Wire Line
+	13200 8800 13300 8700
+Entry Wire Line
+	13200 8700 13300 8600
+Entry Wire Line
+	13200 8600 13300 8500
+Entry Wire Line
+	13200 8500 13300 8400
+Entry Wire Line
+	13200 8400 13300 8300
+Entry Wire Line
+	13200 8300 13300 8200
+Entry Wire Line
+	13200 8200 13300 8100
+Text Label 13400 8100 0    50   ~ 0
+DDR3_D[0..15]
+Wire Bus Line
+	13300 8100 14050 8100
+Wire Bus Line
+	14050 8100 14050 8200
+Wire Bus Line
+	14050 8200 13400 8200
+Wire Bus Line
+	13400 8200 13400 8300
+Wire Bus Line
+	13400 8300 13450 8300
+Wire Wire Line
+	15150 4500 14350 4500
+Wire Wire Line
+	15150 4400 14350 4400
+Wire Wire Line
+	15150 4300 14350 4300
+Wire Wire Line
+	15150 4200 14350 4200
+Wire Wire Line
+	15150 4100 14350 4100
+Wire Wire Line
+	15150 4000 14350 4000
+Wire Wire Line
+	15150 3900 14350 3900
+Wire Wire Line
+	15150 3800 14350 3800
+Wire Wire Line
+	15150 3700 14350 3700
+Wire Wire Line
+	15150 3600 14350 3600
+Wire Wire Line
+	15150 3500 14350 3500
+Wire Wire Line
+	15150 3400 14350 3400
+Wire Wire Line
+	15150 3300 14350 3300
+Wire Wire Line
+	15150 3200 14350 3200
+Wire Wire Line
+	15150 3100 14350 3100
+Wire Wire Line
+	15150 3000 14350 3000
+Wire Wire Line
+	15150 2900 14350 2900
+Wire Wire Line
+	15150 2800 14350 2800
+Wire Wire Line
+	15150 2700 14350 2700
+Wire Wire Line
+	15150 2600 14350 2600
+Wire Wire Line
+	15150 2500 14350 2500
+Wire Wire Line
+	15150 2400 14350 2400
+Wire Wire Line
+	15150 2300 14350 2300
+Wire Wire Line
+	15150 2200 14350 2200
+Wire Wire Line
+	15150 2100 14350 2100
+Wire Wire Line
+	15150 2000 14350 2000
+Wire Wire Line
+	15150 1900 14350 1900
+Wire Wire Line
+	15150 1800 14350 1800
+Wire Wire Line
+	15150 1700 14350 1700
+Wire Wire Line
+	15150 1600 14350 1600
+Wire Wire Line
+	15150 1500 14350 1500
+Wire Wire Line
+	15150 1400 14350 1400
+Text Label 14650 3600 0    50   ~ 0
+DDR3_D0
+Text Label 14650 3200 0    50   ~ 0
+DDR3_D1
+Text Label 14650 3700 0    50   ~ 0
+DDR3_D2
+Text Label 14650 3500 0    50   ~ 0
+DDR3_D3
+Text Label 14650 3000 0    50   ~ 0
+DDR3_D4
+Text Label 14650 3400 0    50   ~ 0
+DDR3_D5
+Text Label 14650 3300 0    50   ~ 0
+DDR3_D6
+Text Label 14650 3100 0    50   ~ 0
+DDR3_D7
+Text Label 14650 4100 0    50   ~ 0
+DDR3_D8
+Text Label 14650 3800 0    50   ~ 0
+DDR3_D9
+Text Label 14650 3900 0    50   ~ 0
+DDR3_D10
+Text Label 14650 4500 0    50   ~ 0
+DDR3_D11
+Text Label 14650 4400 0    50   ~ 0
+DDR3_D12
+Text Label 14650 4300 0    50   ~ 0
+DDR3_D13
+Text Label 14650 4000 0    50   ~ 0
+DDR3_D14
+Text Label 14650 4200 0    50   ~ 0
+DDR3_D15
+Text Label 14650 2700 0    50   ~ 0
+DDR3_D20
+Text Label 14650 2800 0    50   ~ 0
+DDR3_D21
+Text Label 14650 2300 0    50   ~ 0
+DDR3_D22
+Text Label 14650 2900 0    50   ~ 0
+DDR3_D23
+Text Label 14650 1500 0    50   ~ 0
+DDR3_D24
+Text Label 14650 1400 0    50   ~ 0
+DDR3_D25
+Text Label 14650 1600 0    50   ~ 0
+DDR3_D26
+Text Label 14650 2100 0    50   ~ 0
+DDR3_D27
+Text Label 14650 1700 0    50   ~ 0
+DDR3_D28
+Text Label 14650 2000 0    50   ~ 0
+DDR3_D29
+Text Label 14650 1900 0    50   ~ 0
+DDR3_D30
+Text Label 14650 1800 0    50   ~ 0
+DDR3_D31
+Text Label 14650 2400 0    50   ~ 0
+DDR3_D16
+Text Label 14650 2500 0    50   ~ 0
+DDR3_D17
+Text Label 14650 2200 0    50   ~ 0
+DDR3_D18
+Text Label 14650 2600 0    50   ~ 0
+DDR3_D19
+Text HLabel 11300 1050 0    50   BiDi ~ 0
+DDR3_VREF
+$Comp
+L Device:C_Small C?
+U 1 1 60A6FC5C
+P 11800 1300
+AR Path="/601E7C5A/60A6FC5C" Ref="C?"  Part="1" 
+AR Path="/60391560/60A6FC5C" Ref="C?"  Part="1" 
+AR Path="/6041EB92/60A6FC5C" Ref="C?"  Part="1" 
+F 0 "C?" H 11708 1209 50  0000 R CNN
+F 1 "100nF" H 11708 1300 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11800 1300 50  0001 C CNN
+F 3 "~" H 11800 1300 50  0001 C CNN
+F 4 "25V" H 11708 1391 50  0000 R CNN "Voltage"
+	1    11800 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60A7B5D4
+P 11700 1500
+AR Path="/60391560/60A7B5D4" Ref="#PWR?"  Part="1" 
+AR Path="/6041EB92/60A7B5D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11700 1250 50  0001 C CNN
+F 1 "GNDD" V 11704 1390 50  0000 R CNN
+F 2 "" H 11700 1500 50  0001 C CNN
+F 3 "" H 11700 1500 50  0001 C CNN
+	1    11700 1500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11700 1500 11800 1500
+Wire Wire Line
+	11800 1500 11800 1400
+Wire Wire Line
+	11800 1200 11800 1050
+Wire Wire Line
+	11800 1050 12150 1050
+Wire Wire Line
+	12150 1050 12150 1400
+Wire Wire Line
+	12150 1500 12250 1500
+Wire Wire Line
+	12250 1400 12150 1400
+Connection ~ 12150 1400
+Wire Wire Line
+	12150 1400 12150 1500
+Wire Wire Line
+	11800 1050 11300 1050
+Connection ~ 11800 1050
+$Comp
+L power:GNDD #PWR?
+U 1 1 60B1FB8B
+P 11600 5950
+AR Path="/601DF0A6/60B1FB8B" Ref="#PWR?"  Part="1" 
+AR Path="/601E7C5A/60B1FB8B" Ref="#PWR?"  Part="1" 
+AR Path="/60391560/60B1FB8B" Ref="#PWR?"  Part="1" 
+AR Path="/6041EB92/60B1FB8B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11600 5700 50  0001 C CNN
+F 1 "GNDD" H 11604 5795 50  0000 C CNN
+F 2 "" H 11600 5950 50  0001 C CNN
+F 3 "" H 11600 5950 50  0001 C CNN
+	1    11600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 5950 11600 5850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60B3C718
+P 11950 5950
+AR Path="/601E7C5A/60B3C718" Ref="#FLG?"  Part="1" 
+AR Path="/60391560/60B3C718" Ref="#FLG?"  Part="1" 
+AR Path="/6041EB92/60B3C718" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 11950 6025 50  0001 C CNN
+F 1 "PWR_FLAG" H 11950 6123 50  0000 C CNN
+F 2 "" H 11950 5950 50  0001 C CNN
+F 3 "~" H 11950 5950 50  0001 C CNN
+	1    11950 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12050 5950 11950 5950
+Text GLabel 12050 5950 2    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	11950 5950 11950 5850
+Wire Bus Line
+	11200 3350 11200 3600
+Wire Bus Line
+	11200 1650 11200 3100
+Wire Bus Line
+	15150 8100 15150 9600
+Wire Bus Line
+	13300 8100 13300 9600
+Connection ~ 11950 5950
+$EndSCHEMATC

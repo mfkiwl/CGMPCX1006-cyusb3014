@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 20 22
 Title ""
 Date ""
 Rev ""
@@ -349,4 +349,19 @@ NoConn ~ 8100 3950
 NoConn ~ 7500 3850
 Text Notes 8200 3100 0    100  ~ 20
 Verify the connections
+$Comp
+L power:GNDD #PWR?
+U 1 1 6041AC3C
+P 7700 3100
+F 0 "#PWR?" H 7700 2850 50  0001 C CNN
+F 1 "GNDD" V 7704 2990 50  0000 R CNN
+F 2 "" H 7700 3100 50  0001 C CNN
+F 3 "" H 7700 3100 50  0001 C CNN
+	1    7700 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7700 3100 7800 3100
+Wire Wire Line
+	7800 3100 7800 3250
 $EndSCHEMATC

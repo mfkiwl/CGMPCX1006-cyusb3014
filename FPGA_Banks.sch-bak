@@ -40,37 +40,37 @@ $EndComp
 $Comp
 L GM_FPGA:XA7Z020-1CLG400Q U?
 U 4 1 604A2214
-P 8200 1100
-F 0 "U?" H 8958 1265 50  0000 C CNN
-F 1 "XA7Z020-1CLG400Q" H 8958 1174 50  0000 C CNN
-F 2 "BGA400C80P20X20_1700X1700X160" H 11050 1200 50  0001 L CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 11050 1100 50  0001 L CNN
-F 4 "XA7Z020-1CLG400Q" H 8200 1100 50  0001 C CNN "MPN"
-	4    8200 1100
+P 7800 1100
+F 0 "U?" H 8558 1265 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 8558 1174 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 10650 1200 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 10650 1100 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 7800 1100 50  0001 C CNN "MPN"
+	4    7800 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GM_FPGA:XA7Z020-1CLG400Q U?
 U 6 1 604B00A9
-P 6400 8450
-F 0 "U?" H 6908 8615 50  0000 C CNN
-F 1 "XA7Z020-1CLG400Q" H 6908 8524 50  0000 C CNN
-F 2 "BGA400C80P20X20_1700X1700X160" H 9250 8550 50  0001 L CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 9250 8450 50  0001 L CNN
-F 4 "XA7Z020-1CLG400Q" H 6400 8450 50  0001 C CNN "MPN"
-	6    6400 8450
+P 9300 7950
+F 0 "U?" H 9808 8115 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 9808 8024 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 12150 8050 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 12150 7950 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 9300 7950 50  0001 C CNN "MPN"
+	6    9300 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GM_FPGA:XA7Z020-1CLG400Q U?
 U 7 1 604BC2A9
-P 1000 6100
-F 0 "U?" H 1558 6265 50  0000 C CNN
-F 1 "XA7Z020-1CLG400Q" H 1558 6174 50  0000 C CNN
-F 2 "BGA400C80P20X20_1700X1700X160" H 3850 6200 50  0001 L CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 3850 6100 50  0001 L CNN
-F 4 "XA7Z020-1CLG400Q" H 1000 6100 50  0001 C CNN "MPN"
-	7    1000 6100
+P 1400 6500
+F 0 "U?" H 1958 6665 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 1958 6574 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 4250 6600 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 4250 6500 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 1400 6500 50  0001 C CNN "MPN"
+	7    1400 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -154,291 +154,6 @@ F 1 "GNDD" V 10604 -610 50  0000 R CNN
 F 2 "" H 10600 -500 50  0001 C CNN
 F 3 "" H 10600 -500 50  0001 C CNN
 	1    10600 -500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057AE2D
-P 12000 1800
-AR Path="/601E7C5A/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/60391560/6057AE2D" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057AE2D" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 1850 50  0000 L CNN
-F 1 "10" V 12050 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 1800 50  0001 C CNN
-F 3 "~" H 12000 1800 50  0001 C CNN
-	1    12000 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057F85B
-P 12000 1900
-AR Path="/601E7C5A/6057F85B" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057F85B" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057F85B" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057F85B" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057F85B" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057F85B" Ref="R?"  Part="1" 
-AR Path="/60391560/6057F85B" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057F85B" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 1950 50  0000 L CNN
-F 1 "10" V 12050 1700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 1900 50  0001 C CNN
-F 3 "~" H 12000 1900 50  0001 C CNN
-	1    12000 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057F966
-P 12000 2000
-AR Path="/601E7C5A/6057F966" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057F966" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057F966" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057F966" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057F966" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057F966" Ref="R?"  Part="1" 
-AR Path="/60391560/6057F966" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057F966" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2050 50  0000 L CNN
-F 1 "10" V 12050 1800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2000 50  0001 C CNN
-F 3 "~" H 12000 2000 50  0001 C CNN
-	1    12000 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057FA7E
-P 12000 2100
-AR Path="/601E7C5A/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/60391560/6057FA7E" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057FA7E" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2150 50  0000 L CNN
-F 1 "10" V 12050 1900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2100 50  0001 C CNN
-F 3 "~" H 12000 2100 50  0001 C CNN
-	1    12000 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057FBD1
-P 12000 2200
-AR Path="/601E7C5A/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/60391560/6057FBD1" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057FBD1" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2250 50  0000 L CNN
-F 1 "10" V 12050 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2200 50  0001 C CNN
-F 3 "~" H 12000 2200 50  0001 C CNN
-	1    12000 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057FC79
-P 12000 2300
-AR Path="/601E7C5A/6057FC79" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057FC79" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057FC79" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057FC79" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057FC79" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057FC79" Ref="R?"  Part="1" 
-AR Path="/60391560/6057FC79" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057FC79" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2350 50  0000 L CNN
-F 1 "10" V 12050 2100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2300 50  0001 C CNN
-F 3 "~" H 12000 2300 50  0001 C CNN
-	1    12000 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6057FF2C
-P 12000 2400
-AR Path="/601E7C5A/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/60391560/6057FF2C" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6057FF2C" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2450 50  0000 L CNN
-F 1 "10" V 12050 2200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2400 50  0001 C CNN
-F 3 "~" H 12000 2400 50  0001 C CNN
-	1    12000 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580273
-P 12000 2500
-AR Path="/601E7C5A/60580273" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580273" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580273" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580273" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580273" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580273" Ref="R?"  Part="1" 
-AR Path="/60391560/60580273" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580273" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2550 50  0000 L CNN
-F 1 "10" V 12050 2300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2500 50  0001 C CNN
-F 3 "~" H 12000 2500 50  0001 C CNN
-	1    12000 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580795
-P 12000 2600
-AR Path="/601E7C5A/60580795" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580795" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580795" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580795" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580795" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580795" Ref="R?"  Part="1" 
-AR Path="/60391560/60580795" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580795" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2650 50  0000 L CNN
-F 1 "10" V 12050 2400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2600 50  0001 C CNN
-F 3 "~" H 12000 2600 50  0001 C CNN
-	1    12000 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580842
-P 12000 2700
-AR Path="/601E7C5A/60580842" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580842" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580842" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580842" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580842" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580842" Ref="R?"  Part="1" 
-AR Path="/60391560/60580842" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580842" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2750 50  0000 L CNN
-F 1 "10" V 12050 2500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2700 50  0001 C CNN
-F 3 "~" H 12000 2700 50  0001 C CNN
-	1    12000 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580A05
-P 12000 2800
-AR Path="/601E7C5A/60580A05" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580A05" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580A05" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580A05" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580A05" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580A05" Ref="R?"  Part="1" 
-AR Path="/60391560/60580A05" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580A05" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2850 50  0000 L CNN
-F 1 "10" V 12050 2600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2800 50  0001 C CNN
-F 3 "~" H 12000 2800 50  0001 C CNN
-	1    12000 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580D4C
-P 12000 2900
-AR Path="/601E7C5A/60580D4C" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580D4C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580D4C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580D4C" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580D4C" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580D4C" Ref="R?"  Part="1" 
-AR Path="/60391560/60580D4C" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580D4C" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 2950 50  0000 L CNN
-F 1 "10" V 12050 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 2900 50  0001 C CNN
-F 3 "~" H 12000 2900 50  0001 C CNN
-	1    12000 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580E6C
-P 12000 3000
-AR Path="/601E7C5A/60580E6C" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580E6C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580E6C" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580E6C" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580E6C" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580E6C" Ref="R?"  Part="1" 
-AR Path="/60391560/60580E6C" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580E6C" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3050 50  0000 L CNN
-F 1 "10" V 12050 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3000 50  0001 C CNN
-F 3 "~" H 12000 3000 50  0001 C CNN
-	1    12000 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60580FB1
-P 12000 3100
-AR Path="/601E7C5A/60580FB1" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60580FB1" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60580FB1" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60580FB1" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60580FB1" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60580FB1" Ref="R?"  Part="1" 
-AR Path="/60391560/60580FB1" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60580FB1" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3150 50  0000 L CNN
-F 1 "10" V 12050 2900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3100 50  0001 C CNN
-F 3 "~" H 12000 3100 50  0001 C CNN
-	1    12000 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60581141
-P 12000 3200
-AR Path="/601E7C5A/60581141" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/60581141" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60581141" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/60581141" Ref="R?"  Part="1" 
-AR Path="/601E7B38/60581141" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/60581141" Ref="R?"  Part="1" 
-AR Path="/60391560/60581141" Ref="R?"  Part="1" 
-AR Path="/6041EB92/60581141" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3250 50  0000 L CNN
-F 1 "10" V 12050 3000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3200 50  0001 C CNN
-F 3 "~" H 12000 3200 50  0001 C CNN
-	1    12000 3200
 	0    -1   -1   0   
 $EndComp
 Text Label 11350 3000 0    50   ~ 0
@@ -573,63 +288,6 @@ Wire Wire Line
 	11300 3100 11900 3100
 Wire Wire Line
 	11300 3200 11900 3200
-$Comp
-L Device:R_Small_US R?
-U 1 1 6068CAEF
-P 12000 3500
-AR Path="/601E7C5A/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/60391560/6068CAEF" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6068CAEF" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3550 50  0000 L CNN
-F 1 "10" V 12050 3300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3500 50  0001 C CNN
-F 3 "~" H 12000 3500 50  0001 C CNN
-	1    12000 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6068CAF5
-P 12000 3600
-AR Path="/601E7C5A/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/60391560/6068CAF5" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6068CAF5" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3650 50  0000 L CNN
-F 1 "10" V 12050 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3600 50  0001 C CNN
-F 3 "~" H 12000 3600 50  0001 C CNN
-	1    12000 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6068CAFB
-P 12000 3700
-AR Path="/601E7C5A/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/60391560/6068CAFB" Ref="R?"  Part="1" 
-AR Path="/6041EB92/6068CAFB" Ref="R?"  Part="1" 
-F 0 "R?" V 12050 3750 50  0000 L CNN
-F 1 "10" V 12050 3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 3700 50  0001 C CNN
-F 3 "~" H 12000 3700 50  0001 C CNN
-	1    12000 3700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	12100 3700 12250 3700
 Wire Wire Line
@@ -656,7 +314,7 @@ AR Path="/60391560/6068EDF8" Ref="R?"  Part="1"
 AR Path="/6041EB92/6068EDF8" Ref="R?"  Part="1" 
 F 0 "R?" V 12050 4150 50  0000 L CNN
 F 1 "10" V 12050 3900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 4100 50  0001 C CNN
 F 3 "~" H 12000 4100 50  0001 C CNN
 	1    12000 4100
 	0    -1   -1   0   
@@ -675,7 +333,7 @@ AR Path="/60391560/6068EDFE" Ref="R?"  Part="1"
 AR Path="/6041EB92/6068EDFE" Ref="R?"  Part="1" 
 F 0 "R?" V 12050 4250 50  0000 L CNN
 F 1 "10" V 12050 4000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 4200 50  0001 C CNN
 F 3 "~" H 12000 4200 50  0001 C CNN
 	1    12000 4200
 	0    -1   -1   0   
@@ -694,7 +352,7 @@ AR Path="/60391560/6068EE04" Ref="R?"  Part="1"
 AR Path="/6041EB92/6068EE04" Ref="R?"  Part="1" 
 F 0 "R?" V 12050 4350 50  0000 L CNN
 F 1 "10" V 12050 4100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 4300 50  0001 C CNN
 F 3 "~" H 12000 4300 50  0001 C CNN
 	1    12000 4300
 	0    -1   -1   0   
@@ -713,7 +371,7 @@ AR Path="/60391560/6068EE0A" Ref="R?"  Part="1"
 AR Path="/6041EB92/6068EE0A" Ref="R?"  Part="1" 
 F 0 "R?" V 12050 4450 50  0000 L CNN
 F 1 "10" V 12050 4200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 12000 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 4400 50  0001 C CNN
 F 3 "~" H 12000 4400 50  0001 C CNN
 	1    12000 4400
 	0    -1   -1   0   
@@ -1448,6 +1106,349 @@ Text GLabel 12050 5950 2    50   Input ~ 0
 VCC1V35
 Wire Wire Line
 	11950 5950 11950 5850
+Connection ~ 11950 5950
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BC9B3B
+P 12000 3500
+AR Path="/601E7C5A/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/60391560/60BC9B3B" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BC9B3B" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3550 50  0000 L CNN
+F 1 "10" V 12050 3300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3500 50  0001 C CNN
+F 3 "~" H 12000 3500 50  0001 C CNN
+	1    12000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BC9B41
+P 12000 3600
+AR Path="/601E7C5A/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/60391560/60BC9B41" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BC9B41" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3650 50  0000 L CNN
+F 1 "10" V 12050 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3600 50  0001 C CNN
+F 3 "~" H 12000 3600 50  0001 C CNN
+	1    12000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BC9B47
+P 12000 3700
+AR Path="/601E7C5A/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/60391560/60BC9B47" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BC9B47" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3750 50  0000 L CNN
+F 1 "10" V 12050 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3700 50  0001 C CNN
+F 3 "~" H 12000 3700 50  0001 C CNN
+	1    12000 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BDF3C7
+P 12000 2900
+AR Path="/601E7C5A/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/60391560/60BDF3C7" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BDF3C7" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2950 50  0000 L CNN
+F 1 "10" V 12050 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2900 50  0001 C CNN
+F 3 "~" H 12000 2900 50  0001 C CNN
+	1    12000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BDF3CD
+P 12000 3000
+AR Path="/601E7C5A/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/60391560/60BDF3CD" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BDF3CD" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3050 50  0000 L CNN
+F 1 "10" V 12050 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3000 50  0001 C CNN
+F 3 "~" H 12000 3000 50  0001 C CNN
+	1    12000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BDF3D3
+P 12000 3100
+AR Path="/601E7C5A/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/60391560/60BDF3D3" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BDF3D3" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3150 50  0000 L CNN
+F 1 "10" V 12050 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3100 50  0001 C CNN
+F 3 "~" H 12000 3100 50  0001 C CNN
+	1    12000 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BDF3D9
+P 12000 3200
+AR Path="/601E7C5A/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/60391560/60BDF3D9" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BDF3D9" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 3250 50  0000 L CNN
+F 1 "10" V 12050 3000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 3200 50  0001 C CNN
+F 3 "~" H 12000 3200 50  0001 C CNN
+	1    12000 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BEA85C
+P 12000 2500
+AR Path="/601E7C5A/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/60391560/60BEA85C" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BEA85C" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2550 50  0000 L CNN
+F 1 "10" V 12050 2300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2500 50  0001 C CNN
+F 3 "~" H 12000 2500 50  0001 C CNN
+	1    12000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BEA862
+P 12000 2600
+AR Path="/601E7C5A/60BEA862" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BEA862" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BEA862" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BEA862" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BEA862" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BEA862" Ref="R?"  Part="1" 
+AR Path="/60391560/60BEA862" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BEA862" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2650 50  0000 L CNN
+F 1 "10" V 12050 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2600 50  0001 C CNN
+F 3 "~" H 12000 2600 50  0001 C CNN
+	1    12000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BEA868
+P 12000 2700
+AR Path="/601E7C5A/60BEA868" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BEA868" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BEA868" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BEA868" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BEA868" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BEA868" Ref="R?"  Part="1" 
+AR Path="/60391560/60BEA868" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BEA868" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2750 50  0000 L CNN
+F 1 "10" V 12050 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2700 50  0001 C CNN
+F 3 "~" H 12000 2700 50  0001 C CNN
+	1    12000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BEA86E
+P 12000 2800
+AR Path="/601E7C5A/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/60391560/60BEA86E" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BEA86E" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2850 50  0000 L CNN
+F 1 "10" V 12050 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2800 50  0001 C CNN
+F 3 "~" H 12000 2800 50  0001 C CNN
+	1    12000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BF596D
+P 12000 2100
+AR Path="/601E7C5A/60BF596D" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BF596D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BF596D" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BF596D" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BF596D" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BF596D" Ref="R?"  Part="1" 
+AR Path="/60391560/60BF596D" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BF596D" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2150 50  0000 L CNN
+F 1 "10" V 12050 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2100 50  0001 C CNN
+F 3 "~" H 12000 2100 50  0001 C CNN
+	1    12000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BF5973
+P 12000 2200
+AR Path="/601E7C5A/60BF5973" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BF5973" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BF5973" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BF5973" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BF5973" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BF5973" Ref="R?"  Part="1" 
+AR Path="/60391560/60BF5973" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BF5973" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2250 50  0000 L CNN
+F 1 "10" V 12050 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2200 50  0001 C CNN
+F 3 "~" H 12000 2200 50  0001 C CNN
+	1    12000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BF5979
+P 12000 2300
+AR Path="/601E7C5A/60BF5979" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BF5979" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BF5979" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BF5979" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BF5979" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BF5979" Ref="R?"  Part="1" 
+AR Path="/60391560/60BF5979" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BF5979" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2350 50  0000 L CNN
+F 1 "10" V 12050 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2300 50  0001 C CNN
+F 3 "~" H 12000 2300 50  0001 C CNN
+	1    12000 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BF597F
+P 12000 2400
+AR Path="/601E7C5A/60BF597F" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60BF597F" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60BF597F" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60BF597F" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60BF597F" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60BF597F" Ref="R?"  Part="1" 
+AR Path="/60391560/60BF597F" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60BF597F" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2450 50  0000 L CNN
+F 1 "10" V 12050 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2400 50  0001 C CNN
+F 3 "~" H 12000 2400 50  0001 C CNN
+	1    12000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60C010F4
+P 12000 1800
+AR Path="/601E7C5A/60C010F4" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60C010F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60C010F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60C010F4" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60C010F4" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60C010F4" Ref="R?"  Part="1" 
+AR Path="/60391560/60C010F4" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60C010F4" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 1850 50  0000 L CNN
+F 1 "10" V 12050 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 1800 50  0001 C CNN
+F 3 "~" H 12000 1800 50  0001 C CNN
+	1    12000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60C010FA
+P 12000 1900
+AR Path="/601E7C5A/60C010FA" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60C010FA" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60C010FA" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60C010FA" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60C010FA" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60C010FA" Ref="R?"  Part="1" 
+AR Path="/60391560/60C010FA" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60C010FA" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 1950 50  0000 L CNN
+F 1 "10" V 12050 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 1900 50  0001 C CNN
+F 3 "~" H 12000 1900 50  0001 C CNN
+	1    12000 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60C01100
+P 12000 2000
+AR Path="/601E7C5A/60C01100" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/60C01100" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60C01100" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/60C01100" Ref="R?"  Part="1" 
+AR Path="/601E7B38/60C01100" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/60C01100" Ref="R?"  Part="1" 
+AR Path="/60391560/60C01100" Ref="R?"  Part="1" 
+AR Path="/6041EB92/60C01100" Ref="R?"  Part="1" 
+F 0 "R?" V 12050 2050 50  0000 L CNN
+F 1 "10" V 12050 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 12000 2000 50  0001 C CNN
+F 3 "~" H 12000 2000 50  0001 C CNN
+	1    12000 2000
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	11200 3350 11200 3600
 Wire Bus Line
@@ -1456,5 +1457,4 @@ Wire Bus Line
 	15150 8100 15150 9600
 Wire Bus Line
 	13300 8100 13300 9600
-Connection ~ 11950 5950
 $EndSCHEMATC

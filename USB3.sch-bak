@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 22
+Sheet 13 22
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -177,7 +177,7 @@ Wire Wire Line
 Wire Bus Line
 	6100 1050 6450 1050
 Text HLabel 6450 1050 2    100  BiDi ~ 0
-DQ[16:31]
+FX3_DQ[16:31]
 $Comp
 L GM_Memory_EEPROM:M24M02-DRMN6TP IC?
 U 1 1 603E2787
@@ -308,22 +308,18 @@ Wire Wire Line
 NoConn ~ 1750 7050
 Text Notes 1050 1800 0    157  ~ 0
 5VUSB3\nV3P3\nV1P2
-Text Label 6100 1050 1    50   ~ 0
-DQ[16:31]
-Text Label 3850 1200 1    50   ~ 0
-DQ[0:15]
 Wire Bus Line
 	3850 1200 3600 1200
 Text HLabel 3600 1200 0    100  BiDi ~ 0
-DQ[0:15]
-Text Label 7000 1500 0    50   ~ 0
-DQ[16:31]
+FX3_DQ[0:15]
+Text Label 6900 1500 0    50   ~ 0
+FX3_DQ[16:31]
 Wire Bus Line
 	7450 1400 6900 1400
 Wire Bus Line
 	7450 1500 6900 1500
-Text Label 7000 1400 0    50   ~ 0
-DQ[0:15]
+Text Label 6900 1400 0    50   ~ 0
+FX3_DQ[0:15]
 $Comp
 L Device:R_Small_US R?
 U 1 1 6042DFE5
@@ -1517,8 +1513,44 @@ Wire Wire Line
 	5350 7300 5350 7050
 Wire Wire Line
 	5600 7300 5700 7300
+Text Label 6100 1050 1    50   ~ 0
+FX3_DQ[16:31]
+Text Label 3850 1200 1    50   ~ 0
+FX3_DQ[0:15]
+Entry Wire Line
+	2450 3950 2550 4050
+Entry Wire Line
+	2450 3850 2550 3950
+Entry Wire Line
+	2450 3750 2550 3850
+Entry Wire Line
+	2450 3650 2550 3750
+Entry Wire Line
+	2450 4050 2550 4150
+Entry Wire Line
+	2450 4150 2550 4250
+Entry Wire Line
+	2450 3350 2550 3450
+Entry Wire Line
+	2450 3250 2550 3350
+Entry Wire Line
+	2450 3150 2550 3250
+Entry Wire Line
+	2450 3050 2550 3150
+Entry Wire Line
+	2450 3450 2550 3550
+Entry Wire Line
+	2450 3550 2550 3650
+Entry Wire Line
+	2450 2950 2550 3050
+Wire Bus Line
+	2450 2700 2150 2700
+Wire Bus Line
+	2450 2700 2450 4150
 Wire Bus Line
 	3850 1200 3850 2750
 Wire Bus Line
 	6100 1050 6100 2950
+Text HLabel 2150 2700 0    98   Input ~ 0
+FX3_CTL[0:12]
 $EndSCHEMATC

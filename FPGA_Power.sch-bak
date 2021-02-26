@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 20
+Sheet 2 21
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"

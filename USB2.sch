@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 20
+Sheet 6 21
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -13,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GM_Interface_IC:USB3320C-EZK IC?
-U 1 1 602DDF35
-P 2850 2400
-F 0 "IC?" H 3300 2565 50  0000 C CNN
-F 1 "USB3320C-EZK" H 3300 2474 50  0000 C CNN
-F 2 "GM_QFN:QFN50P500X500X100-33N-D" H 4400 2100 50  0001 L CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/00001792E.pdf" H 4400 2000 50  0001 L CNN
-F 4 "USB3320C-EZK" H 4750 2200 50  0001 C CNN "MPN"
-	1    2850 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L dk_PMIC-Power-Distribution-Switches-Load-Drivers:TPS2051BDBVR U?
 U 1 1 602E0070
@@ -168,14 +156,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 2200 1750 2200
 Wire Wire Line
-	2650 2200 2650 2500
-Connection ~ 2650 2500
-Wire Wire Line
-	2650 2500 2650 2600
-Connection ~ 2650 2600
-Wire Wire Line
-	2650 2600 2650 2700
-Wire Wire Line
 	1750 2300 1750 2200
 Connection ~ 1750 2200
 Wire Wire Line
@@ -216,8 +196,6 @@ F 3 "" H 1750 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 2200 2150 2200
-Wire Wire Line
-	2650 3000 2100 3000
 $Comp
 L power:GNDD #PWR?
 U 1 1 602E0977
@@ -251,10 +229,6 @@ $EndComp
 Connection ~ 1450 3100
 Wire Wire Line
 	1250 3100 1450 3100
-Wire Wire Line
-	1450 3100 2650 3100
-Wire Wire Line
-	2650 3200 2100 3200
 $Comp
 L power:GNDD #PWR?
 U 1 1 602E5929
@@ -320,42 +294,18 @@ Wire Wire Line
 Wire Wire Line
 	2250 5100 2250 5300
 Connection ~ 2250 5100
-Wire Wire Line
-	2250 5100 2650 5100
 Text HLabel 1500 5300 0    50   BiDi ~ 0
 USB2_RESTN
 Wire Wire Line
 	1500 5300 2250 5300
 Text Label 1650 5300 0    50   ~ 0
 USB2_RESTN
-Wire Wire Line
-	2100 4700 2650 4700
-Wire Wire Line
-	2100 4800 2650 4800
-Wire Wire Line
-	2100 4900 2650 4900
 Text Label 2150 4700 0    50   ~ 0
 USB2_DIR
 Text Label 2150 4800 0    50   ~ 0
 USB2_STP
 Text Label 2150 4900 0    50   ~ 0
 USB2_NXT
-Wire Wire Line
-	2100 3400 2650 3400
-Wire Wire Line
-	2100 3500 2650 3500
-Wire Wire Line
-	2100 3600 2650 3600
-Wire Wire Line
-	2100 3700 2650 3700
-Wire Wire Line
-	2100 3800 2650 3800
-Wire Wire Line
-	2100 3900 2650 3900
-Wire Wire Line
-	2100 4000 2650 4000
-Wire Wire Line
-	2100 4100 2650 4100
 Text Label 2150 3500 0    50   ~ 0
 USB2_DATA1
 Text Label 2150 3600 0    50   ~ 0
@@ -372,8 +322,6 @@ Text Label 2150 4100 0    50   ~ 0
 USB2_DATA7
 Text Label 2150 3400 0    50   ~ 0
 USB2_DATA0
-Wire Wire Line
-	2650 4300 2050 4300
 Text Label 2100 4300 0    50   ~ 0
 USB2_REFCLK
 $Comp
@@ -442,25 +390,6 @@ Wire Wire Line
 	3950 4300 4550 4300
 Text Label 4100 4300 0    50   ~ 0
 USB2_3V3
-$Comp
-L Device:R_Small_US R?
-U 1 1 6032D9F4
-P 4100 4800
-AR Path="/601E7C5A/6032D9F4" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6032D9F4" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6032D9F4" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6032D9F4" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6032D9F4" Ref="R?"  Part="1" 
-AR Path="/601E7BF0/6032D9F4" Ref="R?"  Part="1" 
-F 0 "R?" H 4168 4846 50  0000 L CNN
-F 1 "8.06K" H 4168 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4100 4800 50  0001 C CNN
-F 3 "~" H 4100 4800 50  0001 C CNN
-	1    4100 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4700 4100 4700
 Wire Wire Line
 	3950 5000 4100 5000
 Wire Wire Line
@@ -946,6 +875,77 @@ Wire Bus Line
 	1050 4050 1050 4200
 Text Label 1150 4200 0    50   ~ 0
 USB2_DATA[0..7]
+Wire Wire Line
+	2650 2600 2650 2700
+Connection ~ 2650 2600
+Connection ~ 2650 2500
+Wire Wire Line
+	2650 2500 2650 2600
+Wire Wire Line
+	2650 2200 2650 2500
 Wire Bus Line
 	2000 3500 2000 4200
+Wire Wire Line
+	3950 4700 4100 4700
+Wire Wire Line
+	2250 5100 2650 5100
+Wire Wire Line
+	2100 4900 2650 4900
+Wire Wire Line
+	2100 4800 2650 4800
+Wire Wire Line
+	2100 4700 2650 4700
+Wire Wire Line
+	2650 4300 2050 4300
+Wire Wire Line
+	2100 4100 2650 4100
+Wire Wire Line
+	2100 4000 2650 4000
+Wire Wire Line
+	2100 3900 2650 3900
+Wire Wire Line
+	2100 3800 2650 3800
+Wire Wire Line
+	2100 3700 2650 3700
+Wire Wire Line
+	2100 3600 2650 3600
+Wire Wire Line
+	2100 3500 2650 3500
+Wire Wire Line
+	2100 3400 2650 3400
+Wire Wire Line
+	2650 3200 2100 3200
+Wire Wire Line
+	1450 3100 2650 3100
+Wire Wire Line
+	2650 3000 2100 3000
+$Comp
+L Device:R_Small_US R?
+U 1 1 6032D9F4
+P 4100 4800
+AR Path="/601E7C5A/6032D9F4" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/6032D9F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/6032D9F4" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/6032D9F4" Ref="R?"  Part="1" 
+AR Path="/601E7B38/6032D9F4" Ref="R?"  Part="1" 
+AR Path="/601E7BF0/6032D9F4" Ref="R?"  Part="1" 
+F 0 "R?" H 4168 4846 50  0000 L CNN
+F 1 "8.06K" H 4168 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4100 4800 50  0001 C CNN
+F 3 "~" H 4100 4800 50  0001 C CNN
+	1    4100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GM_Interface_IC:USB3320C-EZK IC?
+U 1 1 602DDF35
+P 2850 2400
+F 0 "IC?" H 3300 2565 50  0000 C CNN
+F 1 "USB3320C-EZK" H 3300 2474 50  0000 C CNN
+F 2 "GM_QFN:QFN50P500X500X100-33N-D" H 4400 2100 50  0001 L CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/00001792E.pdf" H 4400 2000 50  0001 L CNN
+F 4 "USB3320C-EZK" H 4750 2200 50  0001 C CNN "MPN"
+	1    2850 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

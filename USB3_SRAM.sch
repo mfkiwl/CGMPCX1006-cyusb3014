@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 22
+Sheet 15 22
 Title ""
 Date ""
 Rev ""
@@ -82,9 +82,9 @@ Wire Bus Line
 Wire Bus Line
 	6800 3700 7350 3700
 Text HLabel 7350 1700 2    100  BiDi ~ 0
-DQ[0:15]
+DQ[0..15]
 Text HLabel 7350 3700 2    100  BiDi ~ 0
-DQ[16:31]
+DQ[16..31]
 $Comp
 L power:GNDD #PWR?
 U 1 1 603A5B67

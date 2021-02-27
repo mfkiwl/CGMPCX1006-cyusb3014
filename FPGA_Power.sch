@@ -2614,4 +2614,34 @@ F 3 "~" H 4950 7250 50  0001 C CNN
 	1    4950 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5500 4150 5500 4050
+Connection ~ 5500 4050
+Connection ~ 5500 4550
+Wire Wire Line
+	5500 5350 5500 5250
+Connection ~ 5500 5050
+Connection ~ 5500 5150
+Wire Wire Line
+	5500 5150 5500 5050
+Connection ~ 5500 5250
+Wire Wire Line
+	5500 5250 5500 5150
+Connection ~ 5500 5750
+Connection ~ 5500 5850
+Wire Wire Line
+	5500 5850 5500 5750
+Connection ~ 5500 5950
+Wire Wire Line
+	5500 5950 5500 5850
+Connection ~ 5500 6050
+Wire Wire Line
+	5500 6050 5500 5950
+Wire Wire Line
+	5500 6050 5500 6150
+Connection ~ 5500 6150
+Wire Wire Line
+	5500 6150 5500 6250
+Wire Wire Line
+	5500 4550 5500 4650
 $EndSCHEMATC

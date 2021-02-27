@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L GM_FPGA:XA7Z020-1CLG400Q U?
 U 2 1 60492962
-P 1000 1100
-F 0 "U?" H 1608 1265 50  0000 C CNN
-F 1 "XA7Z020-1CLG400Q" H 1608 1174 50  0000 C CNN
-F 2 "BGA400C80P20X20_1700X1700X160" H 3850 1200 50  0001 L CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 3850 1100 50  0001 L CNN
-F 4 "XA7Z020-1CLG400Q" H 1000 1100 50  0001 C CNN "MPN"
-	2    1000 1100
+P 1500 1150
+F 0 "U?" H 2108 1315 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 2108 1224 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 4350 1250 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 4350 1150 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 1500 1150 50  0001 C CNN "MPN"
+	2    1500 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -52,13 +52,13 @@ $EndComp
 $Comp
 L GM_FPGA:XA7Z020-1CLG400Q U?
 U 6 1 604B00A9
-P 9300 7950
-F 0 "U?" H 9808 8115 50  0000 C CNN
-F 1 "XA7Z020-1CLG400Q" H 9808 8024 50  0000 C CNN
-F 2 "BGA400C80P20X20_1700X1700X160" H 12150 8050 50  0001 L CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 12150 7950 50  0001 L CNN
-F 4 "XA7Z020-1CLG400Q" H 9300 7950 50  0001 C CNN "MPN"
-	6    9300 7950
+P 4250 7950
+F 0 "U?" H 4758 8115 50  0000 C CNN
+F 1 "XA7Z020-1CLG400Q" H 4758 8024 50  0000 C CNN
+F 2 "BGA400C80P20X20_1700X1700X160" H 7100 8050 50  0001 L CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds188-XA-Zynq-7000-Overview.pdf" H 7100 7950 50  0001 L CNN
+F 4 "XA7Z020-1CLG400Q" H 4250 7950 50  0001 C CNN "MPN"
+	6    4250 7950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1449,6 +1449,522 @@ F 3 "~" H 12000 2000 50  0001 C CNN
 	1    12000 2000
 	0    -1   -1   0   
 $EndComp
+Text Notes 1000 4800 0    98   ~ 0
+Bank 34 - VCC3V3\nBank 35 - VCC3V3
+Wire Notes Line
+	950  4450 950  6000
+Wire Notes Line
+	950  6000 2600 6000
+Wire Notes Line
+	2600 6000 2600 4450
+Wire Notes Line
+	2600 4450 950  4450
+Wire Wire Line
+	5650 3700 6150 3700
+Wire Wire Line
+	5650 5300 6150 5300
+Text Label 5800 3700 0    50   ~ 0
+FX3_DQ0
+Text Label 5800 5300 0    50   ~ 0
+FX3_DQ1
+Wire Wire Line
+	5650 5400 6150 5400
+Wire Wire Line
+	5650 4300 6150 4300
+Wire Wire Line
+	5650 4400 6150 4400
+Text Label 5800 5400 0    50   ~ 0
+FX3_DQ2
+Text Label 5800 4300 0    50   ~ 0
+FX3_DQ3
+Text Label 5800 4400 0    50   ~ 0
+FX3_DQ4
+Wire Wire Line
+	5650 5500 6150 5500
+Text Label 5800 5500 0    50   ~ 0
+FX3_DQ5
+Text Label 5800 5600 0    50   ~ 0
+FX3_DQ6
+Text Label 5800 2300 0    50   ~ 0
+FX3_DQ7
+Text Label 5800 2400 0    50   ~ 0
+FX3_DQ8
+Text Label 5800 1700 0    50   ~ 0
+FX3_DQ9
+Text Label 5800 1800 0    50   ~ 0
+FX3_DQ10
+Text Label 9500 2200 0    50   ~ 0
+FX3_DQ11
+Text Label 9500 2300 0    50   ~ 0
+FX3_DQ12
+Text Label 9500 5600 0    50   ~ 0
+FX3_DQ13
+Text Label 9500 5700 0    50   ~ 0
+FX3_DQ14
+Text Label 9500 3400 0    50   ~ 0
+FX3_DQ15
+Text Label 9500 3500 0    50   ~ 0
+FX3_DQ16
+Text Label 9500 3200 0    50   ~ 0
+FX3_DQ17
+Text Label 9500 3300 0    50   ~ 0
+FX3_DQ18
+Text Label 9500 2800 0    50   ~ 0
+FX3_DQ19
+Text Label 9500 2900 0    50   ~ 0
+FX3_DQ20
+Text Label 9500 4400 0    50   ~ 0
+FX3_DQ21
+Text Label 9500 4500 0    50   ~ 0
+FX3_DQ22
+Text Label 9500 3800 0    50   ~ 0
+FX3_DQ23
+Text Label 9500 3900 0    50   ~ 0
+FX3_DQ24
+Text Label 5800 4500 0    50   ~ 0
+FX3_DQ25
+Text Label 5800 4600 0    50   ~ 0
+FX3_DQ26
+Text Label 5800 2900 0    50   ~ 0
+FX3_DQ27
+Text Label 5800 3000 0    50   ~ 0
+FX3_DQ28
+Text Label 5800 4900 0    50   ~ 0
+FX3_DQ29
+Text Label 5800 5000 0    50   ~ 0
+FX3_DQ30
+Text Label 5800 3100 0    50   ~ 0
+FX3_DQ31
+Wire Wire Line
+	5650 4500 6150 4500
+Wire Wire Line
+	5650 4600 6150 4600
+Wire Wire Line
+	5650 4900 6150 4900
+Wire Wire Line
+	5650 5000 6150 5000
+Wire Wire Line
+	5650 5600 6150 5600
+Wire Wire Line
+	5650 3000 6150 3000
+Wire Wire Line
+	5650 2900 6150 2900
+Wire Wire Line
+	5650 2400 6150 2400
+Wire Wire Line
+	5650 2300 6150 2300
+Wire Wire Line
+	5650 1800 6150 1800
+Wire Wire Line
+	5650 1700 6150 1700
+Wire Wire Line
+	9300 2300 9800 2300
+Wire Wire Line
+	9300 2200 9800 2200
+Wire Wire Line
+	9300 2800 9800 2800
+Wire Wire Line
+	9300 2900 9800 2900
+Wire Wire Line
+	9300 3200 9800 3200
+Wire Wire Line
+	9300 3300 9800 3300
+Wire Wire Line
+	9300 3400 9800 3400
+Wire Wire Line
+	9300 3500 9800 3500
+Wire Wire Line
+	9300 3800 9800 3800
+Wire Wire Line
+	9300 3900 9800 3900
+Wire Wire Line
+	9300 4400 9800 4400
+Wire Wire Line
+	9300 4500 9800 4500
+Wire Wire Line
+	9300 5600 9800 5600
+Wire Wire Line
+	9300 5700 9800 5700
+Text Label 10900 8200 0    50   ~ 0
+FX3_DQ0
+Text Label 10900 8300 0    50   ~ 0
+FX3_DQ1
+Text Label 10900 8500 0    50   ~ 0
+FX3_DQ3
+Text Label 10900 8600 0    50   ~ 0
+FX3_DQ4
+Text Label 10900 8700 0    50   ~ 0
+FX3_DQ5
+Text Label 10900 8800 0    50   ~ 0
+FX3_DQ6
+Text Label 10900 8900 0    50   ~ 0
+FX3_DQ7
+Text Label 10900 9000 0    50   ~ 0
+FX3_DQ8
+Text Label 10900 9100 0    50   ~ 0
+FX3_DQ9
+Text Label 10900 9200 0    50   ~ 0
+FX3_DQ10
+Text Label 10900 9300 0    50   ~ 0
+FX3_DQ11
+Text Label 10900 9400 0    50   ~ 0
+FX3_DQ12
+Text Label 10900 9500 0    50   ~ 0
+FX3_DQ13
+Text Label 10900 9600 0    50   ~ 0
+FX3_DQ14
+Text Label 10900 9700 0    50   ~ 0
+FX3_DQ15
+Text Label 11700 8200 0    50   ~ 0
+FX3_DQ16
+Text Label 11700 8300 0    50   ~ 0
+FX3_DQ17
+Text Label 11700 8400 0    50   ~ 0
+FX3_DQ18
+Text Label 11700 8500 0    50   ~ 0
+FX3_DQ19
+Text Label 11700 8600 0    50   ~ 0
+FX3_DQ20
+Text Label 11700 8700 0    50   ~ 0
+FX3_DQ21
+Text Label 11700 8800 0    50   ~ 0
+FX3_DQ22
+Text Label 11700 8900 0    50   ~ 0
+FX3_DQ23
+Text Label 11700 9000 0    50   ~ 0
+FX3_DQ24
+Text Label 11700 9100 0    50   ~ 0
+FX3_DQ25
+Text Label 11700 9200 0    50   ~ 0
+FX3_DQ26
+Text Label 11700 9300 0    50   ~ 0
+FX3_DQ27
+Text Label 11700 9400 0    50   ~ 0
+FX3_DQ28
+Text Label 11700 9500 0    50   ~ 0
+FX3_DQ29
+Text Label 11700 9600 0    50   ~ 0
+FX3_DQ30
+Text Label 11700 9700 0    50   ~ 0
+FX3_DQ31
+Text Label 10900 8400 0    50   ~ 0
+FX3_DQ2
+Wire Wire Line
+	12150 9700 11550 9700
+Wire Wire Line
+	12150 9600 11550 9600
+Wire Wire Line
+	12150 9500 11550 9500
+Wire Wire Line
+	12150 9400 11550 9400
+Wire Wire Line
+	12150 9300 11550 9300
+Wire Wire Line
+	12150 9200 11550 9200
+Wire Wire Line
+	12150 9100 11550 9100
+Wire Wire Line
+	12150 9000 11550 9000
+Wire Wire Line
+	12150 8900 11550 8900
+Wire Wire Line
+	12150 8800 11550 8800
+Wire Wire Line
+	12150 8700 11550 8700
+Wire Wire Line
+	12150 8600 11550 8600
+Wire Wire Line
+	12150 8500 11550 8500
+Wire Wire Line
+	12150 8400 11550 8400
+Wire Wire Line
+	12150 8300 11550 8300
+Wire Wire Line
+	12150 8200 11550 8200
+Entry Wire Line
+	12150 9700 12250 9600
+Entry Wire Line
+	12150 9600 12250 9500
+Entry Wire Line
+	12150 9500 12250 9400
+Entry Wire Line
+	12150 9400 12250 9300
+Entry Wire Line
+	12150 9300 12250 9200
+Entry Wire Line
+	12150 9200 12250 9100
+Entry Wire Line
+	12150 9100 12250 9000
+Entry Wire Line
+	12150 9000 12250 8900
+Entry Wire Line
+	12150 8900 12250 8800
+Entry Wire Line
+	12150 8800 12250 8700
+Entry Wire Line
+	12150 8700 12250 8600
+Entry Wire Line
+	12150 8600 12250 8500
+Entry Wire Line
+	12150 8500 12250 8400
+Entry Wire Line
+	12150 8400 12250 8300
+Entry Wire Line
+	12150 8300 12250 8200
+Entry Wire Line
+	12150 8200 12250 8100
+Entry Wire Line
+	11350 9700 11450 9600
+Entry Wire Line
+	11350 9600 11450 9500
+Entry Wire Line
+	11350 9500 11450 9400
+Entry Wire Line
+	11350 9400 11450 9300
+Entry Wire Line
+	11350 9300 11450 9200
+Entry Wire Line
+	11350 9200 11450 9100
+Entry Wire Line
+	11350 9100 11450 9000
+Entry Wire Line
+	11350 9000 11450 8900
+Entry Wire Line
+	11350 8900 11450 8800
+Entry Wire Line
+	11350 8800 11450 8700
+Entry Wire Line
+	11350 8700 11450 8600
+Entry Wire Line
+	11350 8600 11450 8500
+Entry Wire Line
+	11350 8500 11450 8400
+Entry Wire Line
+	11350 8400 11450 8300
+Entry Wire Line
+	11350 8300 11450 8200
+Entry Wire Line
+	11350 8200 11450 8100
+Wire Wire Line
+	11350 9700 10750 9700
+Wire Wire Line
+	11350 9600 10750 9600
+Wire Wire Line
+	11350 9500 10750 9500
+Wire Wire Line
+	11350 9400 10750 9400
+Wire Wire Line
+	11350 9300 10750 9300
+Wire Wire Line
+	11350 9200 10750 9200
+Wire Wire Line
+	11350 9100 10750 9100
+Wire Wire Line
+	11350 9000 10750 9000
+Wire Wire Line
+	11350 8900 10750 8900
+Wire Wire Line
+	11350 8800 10750 8800
+Wire Wire Line
+	11350 8700 10750 8700
+Wire Wire Line
+	11350 8600 10750 8600
+Wire Wire Line
+	11350 8500 10750 8500
+Wire Wire Line
+	11350 8400 10750 8400
+Wire Wire Line
+	11350 8300 10750 8300
+Wire Wire Line
+	11350 8200 10750 8200
+Text HLabel 11500 7900 2    50   BiDi ~ 0
+FX3_DQ[0..15]
+Wire Bus Line
+	11450 7900 11500 7900
+Text HLabel 12300 7900 2    50   BiDi ~ 0
+FX3_DQ[16..31]
+Wire Bus Line
+	12250 7900 12300 7900
+Text HLabel 5800 3300 2    50   BiDi ~ 0
+FX3_I2C_SDA
+Text HLabel 5800 3400 2    50   Output ~ 0
+FX3_I2C_SCL
+Wire Wire Line
+	5650 3300 5800 3300
+Wire Wire Line
+	5650 3400 5800 3400
+Text HLabel 5800 3900 2    50   BiDi ~ 0
+FX3_PCLK
+Wire Wire Line
+	5650 3900 5800 3900
+Wire Wire Line
+	5650 3200 6150 3200
+Text Label 5800 3200 0    50   ~ 0
+FX3_CTL0
+Text Label 9500 5800 0    50   ~ 0
+FX3_CTL1
+Text Label 9500 5900 0    50   ~ 0
+FX3_CTL2
+Text Label 9500 5400 0    50   ~ 0
+FX3_CTL3
+Text Label 9500 5500 0    50   ~ 0
+FX3_CTL4
+Text Label 9500 4600 0    50   ~ 0
+FX3_CTL5
+Text Label 9500 4700 0    50   ~ 0
+FX3_CTL6
+Text Label 9500 3600 0    50   ~ 0
+FX3_CTL7
+Text Label 9500 3700 0    50   ~ 0
+FX3_CTL8
+Text Label 9500 3000 0    50   ~ 0
+FX3_CTL9
+Text Label 9500 3100 0    50   ~ 0
+FX3_CTL10
+Text Label 9500 5000 0    50   ~ 0
+FX3_CTL11
+Text Label 9500 5100 0    50   ~ 0
+FX3_CTL12
+Text HLabel 9500 4800 2    50   Output ~ 0
+FX3_I2S_CLK
+Text HLabel 9500 4300 2    50   Output ~ 0
+FX3_I2S_MCLK
+Text HLabel 9500 4900 2    50   Output ~ 0
+FX3_I2S_WS
+Text HLabel 9500 4200 2    50   BiDi ~ 0
+FX3_I2S_SD
+Wire Wire Line
+	9300 4200 9500 4200
+Wire Wire Line
+	9300 4300 9500 4300
+Wire Wire Line
+	9300 4800 9500 4800
+Wire Wire Line
+	9300 4900 9500 4900
+Wire Wire Line
+	9300 4700 9800 4700
+Wire Wire Line
+	9300 4600 9800 4600
+Wire Wire Line
+	9300 3600 9800 3600
+Wire Wire Line
+	9300 3700 9800 3700
+Wire Wire Line
+	9300 3100 9800 3100
+Wire Wire Line
+	9300 3000 9800 3000
+Wire Wire Line
+	9300 5000 9800 5000
+Wire Wire Line
+	9300 5100 9800 5100
+Wire Wire Line
+	9300 5400 9800 5400
+Wire Wire Line
+	9300 5500 9800 5500
+Wire Wire Line
+	9300 5800 9800 5800
+Wire Wire Line
+	9300 5900 9800 5900
+Text HLabel 5800 2700 2    50   Output ~ 0
+FX3_PMOD0
+Text HLabel 5800 2800 2    50   Output ~ 0
+FX3_PMOD1
+Text HLabel 5800 4700 2    50   Output ~ 0
+FX3_PMOD2
+Wire Wire Line
+	5650 2700 5800 2700
+Wire Wire Line
+	5650 2800 5800 2800
+Wire Wire Line
+	5650 4700 5800 4700
+Text Label 10000 8200 0    50   ~ 0
+FX3_CTL0
+Text Label 10000 9300 0    50   ~ 0
+FX3_CTL11
+Text Label 10000 9400 0    50   ~ 0
+FX3_CTL12
+Text Label 10000 8300 0    50   ~ 0
+FX3_CTL1
+Text Label 10000 8400 0    50   ~ 0
+FX3_CTL2
+Text Label 10000 8500 0    50   ~ 0
+FX3_CTL3
+Text Label 10000 8600 0    50   ~ 0
+FX3_CTL4
+Text Label 10000 8700 0    50   ~ 0
+FX3_CTL5
+Text Label 10000 8800 0    50   ~ 0
+FX3_CTL6
+Text Label 10000 8900 0    50   ~ 0
+FX3_CTL7
+Text Label 10000 9000 0    50   ~ 0
+FX3_CTL8
+Text Label 10000 9100 0    50   ~ 0
+FX3_CTL9
+Text Label 10000 9200 0    50   ~ 0
+FX3_CTL10
+Wire Wire Line
+	10450 9400 9850 9400
+Wire Wire Line
+	10450 9300 9850 9300
+Wire Wire Line
+	10450 9200 9850 9200
+Wire Wire Line
+	10450 9100 9850 9100
+Wire Wire Line
+	10450 9000 9850 9000
+Wire Wire Line
+	10450 8900 9850 8900
+Wire Wire Line
+	10450 8800 9850 8800
+Wire Wire Line
+	10450 8700 9850 8700
+Wire Wire Line
+	10450 8600 9850 8600
+Wire Wire Line
+	10450 8500 9850 8500
+Wire Wire Line
+	10450 8400 9850 8400
+Wire Wire Line
+	10450 8300 9850 8300
+Wire Wire Line
+	10450 8200 9850 8200
+Entry Wire Line
+	10450 9400 10550 9300
+Entry Wire Line
+	10450 9300 10550 9200
+Entry Wire Line
+	10450 9200 10550 9100
+Entry Wire Line
+	10450 9100 10550 9000
+Entry Wire Line
+	10450 9000 10550 8900
+Entry Wire Line
+	10450 8900 10550 8800
+Entry Wire Line
+	10450 8800 10550 8700
+Entry Wire Line
+	10450 8700 10550 8600
+Entry Wire Line
+	10450 8600 10550 8500
+Entry Wire Line
+	10450 8500 10550 8400
+Entry Wire Line
+	10450 8400 10550 8300
+Entry Wire Line
+	10450 8300 10550 8200
+Entry Wire Line
+	10450 8200 10550 8100
+Wire Bus Line
+	10550 7900 10600 7900
+Text HLabel 10600 7900 2    50   Output ~ 0
+FX3_CTL[0..12]
+Wire Wire Line
+	5650 3100 6150 3100
+Text HLabel 5800 4800 2    50   Output ~ 0
+FX3_INT_N_CTL15
+Wire Wire Line
+	5650 4800 5800 4800
 Wire Bus Line
 	11200 3350 11200 3600
 Wire Bus Line
@@ -1457,4 +1973,10 @@ Wire Bus Line
 	15150 8100 15150 9600
 Wire Bus Line
 	13300 8100 13300 9600
+Wire Bus Line
+	10550 7900 10550 9300
+Wire Bus Line
+	11450 7900 11450 9600
+Wire Bus Line
+	12250 7900 12250 9600
 $EndSCHEMATC

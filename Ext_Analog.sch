@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 22
+Sheet 16 22
 Title ""
 Date ""
 Rev ""
@@ -781,4 +781,8 @@ Text HLabel 9250 4750 2    50   Output ~ 0
 AN1_P
 Text HLabel 9250 5150 2    50   Output ~ 0
 AN1_N
+Text Notes 4150 1350 0    197  ~ 0
+Set the correct voltage here
+Text Notes 3800 3800 0    197  ~ 0
+Set the correct voltage here
 $EndSCHEMATC

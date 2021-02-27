@@ -176,8 +176,6 @@ Wire Wire Line
 	5850 2950 6000 2950
 Wire Bus Line
 	6100 1050 6450 1050
-Text HLabel 6450 1050 2    100  BiDi ~ 0
-FX3_DQ[16:31]
 $Comp
 L GM_Memory_EEPROM:M24M02-DRMN6TP IC?
 U 1 1 603E2787
@@ -194,10 +192,6 @@ Wire Wire Line
 	1750 6750 1200 6750
 Wire Wire Line
 	1750 6850 1200 6850
-Text Label 1250 6750 0    50   ~ 0
-I2C_SCL
-Text Label 1250 6850 0    50   ~ 0
-I2C_SDA
 Wire Wire Line
 	9000 6100 8500 6100
 Wire Wire Line
@@ -310,16 +304,10 @@ Text Notes 1050 1800 0    157  ~ 0
 5VUSB3\nV3P3\nV1P2
 Wire Bus Line
 	3850 1200 3600 1200
-Text HLabel 3600 1200 0    100  BiDi ~ 0
-FX3_DQ[0:15]
-Text Label 6900 1500 0    50   ~ 0
-FX3_DQ[16:31]
 Wire Bus Line
 	7450 1400 6900 1400
 Wire Bus Line
 	7450 1500 6900 1500
-Text Label 6900 1400 0    50   ~ 0
-FX3_DQ[0:15]
 $Comp
 L Device:R_Small_US R?
 U 1 1 6042DFE5
@@ -1513,10 +1501,6 @@ Wire Wire Line
 	5350 7300 5350 7050
 Wire Wire Line
 	5600 7300 5700 7300
-Text Label 6100 1050 1    50   ~ 0
-FX3_DQ[16:31]
-Text Label 3850 1200 1    50   ~ 0
-FX3_DQ[0:15]
 Entry Wire Line
 	2450 3950 2550 4050
 Entry Wire Line
@@ -1545,12 +1529,68 @@ Entry Wire Line
 	2450 2950 2550 3050
 Wire Bus Line
 	2450 2700 2150 2700
+Text HLabel 2150 2700 0    98   Input ~ 0
+FX3_CTL[0:12]
+Text HLabel 1200 6750 0    50   Input ~ 0
+FX3_I2C_SCL
+Text HLabel 1200 6850 0    50   BiDi ~ 0
+FX3_I2C_SDA
+Wire Wire Line
+	4150 2950 3850 2950
+Text HLabel 3850 2950 0    50   BiDi ~ 0
+FX3_PCLK
+Text HLabel 6000 3150 2    50   Input ~ 0
+FX3_I2S_CLK
+Text HLabel 6000 3250 2    50   BiDi ~ 0
+FX3_I2S_SD
+Text HLabel 6000 3350 2    50   Input ~ 0
+FX3_I2S_WS
+Text HLabel 6000 3950 2    50   Input ~ 0
+FX3_I2S_MCLK
+Wire Wire Line
+	5850 3150 6000 3150
+Wire Wire Line
+	5850 3250 6000 3250
+Wire Wire Line
+	5850 3350 6000 3350
+Wire Wire Line
+	5850 3950 6000 3950
+Wire Wire Line
+	2050 4450 1500 4450
+Text Label 1650 4450 0    50   ~ 0
+PMOD0
+Text Label 1650 4550 0    50   ~ 0
+PMOD1
+Text Label 1650 4650 0    50   ~ 0
+PMOD2
+Wire Wire Line
+	2050 4550 1500 4550
+Wire Wire Line
+	2050 4650 1500 4650
 Wire Bus Line
 	2450 2700 2450 4150
 Wire Bus Line
 	3850 1200 3850 2750
 Wire Bus Line
 	6100 1050 6100 2950
-Text HLabel 2150 2700 0    98   Input ~ 0
-FX3_CTL[0:12]
+Text HLabel 1500 4450 0    50   Input ~ 0
+PMOD0
+Text HLabel 1500 4550 0    50   Input ~ 0
+PMOD1
+Text HLabel 1500 4650 0    50   Input ~ 0
+PMOD2
+Text HLabel 3300 4750 0    50   Input ~ 0
+INT_N_CTL15
+Text Label 6900 1500 0    50   ~ 0
+FX3_DQ[16..31]
+Text Label 6900 1400 0    50   ~ 0
+FX3_DQ[0..15]
+Text Label 3850 1200 1    50   ~ 0
+FX3_DQ[0..15]
+Text Label 6100 1050 1    50   ~ 0
+FX3_DQ[16..31]
+Text HLabel 6450 1050 2    100  BiDi ~ 0
+FX3_DQ[16..31]
+Text HLabel 3600 1200 0    100  BiDi ~ 0
+FX3_DQ[0..15]
 $EndSCHEMATC

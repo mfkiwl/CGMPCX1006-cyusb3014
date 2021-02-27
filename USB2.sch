@@ -883,8 +883,6 @@ Wire Wire Line
 	2650 2500 2650 2600
 Wire Wire Line
 	2650 2200 2650 2500
-Wire Bus Line
-	2000 3500 2000 4200
 Wire Wire Line
 	3950 4700 4100 4700
 Wire Wire Line
@@ -948,4 +946,6 @@ F 4 "USB3320C-EZK" H 4750 2200 50  0001 C CNN "MPN"
 	1    2850 2400
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	2000 3500 2000 4200
 $EndSCHEMATC

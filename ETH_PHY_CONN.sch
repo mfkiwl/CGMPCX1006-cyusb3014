@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 22
+Sheet 9 22
 Title ""
 Date ""
 Rev ""
@@ -139,7 +139,7 @@ Entry Wire Line
 	1200 5500 1300 5400
 Entry Wire Line
 	1200 5400 1300 5300
-Text HLabel 1100 5450 0    50   Input ~ 0
+Text HLabel 1100 5450 0    50   BiDi ~ 0
 ETH_TX_[0..3]
 Text Label 750  5700 0    50   ~ 0
 TX_D[0..3]
@@ -163,7 +163,7 @@ Entry Wire Line
 	1200 6500 1300 6400
 Entry Wire Line
 	1200 6400 1300 6300
-Text HLabel 1100 6450 0    50   Input ~ 0
+Text HLabel 1100 6450 0    50   BiDi ~ 0
 ETH_RX_[0..3]
 Text Label 750  6700 0    50   ~ 0
 RX_D[0..3]

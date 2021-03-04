@@ -1448,10 +1448,10 @@ Wire Notes Line
 Wire Notes Line
 	2600 4450 950  4450
 Wire Wire Line
-	5650 3700 6150 3700
+	5650 4000 6150 4000
 Wire Wire Line
 	5650 5300 6150 5300
-Text Label 5800 3700 0    50   ~ 0
+Text Label 5800 4000 0    50   ~ 0
 FX3_DQ0
 Text Label 5800 5300 0    50   ~ 0
 FX3_DQ1
@@ -1481,10 +1481,6 @@ Text Label 5800 1700 0    50   ~ 0
 FX3_DQ9
 Text Label 5800 1800 0    50   ~ 0
 FX3_DQ10
-Text Label 9500 2200 0    50   ~ 0
-FX3_DQ11
-Text Label 9500 2300 0    50   ~ 0
-FX3_DQ12
 Text Label 9500 5600 0    50   ~ 0
 FX3_DQ13
 Text Label 9500 5700 0    50   ~ 0
@@ -1505,10 +1501,6 @@ Text Label 9500 4400 0    50   ~ 0
 FX3_DQ21
 Text Label 9500 4500 0    50   ~ 0
 FX3_DQ22
-Text Label 9500 3800 0    50   ~ 0
-FX3_DQ23
-Text Label 9500 3900 0    50   ~ 0
-FX3_DQ24
 Text Label 5800 4500 0    50   ~ 0
 FX3_DQ25
 Text Label 5800 4600 0    50   ~ 0
@@ -1546,10 +1538,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 1700 6150 1700
 Wire Wire Line
-	9300 2300 9800 2300
-Wire Wire Line
-	9300 2200 9800 2200
-Wire Wire Line
 	9300 2800 9800 2800
 Wire Wire Line
 	9300 2900 9800 2900
@@ -1561,10 +1549,6 @@ Wire Wire Line
 	9300 3400 9800 3400
 Wire Wire Line
 	9300 3500 9800 3500
-Wire Wire Line
-	9300 3800 9800 3800
-Wire Wire Line
-	9300 3900 9800 3900
 Wire Wire Line
 	9300 4400 9800 4400
 Wire Wire Line
@@ -1803,8 +1787,6 @@ Text Label 9500 4700 0    50   ~ 0
 FX3_CTL6
 Text Label 9500 3600 0    50   ~ 0
 FX3_CTL7
-Text Label 9500 3700 0    50   ~ 0
-FX3_CTL8
 Text Label 9500 3000 0    50   ~ 0
 FX3_CTL9
 Text Label 9500 3100 0    50   ~ 0
@@ -2172,6 +2154,224 @@ Text Label 5800 1900 0    50   ~ 0
 USB2_OC
 Wire Wire Line
 	6250 1900 5650 1900
+Wire Wire Line
+	9300 4000 9500 4000
+Text Label 9500 3700 0    50   ~ 0
+FX3_CTL8
+Wire Wire Line
+	9300 4100 9500 4100
+Text HLabel 9500 3800 2    50   Output ~ 0
+DAC_DCLK_OUT_P
+Text HLabel 9500 3900 2    50   Output ~ 0
+DAC_DCLK_OUT_N
+Wire Wire Line
+	9500 3800 9300 3800
+Wire Wire Line
+	9500 3900 9300 3900
+Text HLabel 9500 4000 2    50   Input ~ 0
+DAC_DCLK_IN_P
+Text HLabel 9500 4100 2    50   Input ~ 0
+DAC_DCLK_IN_N
+Text Label 9500 1600 0    50   ~ 0
+DAC_DB15_P
+Text Label 9500 1700 0    50   ~ 0
+DAC_DB15_N
+Wire Wire Line
+	9300 2500 9800 2500
+Wire Wire Line
+	9300 2400 9800 2400
+Wire Wire Line
+	9300 2300 9800 2300
+Wire Wire Line
+	9300 2200 9800 2200
+Text Label 9500 2500 0    50   ~ 0
+FX3_DQ24
+Text Label 9500 2400 0    50   ~ 0
+FX3_DQ23
+Text Label 9500 2300 0    50   ~ 0
+FX3_DQ12
+Text Label 9500 2200 0    50   ~ 0
+FX3_DQ11
+Wire Wire Line
+	9300 1600 9800 1600
+Wire Wire Line
+	9300 1700 9800 1700
+Text Label 9500 1800 0    50   ~ 0
+DAC_DB14_P
+Text Label 9500 1900 0    50   ~ 0
+DAC_DB14_N
+Wire Wire Line
+	9300 1800 9800 1800
+Wire Wire Line
+	9300 1900 9800 1900
+Text Label 9500 2000 0    50   ~ 0
+DAC_DB13_P
+Text Label 9500 2100 0    50   ~ 0
+DAC_DB13_N
+Wire Wire Line
+	9300 2000 9800 2000
+Wire Wire Line
+	9300 2100 9800 2100
+Text Label 9500 2600 0    50   ~ 0
+DAC_DB12_P
+Text Label 9500 2700 0    50   ~ 0
+DAC_DB12_N
+Wire Wire Line
+	9300 2600 9800 2600
+Wire Wire Line
+	9300 2700 9800 2700
+Text Label 9500 6000 0    50   ~ 0
+DAC_DB11_P
+Text Label 9500 6100 0    50   ~ 0
+DAC_DB11_N
+Wire Wire Line
+	9300 6000 9800 6000
+Wire Wire Line
+	9300 6100 9800 6100
+Text Label 9500 6200 0    50   ~ 0
+DAC_DB10_P
+Text Label 9500 6300 0    50   ~ 0
+DAC_DB10_N
+Wire Wire Line
+	9300 6200 9800 6200
+Wire Wire Line
+	9300 6300 9800 6300
+Text Label 5800 1500 0    50   ~ 0
+DAC_DB9_P
+Text Label 5800 1600 0    50   ~ 0
+DAC_DB9_N
+Wire Wire Line
+	5650 1500 6150 1500
+Wire Wire Line
+	5650 1600 6150 1600
+Text Label 5800 2100 0    50   ~ 0
+DAC_DB8_P
+Text Label 5800 2200 0    50   ~ 0
+DAC_DB8_N
+Wire Wire Line
+	5650 2100 6150 2100
+Wire Wire Line
+	5650 2200 6150 2200
+Text Label 5800 5700 0    50   ~ 0
+DAC_DB7_P
+Text Label 5800 5800 0    50   ~ 0
+DAC_DB7_N
+Wire Wire Line
+	5650 5700 6150 5700
+Wire Wire Line
+	5650 5800 6150 5800
+Text Label 5800 5900 0    50   ~ 0
+DAC_DB6_P
+Text Label 5800 6000 0    50   ~ 0
+DAC_DB6_N
+Wire Wire Line
+	5650 5900 6150 5900
+Wire Wire Line
+	5650 6000 6150 6000
+Text Label 5800 6100 0    50   ~ 0
+DAC_DB5_P
+Text Label 5800 6200 0    50   ~ 0
+DAC_DB5_N
+Wire Wire Line
+	5650 6100 6150 6100
+Wire Wire Line
+	5650 6200 6150 6200
+Text Label 5800 2500 0    50   ~ 0
+DAC_DB4_P
+Text Label 5800 2600 0    50   ~ 0
+DAC_DB4_N
+Wire Wire Line
+	5650 2500 6150 2500
+Wire Wire Line
+	5650 2600 6150 2600
+Text Label 5800 5100 0    50   ~ 0
+DAC_DB3_P
+Text Label 5800 5200 0    50   ~ 0
+DAC_DB3_N
+Wire Wire Line
+	5650 5100 6150 5100
+Wire Wire Line
+	5650 5200 6150 5200
+Text Label 5800 3500 0    50   ~ 0
+DAC_DB1_P
+Text Label 5800 3600 0    50   ~ 0
+DAC_DB1_N
+Wire Wire Line
+	5650 3500 6150 3500
+Wire Wire Line
+	5650 3600 6150 3600
+Text Label 5800 4100 0    50   ~ 0
+DAC_DB0_P
+Text Label 5800 4200 0    50   ~ 0
+DAC_DB0_N
+Wire Wire Line
+	5650 4100 6150 4100
+Wire Wire Line
+	5650 4200 6150 4200
+Text Label 2850 2950 0    50   ~ 0
+ADC_CNV_P
+Text Label 2850 3050 0    50   ~ 0
+ADC_CNV_N
+Wire Wire Line
+	2700 2950 3200 2950
+Wire Wire Line
+	2700 3050 3200 3050
+Text Label 2850 1550 0    50   ~ 0
+ADC_DCO0_P
+Text Label 2850 1650 0    50   ~ 0
+ADC_DCO0_N
+Wire Wire Line
+	2700 1550 3200 1550
+Wire Wire Line
+	2700 1650 3200 1650
+Text Label 2850 1950 0    50   ~ 0
+ADC_DCO1_P
+Text Label 2850 2050 0    50   ~ 0
+ADC_DCO1_N
+Wire Wire Line
+	2700 1950 3200 1950
+Wire Wire Line
+	2700 2050 3200 2050
+Text Label 2850 2150 0    50   ~ 0
+ADC_DCO2_P
+Text Label 2850 2250 0    50   ~ 0
+ADC_DCO2_N
+Wire Wire Line
+	2700 2150 3200 2150
+Wire Wire Line
+	2700 2250 3200 2250
+Text Label 2850 2350 0    50   ~ 0
+ADC_DA0_P
+Text Label 2850 2450 0    50   ~ 0
+ADC_DA0_N
+Wire Wire Line
+	2700 2350 3200 2350
+Wire Wire Line
+	2700 2450 3200 2450
+Text Label 2850 2550 0    50   ~ 0
+ADC_DA1_P
+Text Label 2850 2650 0    50   ~ 0
+ADC_DA1_N
+Wire Wire Line
+	2700 2550 3200 2550
+Wire Wire Line
+	2700 2650 3200 2650
+Text Label 2850 2750 0    50   ~ 0
+ADC_DA2_P
+Text Label 2850 2850 0    50   ~ 0
+ADC_DA2_N
+Wire Wire Line
+	2700 2750 3200 2750
+Wire Wire Line
+	2700 2850 3200 2850
+Text Label 2850 1750 0    50   ~ 0
+CLK_100M_P
+Text Label 2850 1850 0    50   ~ 0
+CLK_100M_N
+Wire Wire Line
+	2700 1750 3200 1750
+Wire Wire Line
+	2700 1850 3200 1850
 Wire Bus Line
 	11200 3350 11200 3600
 Wire Bus Line

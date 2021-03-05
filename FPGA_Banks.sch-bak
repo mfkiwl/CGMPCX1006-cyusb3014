@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 21 22
+Sheet 23 25
 Title ""
 Date ""
 Rev ""
@@ -2364,6 +2364,14 @@ Wire Wire Line
 	2700 2750 3200 2750
 Wire Wire Line
 	2700 2850 3200 2850
+Text Label 2850 1750 0    50   ~ 0
+CLK_100M_P
+Text Label 2850 1850 0    50   ~ 0
+CLK_100M_N
+Wire Wire Line
+	2700 1750 3200 1750
+Wire Wire Line
+	2700 1850 3200 1850
 Wire Bus Line
 	11200 3350 11200 3600
 Wire Bus Line

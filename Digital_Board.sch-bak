@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 22
+Sheet 1 25
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -191,8 +191,8 @@ $EndSheet
 $Sheet
 S 1600 9200 2300 1900
 U 605FDA0D
-F0 "ADC" 50
-F1 "ADC.sch" 50
+F0 "ADC" 100
+F1 "ADC.sch" 100
 $EndSheet
 $Sheet
 S 1500 4000 2600 1700
@@ -385,4 +385,6 @@ Wire Wire Line
 	15200 7900 14200 7900
 Wire Wire Line
 	14200 8000 15200 8000
+Text Notes 15850 950  0    157  ~ 0
+put filter beads for all power supplies at each circuit
 $EndSCHEMATC

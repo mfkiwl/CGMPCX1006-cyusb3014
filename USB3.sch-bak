@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 22
+Sheet 13 25
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -1567,12 +1567,6 @@ Wire Wire Line
 	2050 4550 1500 4550
 Wire Wire Line
 	2050 4650 1500 4650
-Wire Bus Line
-	2450 2700 2450 4150
-Wire Bus Line
-	3850 1200 3850 2750
-Wire Bus Line
-	6100 1050 6100 2950
 Text HLabel 1500 4450 0    50   Input ~ 0
 PMOD0
 Text HLabel 1500 4550 0    50   Input ~ 0
@@ -1593,4 +1587,10 @@ Text HLabel 6450 1050 2    100  BiDi ~ 0
 FX3_DQ[16..31]
 Text HLabel 3600 1200 0    100  BiDi ~ 0
 FX3_DQ[0..15]
+Wire Bus Line
+	2450 2700 2450 4150
+Wire Bus Line
+	3850 1200 3850 2750
+Wire Bus Line
+	6100 1050 6100 2950
 $EndSCHEMATC

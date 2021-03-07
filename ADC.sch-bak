@@ -55,4 +55,26 @@ F7 "DA_N" O R 6150 4800 50
 F8 "CNV_P" O R 6150 4950 50 
 F9 "CNV_N" O R 6150 5050 50 
 $EndSheet
+Wire Wire Line
+	6150 2350 6450 2350
+Wire Wire Line
+	6450 2350 6450 3650
+Wire Wire Line
+	6450 3650 6150 3650
+Wire Wire Line
+	6450 3650 6450 4950
+Wire Wire Line
+	6450 4950 6150 4950
+Connection ~ 6450 3650
+Wire Wire Line
+	6150 5050 6550 5050
+Wire Wire Line
+	6550 5050 6550 3750
+Wire Wire Line
+	6550 3750 6150 3750
+Wire Wire Line
+	6550 2450 6150 2450
+Wire Wire Line
+	6550 2450 6550 3750
+Connection ~ 6550 3750
 $EndSCHEMATC

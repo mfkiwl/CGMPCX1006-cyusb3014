@@ -2388,4 +2388,6 @@ Wire Bus Line
 	11450 7900 11450 9600
 Wire Bus Line
 	12250 7900 12250 9600
+Text Notes 1500 950  0    50   ~ 0
+Set Bank13 to 2.5V. ADC need 2.5V signaling
 $EndSCHEMATC

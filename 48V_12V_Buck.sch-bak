@@ -1974,4 +1974,6 @@ $EndComp
 Connection ~ 9500 8675
 Wire Wire Line
 	9500 8675 9550 8675
+Text Notes 12250 5900 0    197  ~ 0
+Add 2.5V regulator
 $EndSCHEMATC

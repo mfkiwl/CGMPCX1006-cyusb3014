@@ -185,8 +185,8 @@ $EndSheet
 $Sheet
 S 1600 6500 2300 2100
 U 605FD9FD
-F0 "AWG" 50
-F1 "AWG.sch" 50
+F0 "AWG" 157
+F1 "AWG.sch" 157
 $EndSheet
 $Sheet
 S 1600 9200 2300 1900

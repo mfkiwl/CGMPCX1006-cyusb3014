@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 24 25
+Sheet 23 25
 Title ""
 Date ""
 Rev ""
@@ -1953,8 +1953,6 @@ Text Label 10550 10150 2    50   ~ 0
 USB2_DATA7
 Text Label 10550 10850 2    50   ~ 0
 USB2_DATA0
-Text Label 9800 9950 2    50   ~ 0
-USB2_REFCLK
 Entry Wire Line
 	10700 10750 10600 10850
 Entry Wire Line
@@ -1981,8 +1979,6 @@ Wire Bus Line
 	10850 10350 10850 10200
 Text Label 11550 10050 2    50   ~ 0
 USB2_DATA[0..7]
-Wire Wire Line
-	9250 9950 9850 9950
 Wire Wire Line
 	10600 10150 10050 10150
 Wire Wire Line
@@ -2372,8 +2368,126 @@ Wire Wire Line
 	2700 1750 3200 1750
 Wire Wire Line
 	2700 1850 3200 1850
+Text Notes 1500 950  0    50   ~ 0
+Set Bank13 to 2.5V. ADC need 2.5V signaling
+Text HLabel 3050 7200 2    50   Output ~ 0
+ETH_TX_CLK
+Text HLabel 3050 7700 2    50   Output ~ 0
+ETH_TX_CTRL
+Text Label 9150 10450 2    50   ~ 0
+ETH_TX_D0
+Text Label 9150 10350 2    50   ~ 0
+ETH_TX_D1
+Text Label 9150 10250 2    50   ~ 0
+ETH_TX_D2
+Text Label 9150 10150 2    50   ~ 0
+ETH_TX_D3
+Entry Wire Line
+	9250 10050 9150 10150
+Entry Wire Line
+	9250 10150 9150 10250
+Entry Wire Line
+	9250 10250 9150 10350
+Entry Wire Line
+	9250 10350 9150 10450
+Text HLabel 9350 10300 2    50   BiDi ~ 0
+ETH_TX_[0..3]
+Text Label 9850 10050 2    50   ~ 0
+ETH_TX_D[0..3]
+Wire Wire Line
+	8750 10450 9150 10450
+Wire Wire Line
+	8750 10350 9150 10350
+Wire Wire Line
+	8750 10250 9150 10250
+Wire Wire Line
+	8750 10150 9150 10150
+Wire Bus Line
+	9350 10300 9300 10300
+Wire Bus Line
+	9300 10300 9300 10200
+Wire Bus Line
+	9300 10200 9850 10200
+Wire Bus Line
+	9850 10200 9850 10050
+Wire Bus Line
+	9850 10050 9250 10050
+Text HLabel 3050 7800 2    50   Output ~ 0
+ETH_RX_CLK
+Text HLabel 3050 8300 2    50   Output ~ 0
+ETH_RX_CTRL
+Text Label 9150 10900 2    50   ~ 0
+ETH_RX_D0
+Text Label 9150 10800 2    50   ~ 0
+ETH_RX_D1
+Text Label 9150 10700 2    50   ~ 0
+ETH_RX_D2
+Text Label 9150 10600 2    50   ~ 0
+ETH_RX_D3
+Entry Wire Line
+	9250 10500 9150 10600
+Entry Wire Line
+	9250 10600 9150 10700
+Entry Wire Line
+	9250 10700 9150 10800
+Entry Wire Line
+	9250 10800 9150 10900
+Text HLabel 9350 10750 2    50   BiDi ~ 0
+ETH_RX_[0..3]
+Text Label 9850 10500 2    50   ~ 0
+ETH_RX_D[0..3]
+Wire Wire Line
+	8750 10900 9150 10900
+Wire Wire Line
+	8750 10800 9150 10800
+Wire Wire Line
+	8750 10700 9150 10700
+Wire Wire Line
+	8750 10600 9150 10600
+Wire Bus Line
+	9850 10650 9300 10650
+Wire Bus Line
+	9300 10650 9300 10750
+Wire Bus Line
+	9300 10750 9350 10750
+Wire Bus Line
+	9850 10500 9250 10500
+Text HLabel 3050 10900 2    50   BiDi ~ 0
+ETH_MDIO
+Text HLabel 3050 10800 2    50   Output ~ 0
+ETH_MDC
+Wire Bus Line
+	9850 10500 9850 10650
+Text HLabel 10350 2700 2    50   BiDi ~ 0
+ETH_INT_PDWN
+Text HLabel 10350 2350 2    50   Output ~ 0
+ETH_RESETn
+Text Label 2550 7300 0    50   ~ 0
+ETH_TX_D0
+Text Label 2550 7400 0    50   ~ 0
+ETH_TX_D1
+Text Label 2550 7500 0    50   ~ 0
+ETH_TX_D2
+Text Label 2550 7600 0    50   ~ 0
+ETH_TX_D3
+Text Label 2550 7900 0    50   ~ 0
+ETH_RX_D0
+Text Label 2550 8000 0    50   ~ 0
+ETH_RX_D1
+Text Label 2550 8100 0    50   ~ 0
+ETH_RX_D2
+Text Label 2550 8200 0    50   ~ 0
+ETH_RX_D3
+Text Notes 10200 2650 0    50   ~ 10
+Connect to F16\n
+Text Notes 10200 2300 0    50   ~ 10
+Connect to E17\n
 Wire Bus Line
 	11200 3350 11200 3600
+Wire Bus Line
+	9250 10050 9250 10350
+Wire Bus Line
+	9250 10500 9250 10800
 Wire Bus Line
 	10700 10050 10700 10750
 Wire Bus Line
@@ -2388,6 +2502,4 @@ Wire Bus Line
 	11450 7900 11450 9600
 Wire Bus Line
 	12250 7900 12250 9600
-Text Notes 1500 950  0    50   ~ 0
-Set Bank13 to 2.5V. ADC need 2.5V signaling
 $EndSCHEMATC

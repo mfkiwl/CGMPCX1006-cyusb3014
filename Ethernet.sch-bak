@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 25
+Sheet 24 25
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -31,6 +31,8 @@ F11 "ETH_JTAG_TDO" B R 9400 1350 50
 F12 "ETH_JTAG_TMS" B R 9400 1450 50 
 F13 "ETH_MDC" I L 8000 1600 50 
 F14 "ETH_MDIO" B L 8000 1700 50 
+F15 "ETH_INT_PDWN" B R 9400 1600 50 
+F16 "ETH_RESETn" I R 9400 1700 50 
 $EndSheet
 $Comp
 L GM_Voltage_Regulators:LTM8078IY#PBF IC?
@@ -203,83 +205,76 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 602FFB7D
-P 2350 3800
+P 1900 3450
 AR Path="/601E7C5A/602FFB7D" Ref="#FLG?"  Part="1" 
 AR Path="/601E7CC8/602FFB7D" Ref="#FLG?"  Part="1" 
 AR Path="/601E7C92/602FFB7D" Ref="#FLG?"  Part="1" 
 AR Path="/601E7C92/60257FE5/602FFB7D" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 2350 3875 50  0001 C CNN
-F 1 "PWR_FLAG" H 2350 3973 50  0000 C CNN
-F 2 "" H 2350 3800 50  0001 C CNN
-F 3 "~" H 2350 3800 50  0001 C CNN
-	1    2350 3800
+F 0 "#FLG?" H 1900 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 3623 50  0000 C CNN
+F 2 "" H 1900 3450 50  0001 C CNN
+F 3 "~" H 1900 3450 50  0001 C CNN
+	1    1900 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2200 3800 0    50   Input ~ 0
+Text GLabel 1750 3450 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	2200 3800 2350 3800
-Connection ~ 2350 3800
+	1750 3450 1900 3450
+Connection ~ 1900 3450
 $Comp
 L Device:R_Small_US R?
 U 1 1 60300DB4
-P 2700 3800
+P 2250 3450
 AR Path="/601E7C5A/60300DB4" Ref="R?"  Part="1" 
 AR Path="/601E7CC8/60300DB4" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60300DB4" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/60300DB4" Ref="R?"  Part="1" 
-F 0 "R?" V 2800 3850 50  0000 L CNN
-F 1 "1K" V 2800 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2700 3800 50  0001 C CNN
-F 3 "~" H 2700 3800 50  0001 C CNN
-F 4 "DNP" V 2600 3800 50  0000 C CNN "DNP"
-	1    2700 3800
+F 0 "R?" V 2350 3500 50  0000 L CNN
+F 1 "1K" V 2350 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2250 3450 50  0001 C CNN
+F 3 "~" H 2250 3450 50  0001 C CNN
+F 4 "DNP" V 2150 3450 50  0000 C CNN "DNP"
+	1    2250 3450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3300 3950 2900 3950
-Wire Wire Line
-	2350 3800 2600 3800
+	1900 3450 2150 3450
 $Comp
 L Device:R_Small_US R?
 U 1 1 603050BD
-P 2700 4100
+P 2250 3750
 AR Path="/601E7C5A/603050BD" Ref="R?"  Part="1" 
 AR Path="/601E7CC8/603050BD" Ref="R?"  Part="1" 
 AR Path="/601E7C92/603050BD" Ref="R?"  Part="1" 
 AR Path="/601E7C92/60257FE5/603050BD" Ref="R?"  Part="1" 
-F 0 "R?" V 2800 4150 50  0000 L CNN
-F 1 "1K" V 2800 4000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2700 4100 50  0001 C CNN
-F 3 "~" H 2700 4100 50  0001 C CNN
-	1    2700 4100
+F 0 "R?" V 2350 3800 50  0000 L CNN
+F 1 "1K" V 2350 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2250 3750 50  0001 C CNN
+F 3 "~" H 2250 3750 50  0001 C CNN
+	1    2250 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 60305D40
-P 2150 4100
+P 1700 3750
 AR Path="/601DF0A6/60305D40" Ref="#PWR?"  Part="1" 
 AR Path="/601E7C5A/60305D40" Ref="#PWR?"  Part="1" 
 AR Path="/601E7CC8/60305D40" Ref="#PWR?"  Part="1" 
 AR Path="/601E7C92/60305D40" Ref="#PWR?"  Part="1" 
 AR Path="/601E7C92/60257FE5/60305D40" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2150 3850 50  0001 C CNN
-F 1 "GNDD" V 2154 3999 50  0000 R CNN
-F 2 "" H 2150 4100 50  0001 C CNN
-F 3 "" H 2150 4100 50  0001 C CNN
-	1    2150 4100
+F 0 "#PWR?" H 1700 3500 50  0001 C CNN
+F 1 "GNDD" V 1704 3649 50  0000 R CNN
+F 2 "" H 1700 3750 50  0001 C CNN
+F 3 "" H 1700 3750 50  0001 C CNN
+	1    1700 3750
 	0    1    1    0   
 $EndComp
-Connection ~ 2900 3950
 Wire Wire Line
-	2800 3800 2900 3800
+	2350 3450 2450 3450
 Wire Wire Line
-	2900 3800 2900 3950
-Wire Wire Line
-	2900 4100 2800 4100
-Wire Wire Line
-	2900 3950 2900 4100
+	2450 3750 2350 3750
 $Comp
 L Connector:TestPoint TP?
 U 1 1 60312996
@@ -292,7 +287,7 @@ F 3 "~" H 3300 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2150 4100 2600 4100
+	1700 3750 2150 3750
 $Comp
 L Connector:TestPoint TP?
 U 1 1 60315C7C
@@ -305,9 +300,7 @@ F 3 "~" H 3300 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 4250 3300 4250
-Wire Wire Line
-	3100 4350 3300 4350
+	3100 4350 3150 4350
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 6031DFD2
@@ -1620,8 +1613,6 @@ F 3 "" H 10450 5150 50  0001 C CNN
 	1    10450 5150
 	0    -1   -1   0   
 $EndComp
-Text HLabel 9650 950  2    50   Input ~ 0
-ETH_GPIO
 Wire Wire Line
 	9650 950  9400 950 
 Wire Wire Line
@@ -1632,14 +1623,6 @@ Wire Wire Line
 	9400 1350 9650 1350
 Wire Wire Line
 	9400 1450 9650 1450
-Text HLabel 9650 1150 2    50   BiDi ~ 0
-ETH_JTAG_CLK
-Text HLabel 9650 1250 2    50   BiDi ~ 0
-ETH_JTAG_TDI
-Text HLabel 9650 1350 2    50   BiDi ~ 0
-ETH_JTAG_TDO
-Text HLabel 9650 1450 2    50   BiDi ~ 0
-ETH_JTAG_TMS
 Text HLabel 7650 1600 0    50   Input ~ 0
 ETH_MDC
 Text HLabel 7650 1700 0    50   BiDi ~ 0
@@ -1714,4 +1697,168 @@ Wire Wire Line
 Wire Wire Line
 	7500 2200 7800 2200
 Connection ~ 7500 2200
+Wire Wire Line
+	3300 3950 3050 3950
+Wire Wire Line
+	3050 3950 3050 3600
+Wire Wire Line
+	3250 4250 3250 4050
+Connection ~ 3250 4250
+Wire Wire Line
+	3250 4250 3300 4250
+Wire Wire Line
+	3100 4250 3250 4250
+Connection ~ 3150 4350
+Wire Wire Line
+	3150 4350 3300 4350
+Text GLabel 2400 4050 0    50   Input ~ 0
+ETH_2V5
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 605CE2F9
+P 2450 4050
+AR Path="/601E7C5A/605CE2F9" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/605CE2F9" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/605CE2F9" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/605CE2F9" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 2450 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 4050 50  0000 C CNN
+F 2 "" H 2450 4050 50  0001 C CNN
+F 3 "~" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4050 2400 4050
+Text GLabel 2400 4200 0    50   Input ~ 0
+ETH_1V1
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 605E0C8A
+P 2450 4200
+AR Path="/601E7C5A/605E0C8A" Ref="#FLG?"  Part="1" 
+AR Path="/601E7CC8/605E0C8A" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/605E0C8A" Ref="#FLG?"  Part="1" 
+AR Path="/601E7C92/60257FE5/605E0C8A" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 2450 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 4200 50  0000 C CNN
+F 2 "" H 2450 4200 50  0001 C CNN
+F 3 "~" H 2450 4200 50  0001 C CNN
+	1    2450 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4200 2400 4200
+Wire Wire Line
+	3150 4200 3150 4350
+Wire Wire Line
+	2450 3450 2450 3600
+Wire Wire Line
+	3050 3600 2450 3600
+Connection ~ 2450 3600
+Wire Wire Line
+	2450 3600 2450 3750
+$Comp
+L Device:R_Small_US R?
+U 1 1 606BA506
+P 2650 4050
+AR Path="/601E7C5A/606BA506" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/606BA506" Ref="R?"  Part="1" 
+AR Path="/601E7C92/606BA506" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/606BA506" Ref="R?"  Part="1" 
+F 0 "R?" V 2700 4100 50  0000 L CNN
+F 1 "10K" V 2700 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2650 4050 50  0001 C CNN
+F 3 "~" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 606CB475
+P 2650 4200
+AR Path="/601E7C5A/606CB475" Ref="R?"  Part="1" 
+AR Path="/601E7CC8/606CB475" Ref="R?"  Part="1" 
+AR Path="/601E7C92/606CB475" Ref="R?"  Part="1" 
+AR Path="/601E7C92/60257FE5/606CB475" Ref="R?"  Part="1" 
+F 0 "R?" V 2700 4250 50  0000 L CNN
+F 1 "10K" V 2700 3950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2650 4200 50  0001 C CNN
+F 3 "~" H 2650 4200 50  0001 C CNN
+	1    2650 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 4050 2550 4050
+Connection ~ 2450 4050
+Wire Wire Line
+	2450 4200 2550 4200
+Connection ~ 2450 4200
+Wire Wire Line
+	2750 4200 3150 4200
+Wire Wire Line
+	3250 4050 2750 4050
+Text HLabel 9650 1600 2    50   BiDi ~ 0
+ETH_INT_PDWN
+Text HLabel 9650 1700 2    50   Input ~ 0
+ETH_RESETn
+Wire Wire Line
+	9650 1600 9400 1600
+Wire Wire Line
+	9400 1700 9650 1700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60E55EB8
+P 9650 950
+F 0 "TP?" V 9650 1200 50  0000 C CNN
+F 1 "TestPoint" V 9600 1300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 950 50  0001 C CNN
+F 3 "~" H 9850 950 50  0001 C CNN
+	1    9650 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60E67E84
+P 9650 1150
+F 0 "TP?" V 9650 1400 50  0000 C CNN
+F 1 "TestPoint" V 9600 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 1150 50  0001 C CNN
+F 3 "~" H 9850 1150 50  0001 C CNN
+	1    9650 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60E79D55
+P 9650 1250
+F 0 "TP?" V 9650 1500 50  0000 C CNN
+F 1 "TestPoint" V 9600 1600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 1250 50  0001 C CNN
+F 3 "~" H 9850 1250 50  0001 C CNN
+	1    9650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60E8BBCB
+P 9650 1350
+F 0 "TP?" V 9650 1600 50  0000 C CNN
+F 1 "TestPoint" V 9600 1700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 1350 50  0001 C CNN
+F 3 "~" H 9850 1350 50  0001 C CNN
+	1    9650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60E9DA70
+P 9650 1450
+F 0 "TP?" V 9650 1700 50  0000 C CNN
+F 1 "TestPoint" V 9600 1800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 1450 50  0001 C CNN
+F 3 "~" H 9850 1450 50  0001 C CNN
+	1    9650 1450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

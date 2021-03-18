@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 23 25
+Sheet 25 25
 Title ""
 Date ""
 Rev ""
@@ -2502,4 +2502,6 @@ Wire Bus Line
 	11450 7900 11450 9600
 Wire Bus Line
 	12250 7900 12250 9600
+Text Notes 5600 8050 0    50   ~ 0
+Set the input lock to 200 mhz if any fpga pin need to drive at 100mhz. scott need 100mhz signal. if it can provided by the clock generator then this is not needed 100mhz fpga clock will do the job\n
 $EndSCHEMATC

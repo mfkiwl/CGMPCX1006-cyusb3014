@@ -1,22 +1,36 @@
-4839005145397
-GM_SOIC
-SOIC127P600X175-8N
-SO8 (150 mils width)
-Integrated Circuit
+8065464053151
+GM_Connectors
+1040310811
+1040310811
+Connector
 0
-8
-8
-GM_SOIC
-SOIC127P600X175-16N
-16 Pin NSOIC
-Integrated Circuit
+14
+14
+GM_Connectors
+BoardEdge_of_HSEC8-140-01-L-PV-4-1
+
+
 0
-16
-16
-GM_SOIC
-SOIC127P1032X265-16N
-16 SO (W16#H2)
-Undefined or Miscellaneous
+84
+84
+GM_Connectors
+GSB3211311WEU
+
+
 0
-16
-16
+9
+9
+GM_Connectors
+HSEC8-140-01-L-PV-4-1
+
+
+0
+129
+84
+GM_Connectors
+RJMG2012211A0FR
+RJMG2012211A0FR-1-ren1
+Connector
+0
+18
+18

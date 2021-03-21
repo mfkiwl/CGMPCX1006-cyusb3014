@@ -35,9 +35,9 @@ Text HLabel 6800 1550 2    50   Input ~ 0
 FDAC_CLKIN_N
 Text Notes 7550 1500 0    50   ~ 0
 Connect to external clock generator in digital board\nNOTE - The CLK+ and CLK– input pins should be driven by a signal\nwith a common-mode voltage near ½ of CLKVDD
-Text HLabel 6800 2050 2    50   Input ~ 0
+Text HLabel 6800 2050 2    50   Output ~ 0
 FDAC_DCLK_OUT_P
-Text HLabel 6800 2150 2    50   Input ~ 0
+Text HLabel 6800 2150 2    50   Output ~ 0
 FDAC_DCLK_OUT_N
 Text HLabel 6800 2550 2    50   Input ~ 0
 FDAC_DB0_P
@@ -1392,7 +1392,7 @@ Text HLabel 6800 5850 2    50   Input ~ 0
 FDAC_CS
 Text HLabel 6800 5950 2    50   Input ~ 0
 FDAC_CLK
-Text HLabel 6800 6050 2    50   Input ~ 0
+Text HLabel 6800 6050 2    50   BiDi ~ 0
 FDAC_SDI
 Text HLabel 6800 6150 2    50   Input ~ 0
 FDAC_SDO

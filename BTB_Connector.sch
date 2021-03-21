@@ -421,4 +421,16 @@ Wire Wire Line
 Connection ~ 6750 2400
 Wire Wire Line
 	6750 2400 6750 2700
+Text HLabel 4200 2650 2    50   Input ~ 0
+FDAC_DCLK_IN_N
+Text HLabel 4200 2250 2    50   Input ~ 0
+FDAC_CLKIN_P
+Text HLabel 4200 2350 2    50   Input ~ 0
+FDAC_CLKIN_N
+Text HLabel 4200 2850 2    50   Output ~ 0
+FDAC_DCLK_OUT_P
+Text HLabel 4200 2950 2    50   Output ~ 0
+FDAC_DCLK_OUT_N
+Text HLabel 4200 2550 2    50   Input ~ 0
+FDAC_DCLK_IN_P
 $EndSCHEMATC

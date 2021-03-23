@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 25
+Sheet 8 25
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -410,15 +410,13 @@ F 3 "" H 7900 4300 50  0001 C CNN
 	1    7900 4300
 	1    0    0    -1  
 $EndComp
-Text HLabel 2250 3300 0    50   BiDi ~ 0
+Text HLabel 2250 3300 0    50   Input ~ 0
 RTC_SCL
 Text HLabel 2250 3400 0    50   BiDi ~ 0
 RTC_SDA
-Text HLabel 2250 3600 0    50   BiDi ~ 0
-RTC_RST
-Text HLabel 5150 3300 2    50   BiDi ~ 0
+Text HLabel 5150 3300 2    50   Output ~ 0
 RTC_OSC_OUT
-Text HLabel 5150 3100 2    50   BiDi ~ 0
+Text HLabel 5150 3100 2    50   Output ~ 0
 RTC_SQW
 Text HLabel 7400 3800 0    50   Input ~ 0
 FAN_CTRL_PWM
@@ -536,4 +534,17 @@ Text Notes 7400 2350 0    118  ~ 24
 Add the proper power net
 Text HLabel 8650 2800 0    157  Input ~ 0
 12VIN
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6078253D
+P 2250 3600
+AR Path="/6078253D" Ref="TP?"  Part="1" 
+AR Path="/601E7CC8/6078253D" Ref="TP?"  Part="1" 
+F 0 "TP?" V 2296 3787 50  0000 L CNN
+F 1 "TestPoint" V 2205 3787 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2450 3600 50  0001 C CNN
+F 3 "~" H 2450 3600 50  0001 C CNN
+	1    2250 3600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

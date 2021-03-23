@@ -113,12 +113,8 @@ Text HLabel 4200 5650 2    50   Input ~ 0
 FALSE_SUM_OUTPUT_BTB
 Text HLabel 3100 5650 0    50   Input ~ 0
 OFFSET_DAC_LDAC
-Text HLabel 4200 5550 2    50   Input ~ 0
-FAN_SDL
 Text HLabel 3100 5550 0    50   Input ~ 0
 OFFSET_DAC_RESET
-Text HLabel 4200 5450 2    50   Input ~ 0
-FAN_SDA
 Text HLabel 3100 5450 0    50   Input ~ 0
 PORT_EXPANDER_DATA_INPUT
 Text HLabel 3100 5350 0    50   Output ~ 0
@@ -433,4 +429,13 @@ Text HLabel 4200 2950 2    50   Output ~ 0
 FDAC_DCLK_OUT_N
 Text HLabel 4200 2550 2    50   Input ~ 0
 FDAC_DCLK_IN_P
+Text HLabel 4200 5450 2    50   BiDi ~ 0
+I2C1_SDA
+Text HLabel 4200 5550 2    50   Input ~ 0
+I2C1_SCL
+Wire Wire Line
+	4200 5350 5550 5350
+Wire Wire Line
+	5550 5350 5550 5750
+Connection ~ 5550 5750
 $EndSCHEMATC

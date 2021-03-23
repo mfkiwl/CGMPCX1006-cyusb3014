@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 25 25
+Sheet 24 25
 Title ""
 Date ""
 Rev ""
@@ -2514,6 +2514,44 @@ Wire Wire Line
 	2950 3750 2700 3750
 Wire Wire Line
 	2700 3850 2950 3850
+Text HLabel 3650 1750 2    50   BiDi ~ 0
+I2C1_SDA
+Text HLabel 3650 1850 2    50   Output ~ 0
+I2C1_SCL
+Text HLabel 3650 1950 2    50   Output ~ 0
+RS232_TX
+Text HLabel 3650 2050 2    50   Input ~ 0
+RS232_RX
+Text HLabel 3650 2150 2    50   BiDi ~ 0
+I2C2_SDA
+Text HLabel 3650 2250 2    50   Output ~ 0
+I2C2_SCL
+Text HLabel 3650 2350 2    50   Output ~ 0
+FAN_CTRL_PWM
+Text HLabel 3650 2450 2    50   Input ~ 0
+F_UART_RX
+Text HLabel 3650 2550 2    50   Output ~ 0
+F_UART_TX
+Text HLabel 3650 3050 2    50   BiDi ~ 0
+F_CAN_H
+Text HLabel 3650 3150 2    50   BiDi ~ 0
+F_CAN_L
+Text HLabel 3650 2650 2    50   Input ~ 0
+F_SPI_MISO
+Text HLabel 3650 2750 2    50   Output ~ 0
+F_SPI_MOSI
+Text HLabel 3650 2850 2    50   Output ~ 0
+F_SPI_CLK
+Text HLabel 3650 2950 2    50   Output ~ 0
+F_SPI_SS
+Text HLabel 3650 3250 2    50   Output ~ 0
+F_LCD_RESET
+Text HLabel 3650 3350 2    50   Output ~ 0
+F_LCD_TX
+Text HLabel 3650 3450 2    50   Input ~ 0
+F_LCD_RX
+Text HLabel 3650 3550 2    50   Output ~ 0
+LED1
 Wire Bus Line
 	11200 3350 11200 3600
 Wire Bus Line

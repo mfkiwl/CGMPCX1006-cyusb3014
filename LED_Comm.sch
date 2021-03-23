@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 25
+Sheet 15 25
 Title "CGMPCX1006"
 Date "2021-02-03"
 Rev "V1"
@@ -573,9 +573,9 @@ F_UART_TX
 Text HLabel 4050 2750 0    50   Output ~ 0
 F_UART_RX
 Text HLabel 1200 6800 0    50   BiDi ~ 0
-F_UART_SDA
+F_SDA
 Text HLabel 1200 6900 0    50   Input ~ 0
-F_UART_SCL
+F_SCL
 Wire Wire Line
 	4950 2550 4650 2550
 Wire Wire Line

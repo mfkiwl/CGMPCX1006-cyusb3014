@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 25
+Sheet 25 25
 Title ""
 Date ""
 Rev ""
@@ -315,14 +315,14 @@ Text Label 2550 4450 0    50   ~ 0
 RS232_RX_OUT1
 Text Label 2550 4550 0    50   ~ 0
 RS232_RX_OUT2
-Text HLabel 2250 4250 0    50   BiDi ~ 0
-RS232_TX_IN1
+Text HLabel 2250 4250 0    50   Input ~ 0
+RS232_TX
 Text HLabel 2250 4350 0    50   BiDi ~ 0
-RS232_TX_IN2
-Text HLabel 2250 4450 0    50   BiDi ~ 0
-RS232_RX_OUT1
+RS232_RTS
+Text HLabel 2250 4450 0    50   Output ~ 0
+RS232_RX
 Text HLabel 2250 4550 0    50   BiDi ~ 0
-RS232_RX_OUT2
+RS232_CTS
 Text Label 4600 4250 0    50   ~ 0
 RS232_TX_OUT1
 Text Label 4600 4350 0    50   ~ 0

@@ -24,6 +24,12 @@ S 4700 1450 2800 1450
 U 601E7AA6
 F0 "FPGA_Config" 157
 F1 "FPGA_Config.sch" 157
+F2 "SD_CMD" I R 7500 1600 98 
+F3 "SD_CLK" I R 7500 1750 98 
+F4 "SD_DAT0" B R 7500 1900 98 
+F5 "SD_DAT1" B R 7500 2050 98 
+F6 "SD_DAT2" B R 7500 2200 98 
+F7 "SD_DAT3" B R 7500 2350 98 
 $EndSheet
 $Sheet
 S 15200 12600 1550 2000
@@ -163,10 +169,10 @@ F0 "RTC_FAN" 157
 F1 "RTC_FAN.sch" 157
 F2 "RTC_SCL" I L 15200 11500 50 
 F3 "RTC_SDA" B L 15200 11600 50 
-F5 "RTC_OSC_OUT" O L 15200 11700 50 
-F6 "RTC_SQW" O L 15200 11800 50 
-F7 "FAN_CTRL_PWM" I L 15200 12000 50 
-F8 "12VIN" I R 16750 11500 50 
+F4 "RTC_OSC_OUT" O L 15200 11700 50 
+F5 "RTC_SQW" O L 15200 11800 50 
+F6 "FAN_CTRL_PWM" I L 15200 12000 50 
+F7 "12VIN" I R 16750 11500 50 
 $EndSheet
 $Sheet
 S 4000 14550 2600 750 
@@ -701,144 +707,6 @@ Wire Wire Line
 	15200 10500 14200 10500
 Wire Wire Line
 	15200 10600 14200 10600
-$Comp
-L Device:R_Small_US R?
-U 1 1 6076B72D
-P -1250 850
-AR Path="/601E7C5A/6076B72D" Ref="R?"  Part="1" 
-AR Path="/601E7CC8/6076B72D" Ref="R?"  Part="1" 
-AR Path="/601E7C92/6076B72D" Ref="R?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6076B72D" Ref="R?"  Part="1" 
-AR Path="/601E7B38/6076B72D" Ref="R?"  Part="1" 
-AR Path="/60256C5F/6076B72D" Ref="R?"  Part="1" 
-AR Path="/6076B72D" Ref="R?"  Part="1" 
-F 0 "R?" H -1182 896 50  0000 L CNN
-F 1 "R_Small_US" H -1182 805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -1250 850 50  0001 C CNN
-F 3 "~" H -1250 850 50  0001 C CNN
-	1    -1250 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6076B734
-P -1950 850
-AR Path="/601E7C5A/6076B734" Ref="C?"  Part="1" 
-AR Path="/601E7CC8/6076B734" Ref="C?"  Part="1" 
-AR Path="/601E7C92/6076B734" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6076B734" Ref="C?"  Part="1" 
-AR Path="/601E7B38/6076B734" Ref="C?"  Part="1" 
-AR Path="/60256C5F/6076B734" Ref="C?"  Part="1" 
-AR Path="/6076B734" Ref="C?"  Part="1" 
-F 0 "C?" H -1858 896 50  0000 L CNN
-F 1 "C_Small" H -1858 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -1950 850 50  0001 C CNN
-F 3 "~" H -1950 850 50  0001 C CNN
-F 4 "25V" H -1800 700 50  0000 C CNN "Voltage"
-	1    -1950 850 
-	1    0    0    -1  
-$EndComp
-Text GLabel -1750 1450 0    50   Input ~ 0
-VCC3V3
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 6076B73B
-P -1550 1450
-AR Path="/601E7C5A/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/601E7CC8/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/601E7B38/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/60256C5F/6076B73B" Ref="#FLG?"  Part="1" 
-AR Path="/6076B73B" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H -1550 1525 50  0001 C CNN
-F 1 "PWR_FLAG" H -1550 1623 50  0000 C CNN
-F 2 "" H -1550 1450 50  0001 C CNN
-F 3 "~" H -1550 1450 50  0001 C CNN
-	1    -1550 1450
-	1    0    0    -1  
-$EndComp
-Connection ~ -1550 1450
-Wire Wire Line
-	-1550 1450 -1350 1450
-Wire Wire Line
-	-1750 1450 -1550 1450
-$Comp
-L power:GNDD #PWR?
-U 1 1 6076B744
-P -1050 1100
-AR Path="/601DF0A6/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C5A/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/601E7CC8/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/601E7B38/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/60256C5F/6076B744" Ref="#PWR?"  Part="1" 
-AR Path="/6076B744" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -1050 850 50  0001 C CNN
-F 1 "GNDD" H -1046 945 50  0000 C CNN
-F 2 "" H -1050 1100 50  0001 C CNN
-F 3 "" H -1050 1100 50  0001 C CNN
-	1    -1050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized_Small C?
-U 1 1 6076B74B
-P -1650 600
-AR Path="/601E7C92/6076B74B" Ref="C?"  Part="1" 
-AR Path="/601E7C92/60257FE5/6076B74B" Ref="C?"  Part="1" 
-AR Path="/601E7B38/6076B74B" Ref="C?"  Part="1" 
-AR Path="/60256C5F/6076B74B" Ref="C?"  Part="1" 
-AR Path="/6076B74B" Ref="C?"  Part="1" 
-F 0 "C?" H -1562 646 50  0000 L CNN
-F 1 "C_Polarized_Small" H -1562 555 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder" H -1650 600 50  0001 C CNN
-F 3 "~" H -1650 600 50  0001 C CNN
-F 4 "" H -1650 600 50  0000 C CNN "Voltage"
-	1    -1650 600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6076B751
-P -450 650
-AR Path="/601E7B38/6076B751" Ref="C?"  Part="1" 
-AR Path="/60256C5F/6076B751" Ref="C?"  Part="1" 
-AR Path="/6076B751" Ref="C?"  Part="1" 
-F 0 "C?" V -679 650 50  0000 C CNN
-F 1 "C_Small" V -588 650 50  0000 C CNN
-F 2 "" H -450 650 50  0001 C CNN
-F 3 "~" H -450 650 50  0001 C CNN
-	1    -450 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 6076B757
-P -850 1700
-AR Path="/60256C5F/6076B757" Ref="R?"  Part="1" 
-AR Path="/6076B757" Ref="R?"  Part="1" 
-F 0 "R?" V -1055 1700 50  0000 C CNN
-F 1 "R_Small_US" V -964 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H -850 1700 50  0001 C CNN
-F 3 "~" H -850 1700 50  0001 C CNN
-	1    -850 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 6078C1B8
-P -250 1150
-AR Path="/6078C1B8" Ref="TP?"  Part="1" 
-AR Path="/601E7CC8/6078C1B8" Ref="TP?"  Part="1" 
-F 0 "TP?" V -204 1337 50  0000 L CNN
-F 1 "TestPoint" V -295 1337 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H -50 1150 50  0001 C CNN
-F 3 "~" H -50 1150 50  0001 C CNN
-	1    -250 1150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	15200 11500 14200 11500
 Wire Wire Line
@@ -865,4 +733,28 @@ Wire Wire Line
 	10650 11850 11150 11850
 Wire Wire Line
 	11150 11950 10650 11950
+Wire Wire Line
+	10650 10450 11650 10450
+Wire Wire Line
+	11650 10650 10650 10650
+Wire Wire Line
+	10650 10750 11650 10750
+Wire Wire Line
+	11650 10850 10650 10850
+Wire Wire Line
+	11650 11050 10650 11050
+Wire Wire Line
+	10650 11150 11650 11150
+Wire Wire Line
+	11650 11250 10650 11250
+Wire Wire Line
+	10650 11550 11650 11550
+Wire Wire Line
+	11650 11650 10650 11650
+Wire Wire Line
+	10650 12150 11650 12150
+Wire Wire Line
+	11650 12250 10650 12250
+Wire Wire Line
+	10650 11350 11650 11350
 $EndSCHEMATC
